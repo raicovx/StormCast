@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:colorControlNormal" tools:ignore="NewApi">@color/settings_activity_action_bar_text_light</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    <style name="settingCategoryTitleText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SettingsPageTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/actionBarColorPrimary</item>
+        <item name="android:textColorPrimary">#333333</item>
+        <item name="android:textColorSecondary">#444444</item>
+    </style>
+    <style name="currentWeatherTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/actionBarColorPrimary</item>
+        <item name="android:background">@color/background_color</item>
+        <!-- Reimplementation of actionBar on Current Weather Screen
+        <item name="android:windowActionBar">false</item>-->
+    </style>
+
+</resources>

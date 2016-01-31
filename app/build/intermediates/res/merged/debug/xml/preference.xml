@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Units"
+  android:layout="@layout/preference_category">
+    <ListPreference android:title="@string/pref_temperature_measurement_title"
+        android:defaultValue="0"
+        android:key="temperatureMeasurement"
+        android:entries="@array/pref_temperature_measurement_titles"
+        android:entryValues="@array/pref_temperature_measurement_values"
+        />
+    <ListPreference android:title="@string/pref_distance_measurement_title"
+        android:defaultValue="0"
+        android:key="distanceMeasurement"
+        android:entries="@array/pref_distance_measurement_titles"
+        android:entryValues="@array/pref_distance_measurement_values"
+        />
+<ListPreference android:title="@string/pref_wind_speed_measurement_title"
+                android:defaultValue="0"
+                android:key="windSpeedMeasurement"
+                android:entries="@array/pref_wind_speed_measurement_titles"
+                android:entryValues="@array/pref_wind_speed_measurement_values"
+                />
+
+</PreferenceCategory>
+    <PreferenceCategory android:title="Data"
+        android:layout="@layout/preference_category">
+        <ListPreference android:title="@string/pref_auto_sync_interval_title"
+            android:defaultValue="0"
+            android:key="autoSyncInterval"
+            android:entries="@array/pref_auto_sync_interval_titles"
+            android:entryValues="@array/pref_auto_sync_interval_values"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

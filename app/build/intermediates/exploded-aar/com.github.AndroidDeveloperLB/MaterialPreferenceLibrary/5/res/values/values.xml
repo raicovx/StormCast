@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/build/material_preferences_library/src/main/res/values/mpl__attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="checkBoxPreferenceStyle"/>
+    <attr format="reference" name="dialogPreferenceStyle"/>
+    <attr format="reference" name="editTextPreferenceStyle"/>
+    <attr format="reference" name="switchPreferenceStyle"/>
+    <declare-styleable name="CheckBoxPreference"><attr format="string" name="summaryOn"/><attr format="string" name="summaryOff"/><attr format="boolean" name="disableDependentsState"/></declare-styleable>
+    <declare-styleable name="DialogPreference"><attr format="string" name="dialogTitle"/><attr format="string" name="dialogMessage"/><attr format="reference" name="dialogIcon"/><attr format="string" name="positiveButtonText"/><attr format="string" name="negativeButtonText"/><attr format="reference" name="dialogLayout"/></declare-styleable>
+    <declare-styleable name="ListPreference"><attr format="reference" name="entries"/><attr format="reference" name="entryValues"/></declare-styleable>
+    <declare-styleable name="Preference"><attr name="icon"/></declare-styleable>
+    <declare-styleable name="PreferenceImageView"><attr format="dimension" name="maxWidth"/><attr format="dimension" name="maxHeight"/></declare-styleable>
+    <declare-styleable name="SwitchPreference"><attr name="summaryOn"/><attr name="summaryOff"/><attr format="string" name="switchTextOn"/><attr format="string" name="switchTextOff"/><attr name="disableDependentsState"/></declare-styleable>
+    <!-- From: file:/build/material_preferences_library/src/main/res/values/mpl__styles.xml -->
+    <eat-comment/>
+    <style name="MPL_PreferenceListHeader">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_marginBottom">16dp</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+    <item name="android:textColor">?attr/colorAccent</item>
+    <item name="android:paddingStart" ns1:targetApi="17">?attr/listPreferredItemPaddingLeft
+    </item>
+    <item name="android:paddingLeft">?attr/listPreferredItemPaddingLeft</item>
+    <item name="android:paddingEnd" ns1:targetApi="17">?attr/listPreferredItemPaddingRight
+    </item>
+    <item name="android:paddingRight">?attr/listPreferredItemPaddingRight</item>
+    <item name="android:paddingTop">16dp</item>
+  </style>
+</resources>
