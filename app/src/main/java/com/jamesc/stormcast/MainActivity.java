@@ -20,6 +20,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
@@ -67,10 +68,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     //Action Bar + Side Drawer + UI Declarations
 
     private FloatingActionButton fabRefresh;
+    private CardView temperatureCardView;
+    private CardView autoSyncOffNotification;
+    private CardView summaryCardView;
     ProgressBar refreshProgressBar;
     Drawable progressDrawable;
     //Relative Layout
-    RelativeLayout currentWeatherLayout;
+    //RelativeLayout currentWeatherLayout;
     //Compatibility Actionbar
     Toolbar actionBar;
     //Drawer Layout Declarations
@@ -114,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private boolean clicked = false;
     private boolean firstLoad = true;
     private boolean ableToSync;
-    private TextView autoSyncOffNotification;
+    private TextView autoSyncOffTextView;
 
     // Settings and User Preference Data Type Declarations
     Intent settingsIntent;
@@ -134,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
         createSideNavItems();
         createSideNav();
         startLocationManager();
@@ -145,11 +150,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         //Tool Bar End
 
         //Layout
-        currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
+        //currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
         //Layout End
 
         //Text Views for Current Information
-        autoSyncOffNotification = (TextView)findViewById(R.id.autoSyncOffWarning);
+        autoSyncOffNotification = (CardView)findViewById(R.id.auto_sync_off_warning_card);
+        autoSyncOffTextView = (TextView) findViewById(R.id.auto_sync_off_warning_textview);
+        summaryCardView = (CardView) findViewById(R.id.summary_card_view);
         timeTextView  = (TextView)findViewById(R.id.timeTextView);
         temperatureTextView = (TextView) findViewById(R.id.temperatureTextView);
         locationTextView = (TextView) findViewById(R.id.locationTextView);
@@ -169,6 +176,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         if(!autoSyncIntervalPref.equals("0") || clicked) {// If the preference is not to Never Auto Refresh
                 ableToSync = true;
                 autoSyncOffNotification.setVisibility(View.GONE);
+                autoSyncOffTextView.setVisibility(View.GONE);
                 refreshProgressBar.setVisibility(View.VISIBLE);
                 locationUpdate();
             if (autoSyncIntervalPref.equals("1")) {
@@ -222,8 +230,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             ableToSync = false;
             refreshProgressBar.setVisibility(View.INVISIBLE);
             autoSyncOffNotification.setVisibility(View.VISIBLE);
+            autoSyncOffTextView.setVisibility(View.VISIBLE);
         }
-        Log.v("Stormy", autoSyncIntervalPref);
+
         //Auto Sync Settings End
 
 
@@ -236,6 +245,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 locationUpdate();
                 makeCurrentUiDisappear();
                 autoSyncOffNotification.setVisibility(View.GONE);
+                autoSyncOffTextView.setVisibility(View.GONE);
                 refreshProgressBar.setVisibility(View.VISIBLE);
 
             }
@@ -353,16 +363,19 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         iconImageView.setVisibility(View.INVISIBLE);
         degreeImageView.setVisibility(View.INVISIBLE);
         timeTextView.setVisibility(View.INVISIBLE);
+        temperatureCardView.setVisibility(View.INVISIBLE);
+        summaryCardView.setVisibility(View.INVISIBLE);
     }
     private void makeCurrentUiReappear() {
         refreshProgressBar.setVisibility(View.INVISIBLE);
         autoSyncOffNotification.setVisibility(View.GONE);
+        autoSyncOffTextView.setVisibility(View.GONE);
         Animation animationOne = new AlphaAnimation(0, 1);
         animationOne.setInterpolator(new DecelerateInterpolator()); //add this
         animationOne.setDuration(1000);
         animationOne.setStartOffset(1000);
-        temperatureTextView.setVisibility(View.VISIBLE);
-        temperatureTextView.startAnimation(animationOne);
+        temperatureCardView.setVisibility(View.VISIBLE);
+        temperatureCardView.startAnimation(animationOne);
 
 
         Animation animationTwo = new AlphaAnimation(0, 1);
@@ -370,6 +383,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         animationTwo.setDuration(1000);
         animationTwo.setStartOffset(1000);
         animationTwo.setStartOffset(100);
+        temperatureTextView.setVisibility(View.VISIBLE);
+        temperatureTextView.startAnimation(animationTwo);
         degreeImageView.startAnimation(animationTwo);
         degreeImageView.setVisibility(View.VISIBLE);
 
@@ -378,7 +393,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         animationThree.setDuration(1000);
         animationThree.setStartOffset(1000);
         animationThree.setStartOffset(500);
-
+        summaryCardView.setVisibility(View.VISIBLE);
+        summaryCardView.startAnimation(animationThree);
         timeTextView.startAnimation(animationThree);
         timeTextView.setVisibility(View.VISIBLE);
 

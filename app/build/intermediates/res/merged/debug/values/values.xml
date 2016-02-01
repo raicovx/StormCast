@@ -76,7 +76,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="accent_material_light_1">#ff4040</color>
     <color name="actionBarColorPrimary">#ff7c3f</color>
-    <color name="background_color">#FEFEFE</color>
+    <color name="background_color">#e4e4e4</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -287,6 +287,7 @@
     <dimen name="abs_text_size">18sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_margin_sides">3dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1434,6 +1435,9 @@
     <item name="android:paddingRight">?attr/listPreferredItemPaddingRight</item>
     <item name="android:paddingTop">16dp</item>
   </style>
+    <style name="OptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">#F4F4F4</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1704,6 +1708,7 @@
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:colorControlNormal" ns1:ignore="NewApi">@color/settings_activity_action_bar_text_light</item>
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:actionOverflowMenuStyle">@style/OptionsMenu</item>
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -1850,6 +1855,7 @@
     <style name="currentWeatherTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorPrimary">@color/actionBarColorPrimary</item>
         <item name="android:background">@color/background_color</item>
+
         <!-- Reimplementation of actionBar on Current Weather Screen
         <item name="android:windowActionBar">false</item>-->
     </style>

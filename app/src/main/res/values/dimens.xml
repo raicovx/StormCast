@@ -5,4 +5,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="preference_category_margin_vertical_sides">8dp</dimen>
     <dimen name="abs_text_size">18sp</dimen>
+    <dimen name="card_margin_sides">3dp</dimen>
 </resources>

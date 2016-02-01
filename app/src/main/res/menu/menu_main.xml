@@ -1,11 +1,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f4f4f4"
     tools:context="com.jamesc.stormy.MainActivity">
     <item
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_settings_button_white"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        />
 </menu>

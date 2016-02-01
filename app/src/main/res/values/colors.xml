@@ -13,7 +13,7 @@
     <color name="dim_foreground_dark_inverse">#323232</color>
     <color name="bright_foreground_dark_inverse">#000000</color>
     <color name="primary_text_color">#FFF</color>
-    <color name="background_color">#FEFEFE</color>
+    <color name="background_color">#e4e4e4</color>
     <color name="settings_activity_action_bar_text_light">#FAFAFA</color>
     <color name="actionBarColorPrimary">#ff7c3f</color>
     <color name="secondary_text_color">#333333</color>

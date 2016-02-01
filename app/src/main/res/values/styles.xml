@@ -15,6 +15,7 @@
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:colorControlNormal" tools:ignore="NewApi">@color/settings_activity_action_bar_text_light</item>
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:actionOverflowMenuStyle">@style/OptionsMenu</item>
     </style>
     <style name="settingCategoryTitleText">
         <item name="android:textColor">#FFFFFF</item>
@@ -28,8 +29,12 @@
     <style name="currentWeatherTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorPrimary">@color/actionBarColorPrimary</item>
         <item name="android:background">@color/background_color</item>
+
         <!-- Reimplementation of actionBar on Current Weather Screen
         <item name="android:windowActionBar">false</item>-->
+    </style>
+    <style name="OptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">#F4F4F4</item>
     </style>
 
 </resources>
