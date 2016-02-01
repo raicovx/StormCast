@@ -2,7 +2,9 @@ package com.jamesc.stormcast;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.preference.PreferenceManager;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import java.text.SimpleDateFormat;
@@ -21,6 +23,37 @@ public class CurrentWeather {
     private String mSummary;
     private String mTimeZone;
     private int iconId;
+    private int summaryCardColor;
+
+    public int getSummaryCardColor(Context context) {
+        if (mIcon.equals("clear-day")) {
+            summaryCardColor = ContextCompat.getColor(context, R.color.clear_day);
+        }
+        else if (mIcon.equals("clear-night")) {
+            summaryCardColor = ContextCompat.getColor(context, R.color.clear_night);
+        }
+        else if (mIcon.equals("rain")) {
+            summaryCardColor = ContextCompat.getColor(context, R.color.rain);
+        }
+        else if (mIcon.equals("snow") || mIcon.equals("sleet")) {
+            summaryCardColor = ContextCompat.getColor(context, R.color.snow);
+        }
+        else if (mIcon.equals("wind")) {
+            summaryCardColor = ContextCompat.getColor(context,R.color.wind);
+        }
+        else if (mIcon.equals("cloudy")) {
+            summaryCardColor = ContextCompat.getColor(context,R.color.cloudy);
+        }
+        else if (mIcon.equals("fog") || mIcon.equals("partly-cloudy-day")) {
+            summaryCardColor = ContextCompat.getColor(context,R.color.partly_cloudy);
+        }
+        else if (mIcon.equals("partly-cloudy-night")) {
+            summaryCardColor = ContextCompat.getColor(context,R.color.cloudy_night);
+        }
+        return summaryCardColor;
+    }
+
+
 
     private boolean mGetInCelsius = true;
     private Context applicationContext;

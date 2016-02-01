@@ -17,4 +17,14 @@
     <color name="settings_activity_action_bar_text_light">#FAFAFA</color>
     <color name="actionBarColorPrimary">#ff7c3f</color>
     <color name="secondary_text_color">#333333</color>
+
+    <!-- Weather Colours -->
+    <color name="clear_day">#2db6f1</color>
+    <color name="clear_night">#5a76be</color>
+    <color name="rain">#334878</color>
+    <color name="snow">#f5f5f5</color>
+    <color name="wind">#b0bec5</color>
+    <color name="cloudy">#9e9e9e</color>
+    <color name="partly_cloudy">#bebebe</color>
+    <color name="cloudy_night">#455a64</color>
 </resources>

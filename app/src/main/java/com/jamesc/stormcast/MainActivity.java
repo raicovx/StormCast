@@ -486,7 +486,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                                                 locationTextView.setText(locationText);
                                                 summaryTextView.setText(summaryText);
                                                 iconImageView.setImageResource(iconImageId);
-
+                                                summaryCardView.setCardBackgroundColor(mCurrentWeather.getSummaryCardColor(getApplicationContext()));
                                                 if (firstLoad) {
                                                     firstLoad = false;
                                                 }

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\sleet.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\sleet.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\sleet.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\sleet.png"
     }
 ]
