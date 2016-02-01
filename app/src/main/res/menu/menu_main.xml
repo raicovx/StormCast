@@ -4,6 +4,7 @@
     tools:context="com.jamesc.stormy.MainActivity">
     <item
         android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_button_white"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />

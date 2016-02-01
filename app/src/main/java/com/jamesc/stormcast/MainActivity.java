@@ -16,16 +16,23 @@ import android.preference.ListPreference;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -36,6 +43,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.io.IOException;
 import java.util.List;
@@ -52,37 +60,61 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     private CurrentWeather mCurrentWeather;
     final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
-    private double longitude;
-    private double latitude;
     private String forecastAPIKey = "f2e1d661e28dbdd28934a784f1b456a1";
     private String forecastURL;
     private String jsonData;
 
-    //Compatibility Actionbar
-    Toolbar actionBar;
+    //Action Bar + Side Drawer + UI Declarations
 
-    private LocationManager locationManager;
-    RelativeLayout currentWeatherLayout;
-    private int iconImageId;
-    private double temperatureText;
-    private String locationText;
-    private String summaryText;
-    private String timeText;
-    private TextView autoSyncOffNotification;
-    private TextView timeTextView;
-    private TextView temperatureTextView;
-    private TextView locationTextView;
-    private TextView summaryTextView;
-    private ImageView iconImageView;
-    private ImageView degreeImageView;
     private FloatingActionButton fabRefresh;
     ProgressBar refreshProgressBar;
     Drawable progressDrawable;
+    //Relative Layout
+    RelativeLayout currentWeatherLayout;
+    //Compatibility Actionbar
+    Toolbar actionBar;
+    //Drawer Layout Declarations
+    private ListView mNavList;
+    private ArrayAdapter<String> mAdapter;
+    private ActionBarDrawerToggle mDrawerToggle;
+    private DrawerLayout mDrawerLayout;
+    private String mActivityTitle;
+    private TextView mActivityTitleTextView;
+
+
+    //Location Declarations
+
+    private LocationManager locationManager;
+    private double longitude;
+    private double latitude;
+    private String locationText;
+    private TextView locationTextView;
+
+    //Weather Icon Declarations
+    private int iconImageId;
+    private ImageView iconImageView;
+
+
+    //Temperature Declarations
+    private double temperatureText;
+    private TextView temperatureTextView;
+
+    //Summary Declarations
+    private String summaryText;
+    private TextView summaryTextView;
+
+    //Time Declarations
+    private String timeText;
+    private TextView timeTextView;
+
+    //Degrees Images Declartaions
+    private ImageView degreeImageView;
 
     //Status Variables
     private boolean clicked = false;
     private boolean firstLoad = true;
     private boolean ableToSync;
+    private TextView autoSyncOffNotification;
 
     // Settings and User Preference Data Type Declarations
     Intent settingsIntent;
@@ -102,24 +134,20 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        createSideNavItems();
+        createSideNav();
         startLocationManager();
         //Progress Bar
         createProgressBar();
 
         // Tool Bar
-        actionBar = (Toolbar) findViewById(R.id.current_weather_toolbar);
-        if(actionBar != null) {
-            actionBar.setTitle("Current Weather");
-            int actionBarColour = ContextCompat.getColor(getApplicationContext(), R.color.actionBarColorPrimary);
-            actionBar.setBackgroundColor(actionBarColour);
-            setSupportActionBar(actionBar);
-            getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-            getSupportActionBar().setCustomView(R.layout.current_weather_abs_layout);
-        }
+        createActionBar();
         //Tool Bar End
+
         //Layout
         currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
         //Layout End
+
         //Text Views for Current Information
         autoSyncOffNotification = (TextView)findViewById(R.id.autoSyncOffWarning);
         timeTextView  = (TextView)findViewById(R.id.timeTextView);
@@ -130,16 +158,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         degreeImageView = (ImageView) findViewById(R.id.degreesImageView);
         settingsIntent = new Intent(this, SettingsActivity.class);
 
-        //Current Weather Activity's Settings button
-        Button settingsButton = (Button) findViewById(R.id.settingsButton);
-        settingsButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.ic_settings_button));
-        settingsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(settingsIntent);
-            }
-        });
-        //Current Weather Activity's Settings button End
         //User Preference Declarations
         windSpeedFormatPref = getWindSpeedUnitPreferences(windSpeedFormatPref);
         temperatureFormatPref = getTemperatureFormatPreferences(temperatureFormatPref);
@@ -230,6 +248,96 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        if(id == R.id.action_settings){
+            startActivity(settingsIntent);
+        }else if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public boolean onPrepareOptionsMenu(final Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    private void createActionBar() {
+        actionBar = (Toolbar) findViewById(R.id.current_weather_toolbar);
+        mActivityTitle = getTitle().toString();
+        mActivityTitleTextView = (TextView) findViewById(R.id.mActivityTitle);
+        if(actionBar != null) {
+            int actionBarColour = ContextCompat.getColor(getApplicationContext(), R.color.actionBarColorPrimary);
+            actionBar.setBackgroundColor(actionBarColour);
+            actionBar.inflateMenu(R.menu.menu_main);
+            setSupportActionBar(actionBar);
+            mActivityTitleTextView.setText(mActivityTitle);
+            if(getSupportActionBar() != null) {
+                displayCustomActionBar();
+            }else{
+                try{
+                    setSupportActionBar(actionBar);
+                    if(getSupportActionBar()!=null){
+                        displayCustomActionBar();
+                    }
+                }catch(Exception e){
+                    Log.e("StormCast", "Could not set Support ToolBar: "+e);
+                    alertUserAboutError();
+                }
+            }
+        }
+    }
+
+    private void displayCustomActionBar() {
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+    }
+
+    private void createSideNavItems() {
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mNavList = (ListView) findViewById(R.id.navList);
+        String [] appPages = {"Current Weather","Hourly Forecast","Weekly Forecast"};
+        mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, appPages);
+        mNavList.setAdapter(mAdapter);
+        mNavList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(MainActivity.this, "Time for an upgrade!", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+    private void createSideNav(){
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
+                R.string.drawer_open, R.string.drawer_close) {
+
+            /** Called when a drawer has settled in a completely open state. */
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerClosed(drawerView);
+                mActivityTitleTextView.setText(" ");
+                invalidateOptionsMenu();
+            }
+
+            /** Called when a drawer has settled in a completely closed state. */
+            public void onDrawerClosed(View view) {
+                super.onDrawerClosed(view);
+                mActivityTitle = getTitle().toString();
+                mActivityTitleTextView.setText(mActivityTitle);
+                invalidateOptionsMenu();
+            }
+
+        };
+        mDrawerToggle.setDrawerIndicatorEnabled(true);
+        mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+    }
     private void createProgressBar() {
         progressDrawable = ContextCompat.getDrawable(this, R.drawable.progress_drawable);
         refreshProgressBar = (ProgressBar) findViewById(R.id.refreshProgress);

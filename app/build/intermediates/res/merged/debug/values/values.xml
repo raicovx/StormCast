@@ -414,6 +414,8 @@
     <string name="current_weather_title">Current Weather</string>
     <string name="distance_kilometres_setting_summary">Kilometres</string>
     <string name="distance_miles_setting_summary">Miles</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
     <string name="error_message">There was an error. Please try again.</string>
     <string name="error_title">Oops! Sorry!</string>
     <string name="fahrenheit_setting_summary">Fahrenheit</string>

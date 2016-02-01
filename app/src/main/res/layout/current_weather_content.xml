@@ -96,19 +96,7 @@
         style="?android:attr/progressBarStyleLarge"
         />
 
-    <Button
-        style="@style/Base.V7.Theme.AppCompat.Light"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/settingsButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="?android:attr/actionBarSize"
-        android:visibility="visible"
-        android:minWidth="48dip"
-        android:minHeight="48dip"
-        android:tint="@color/secondary_text_color"/>
+
 
     <TextView
         android:layout_width="wrap_content"

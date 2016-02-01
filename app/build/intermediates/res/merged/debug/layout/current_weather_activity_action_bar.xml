@@ -12,4 +12,13 @@
     android:theme="@style/ToolBarTheme"
     app:popupTheme="@style/ThemeOverlay.AppCompat"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_weather_title"
+        android:textColor="@color/primary_text_color"
+        android:id="@+id/mActivityTitle"
+        android:textSize="@dimen/abs_text_size"
+        android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
