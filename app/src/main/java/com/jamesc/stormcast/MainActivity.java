@@ -725,7 +725,14 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
         return mLastLocation;
     }
     protected void startLocationUpdates() throws SecurityException{
-        LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+        if(mGoogleApiClient.isConnected()) {
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+        }else{
+            mGoogleApiClient.connect();
+            if(mGoogleApiClient.isConnected()) {
+                LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+            }
+        }
     }
 
 
