@@ -26,30 +26,30 @@ public final class R {
         public static final int slide_up=0x7f05000e;
     }
     public static final class array {
-        public static final int pref_auto_sync_interval_titles=0x7f0c0000;
-        public static final int pref_auto_sync_interval_values=0x7f0c0001;
-        public static final int pref_distance_measurement_titles=0x7f0c0002;
-        public static final int pref_distance_measurement_values=0x7f0c0003;
-        public static final int pref_example_list_titles=0x7f0c0004;
-        public static final int pref_example_list_values=0x7f0c0005;
-        public static final int pref_temperature_measurement_titles=0x7f0c0006;
-        public static final int pref_temperature_measurement_values=0x7f0c0007;
-        public static final int pref_wind_speed_measurement_titles=0x7f0c0008;
-        public static final int pref_wind_speed_measurement_values=0x7f0c0009;
+        public static final int pref_auto_sync_interval_titles=0x7f0d0000;
+        public static final int pref_auto_sync_interval_values=0x7f0d0001;
+        public static final int pref_distance_measurement_titles=0x7f0d0002;
+        public static final int pref_distance_measurement_values=0x7f0d0003;
+        public static final int pref_example_list_titles=0x7f0d0004;
+        public static final int pref_example_list_values=0x7f0d0005;
+        public static final int pref_temperature_measurement_titles=0x7f0d0006;
+        public static final int pref_temperature_measurement_values=0x7f0d0007;
+        public static final int pref_wind_speed_measurement_titles=0x7f0d0008;
+        public static final int pref_wind_speed_measurement_values=0x7f0d0009;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f0100c6;
+        public static final int actionBarDivider=0x7f0100e7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f0100c7;
+        public static final int actionBarItemBackground=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f0100c0;
+        public static final int actionBarPopupTheme=0x7f0100e1;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -67,117 +67,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f0100c5;
+        public static final int actionBarSize=0x7f0100e6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f0100c2;
+        public static final int actionBarSplitStyle=0x7f0100e3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f0100c1;
+        public static final int actionBarStyle=0x7f0100e2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f0100bc;
+        public static final int actionBarTabBarStyle=0x7f0100dd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f0100bb;
+        public static final int actionBarTabStyle=0x7f0100dc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f0100bd;
+        public static final int actionBarTabTextStyle=0x7f0100de;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f0100c3;
+        public static final int actionBarTheme=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f0100c4;
+        public static final int actionBarWidgetTheme=0x7f0100e5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f0100e0;
+        public static final int actionButtonStyle=0x7f010101;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f0100dc;
+        public static final int actionDropDownStyle=0x7f0100fd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f01006e;
+        public static final int actionLayout=0x7f01008c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f0100c8;
+        public static final int actionMenuTextAppearance=0x7f0100e9;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f0100c9;
+        public static final int actionMenuTextColor=0x7f0100ea;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f0100cc;
+        public static final int actionModeBackground=0x7f0100ed;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f0100cb;
+        public static final int actionModeCloseButtonStyle=0x7f0100ec;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f0100ce;
+        public static final int actionModeCloseDrawable=0x7f0100ef;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f0100d0;
+        public static final int actionModeCopyDrawable=0x7f0100f1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f0100cf;
+        public static final int actionModeCutDrawable=0x7f0100f0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f0100d4;
+        public static final int actionModeFindDrawable=0x7f0100f5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f0100d1;
+        public static final int actionModePasteDrawable=0x7f0100f2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f0100d6;
+        public static final int actionModePopupWindowStyle=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f0100d2;
+        public static final int actionModeSelectAllDrawable=0x7f0100f3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f0100d3;
+        public static final int actionModeShareDrawable=0x7f0100f4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f0100cd;
+        public static final int actionModeSplitBackground=0x7f0100ee;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f0100ca;
+        public static final int actionModeStyle=0x7f0100eb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f0100d5;
+        public static final int actionModeWebSearchDrawable=0x7f0100f6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f0100be;
+        public static final int actionOverflowButtonStyle=0x7f0100df;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f0100bf;
+        public static final int actionOverflowMenuStyle=0x7f0100e0;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -185,7 +185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f010070;
+        public static final int actionProviderClass=0x7f01008e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -193,15 +193,39 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f01006f;
+        public static final int actionViewClass=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f0100e8;
+        public static final int activityChooserViewStyle=0x7f010109;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f01002b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f01002c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f01002d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogButtonGroupStyle=0x7f01010b;
+        public static final int alertDialogButtonGroupStyle=0x7f01012c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -209,15 +233,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alertDialogCenterButtons=0x7f01010c;
+        public static final int alertDialogCenterButtons=0x7f01012d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogStyle=0x7f01010a;
+        public static final int alertDialogStyle=0x7f01012b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogTheme=0x7f01010d;
+        public static final int alertDialogTheme=0x7f01012e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -225,7 +249,26 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowStacking=0x7f01002c;
+        public static final int allowStacking=0x7f010037;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ambientEnabled=0x7f010089;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int appTheme=0x7f010152;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -235,7 +278,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f01005c;
+        public static final int arrowHeadLength=0x7f010068;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -245,27 +288,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f01005d;
+        public static final int arrowShaftLength=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoCompleteTextViewStyle=0x7f010112;
+        public static final int autoCompleteTextViewStyle=0x7f010133;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int background=0x7f010010;
+        public static final int background=0x7f010018;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f010012;
+        public static final int backgroundSplit=0x7f01001a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f010011;
+        public static final int backgroundStacked=0x7f010019;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -274,7 +317,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f01012f;
+        public static final int backgroundTint=0x7f010150;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -288,7 +331,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010130;
+        public static final int backgroundTintMode=0x7f010151;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -298,7 +341,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f01005e;
+        public static final int barLength=0x7f01006a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -308,7 +351,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f010081;
+        public static final int behavior_overlapTop=0x7f01009f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -318,43 +361,57 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int borderWidth=0x7f010063;
+        public static final int borderWidth=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int borderlessButtonStyle=0x7f0100e5;
+        public static final int borderlessButtonStyle=0x7f010106;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f0100e2;
+        public static final int buttonBarButtonStyle=0x7f010103;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNegativeButtonStyle=0x7f010110;
+        public static final int buttonBarNegativeButtonStyle=0x7f010131;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNeutralButtonStyle=0x7f010111;
+        public static final int buttonBarNeutralButtonStyle=0x7f010132;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarPositiveButtonStyle=0x7f01010f;
+        public static final int buttonBarPositiveButtonStyle=0x7f010130;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f0100e1;
+        public static final int buttonBarStyle=0x7f010102;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonPanelSideLayout=0x7f010023;
+        public static final int buttonPanelSideLayout=0x7f01002e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int buttonSize=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyle=0x7f010113;
+        public static final int buttonStyle=0x7f010134;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyleSmall=0x7f010114;
+        public static final int buttonStyleSmall=0x7f010135;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -363,7 +420,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f01004a;
+        public static final int buttonTint=0x7f010055;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -377,7 +434,119 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f01004b;
+        public static final int buttonTintMode=0x7f010056;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>google_wallet_grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>google_wallet_monochrome</code></td><td>3</td><td></td></tr>
+<tr><td><code>android_pay_dark</code></td><td>4</td><td></td></tr>
+<tr><td><code>android_pay_light</code></td><td>5</td><td></td></tr>
+<tr><td><code>android_pay_light_with_border</code></td><td>6</td><td></td></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonAppearance=0x7f010159;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonHeight=0x7f010156;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buy_with</code></td><td>5</td><td></td></tr>
+<tr><td><code>logo_only</code></td><td>6</td><td></td></tr>
+<tr><td><code>donate_with</code></td><td>7</td><td></td></tr>
+<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
+<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
+<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
+<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonText=0x7f010158;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static final int buyButtonWidth=0x7f010157;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f01007a;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f01007b;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f01007c;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f01007d;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f01007e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -386,7 +555,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardBackgroundColor=0x7f01002d;
+        public static final int cardBackgroundColor=0x7f010038;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -396,7 +565,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardCornerRadius=0x7f01002e;
+        public static final int cardCornerRadius=0x7f010039;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -406,7 +575,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardElevation=0x7f01002f;
+        public static final int cardElevation=0x7f01003a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -416,7 +585,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardMaxElevation=0x7f010030;
+        public static final int cardMaxElevation=0x7f01003b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -424,7 +593,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardPreventCornerOverlap=0x7f010032;
+        public static final int cardPreventCornerOverlap=0x7f01003d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -432,7 +601,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cardUseCompatPadding=0x7f010031;
+        public static final int cardUseCompatPadding=0x7f01003c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -440,11 +609,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkboxStyle=0x7f010115;
+        public static final int checkboxStyle=0x7f010136;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkedTextViewStyle=0x7f010116;
+        public static final int checkedTextViewStyle=0x7f010137;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -452,15 +621,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f01006c;
+        public static final int circleCrop=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010086;
+        public static final int closeIcon=0x7f0100a4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeItemLayout=0x7f010020;
+        public static final int closeItemLayout=0x7f010028;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -468,11 +637,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010126;
+        public static final int collapseContentDescription=0x7f010147;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010125;
+        public static final int collapseIcon=0x7f010146;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -491,11 +660,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int collapsedTitleGravity=0x7f010047;
+        public static final int collapsedTitleGravity=0x7f010052;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapsedTitleTextAppearance=0x7f010043;
+        public static final int collapsedTitleTextAppearance=0x7f01004e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -504,7 +673,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f010058;
+        public static final int color=0x7f010064;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -513,7 +682,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f010103;
+        public static final int colorAccent=0x7f010124;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -522,7 +691,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f010107;
+        public static final int colorButtonNormal=0x7f010128;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -531,7 +700,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f010105;
+        public static final int colorControlActivated=0x7f010126;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -540,7 +709,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f010106;
+        public static final int colorControlHighlight=0x7f010127;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -549,7 +718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f010104;
+        public static final int colorControlNormal=0x7f010125;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -558,7 +727,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f010101;
+        public static final int colorPrimary=0x7f010122;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -567,7 +736,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f010102;
+        public static final int colorPrimaryDark=0x7f010123;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int colorScheme=0x7f0100ae;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -576,11 +759,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f010108;
+        public static final int colorSwitchThumbNormal=0x7f010129;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f01008b;
+        public static final int commitIcon=0x7f0100a9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -590,7 +773,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEnd=0x7f01001b;
+        public static final int contentInsetEnd=0x7f010023;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -600,7 +783,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetLeft=0x7f01001c;
+        public static final int contentInsetLeft=0x7f010024;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -610,7 +793,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetRight=0x7f01001d;
+        public static final int contentInsetRight=0x7f010025;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -620,7 +803,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetStart=0x7f01001a;
+        public static final int contentInsetStart=0x7f010022;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -630,7 +813,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPadding=0x7f010033;
+        public static final int contentPadding=0x7f01003e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -640,7 +823,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingBottom=0x7f010037;
+        public static final int contentPaddingBottom=0x7f010042;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -650,7 +833,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingLeft=0x7f010034;
+        public static final int contentPaddingLeft=0x7f01003f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -660,7 +843,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingRight=0x7f010035;
+        public static final int contentPaddingRight=0x7f010040;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -670,7 +853,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentPaddingTop=0x7f010036;
+        public static final int contentPaddingTop=0x7f010041;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -679,11 +862,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentScrim=0x7f010044;
+        public static final int contentScrim=0x7f01004f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int controlBackground=0x7f010109;
+        public static final int controlBackground=0x7f01012a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -691,7 +874,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f0100ac;
+        public static final int counterEnabled=0x7f0100cd;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -699,19 +882,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f0100ad;
+        public static final int counterMaxLength=0x7f0100ce;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f0100af;
+        public static final int counterOverflowTextAppearance=0x7f0100d0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f0100ae;
+        public static final int counterTextAppearance=0x7f0100cf;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f010013;
+        public static final int customNavigationLayout=0x7f01001b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -719,15 +902,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f010085;
+        public static final int defaultQueryHint=0x7f0100a3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogIcon=0x7f010054;
+        public static final int dialogIcon=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogLayout=0x7f010057;
+        public static final int dialogLayout=0x7f010063;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -735,7 +918,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogMessage=0x7f010053;
+        public static final int dialogMessage=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -749,11 +932,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogPreferredPadding=0x7f0100da;
+        public static final int dialogPreferredPadding=0x7f0100fb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogTheme=0x7f0100d9;
+        public static final int dialogTheme=0x7f0100fa;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -761,7 +944,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogTitle=0x7f010052;
+        public static final int dialogTitle=0x7f01005e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -769,7 +952,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int disableDependentsState=0x7f01003a;
+        public static final int disableDependentsState=0x7f010045;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -785,15 +968,15 @@ containing a value of this type.
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f010009;
+        public static final int displayOptions=0x7f010011;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f01000f;
+        public static final int divider=0x7f010017;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f0100e7;
+        public static final int dividerHorizontal=0x7f010108;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -803,11 +986,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f010067;
+        public static final int dividerPadding=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f0100e6;
+        public static final int dividerVertical=0x7f010107;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -817,7 +1000,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f01005a;
+        public static final int drawableSize=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -825,7 +1008,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f0100f9;
+        public static final int dropDownListViewStyle=0x7f01011a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -835,17 +1018,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f0100dd;
+        public static final int dropdownListPreferredItemHeight=0x7f0100fe;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f0100ee;
+        public static final int editTextBackground=0x7f01010f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f0100ed;
+        public static final int editTextColor=0x7f01010e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -853,7 +1036,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextStyle=0x7f010117;
+        public static final int editTextStyle=0x7f010138;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -863,15 +1046,28 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int elevation=0x7f01001e;
+        public static final int elevation=0x7f010026;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int entries=0x7f010068;
+        public static final int entries=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int entryValues=0x7f010069;
+        public static final int entryValues=0x7f010075;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>production</code></td><td>1</td><td></td></tr>
+<tr><td><code>test</code></td><td>3</td><td></td></tr>
+<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
+<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int environment=0x7f010153;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -879,15 +1075,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f0100aa;
+        public static final int errorEnabled=0x7f0100cb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f0100ab;
+        public static final int errorTextAppearance=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f010022;
+        public static final int expandActivityOverflowButtonDrawable=0x7f01002a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -895,7 +1091,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expanded=0x7f010028;
+        public static final int expanded=0x7f010033;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -914,7 +1110,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int expandedTitleGravity=0x7f010048;
+        public static final int expandedTitleGravity=0x7f010053;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -924,7 +1120,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMargin=0x7f01003d;
+        public static final int expandedTitleMargin=0x7f010048;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -934,7 +1130,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginBottom=0x7f010041;
+        public static final int expandedTitleMarginBottom=0x7f01004c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -944,7 +1140,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginEnd=0x7f010040;
+        public static final int expandedTitleMarginEnd=0x7f01004b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -954,7 +1150,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginStart=0x7f01003e;
+        public static final int expandedTitleMarginStart=0x7f010049;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -964,11 +1160,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginTop=0x7f01003f;
+        public static final int expandedTitleMarginTop=0x7f01004a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandedTitleTextAppearance=0x7f010042;
+        public static final int expandedTitleTextAppearance=0x7f01004d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int externalRouteEnabledDrawable=0x7f01008a;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -979,7 +1179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int fabSize=0x7f010061;
+        public static final int fabSize=0x7f01006d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -987,7 +1187,22 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int foregroundInsidePadding=0x7f010064;
+        public static final int foregroundInsidePadding=0x7f010070;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
+<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int fragmentMode=0x7f010155;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fragmentStyle=0x7f010154;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -997,15 +1212,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f01005b;
+        public static final int gapBetweenBars=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010087;
+        public static final int goIcon=0x7f0100a5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f010077;
+        public static final int headerLayout=0x7f010095;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1023,7 +1238,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hideOnContentScroll=0x7f010019;
+        public static final int hideOnContentScroll=0x7f010021;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1031,23 +1246,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f0100b0;
+        public static final int hintAnimationEnabled=0x7f0100d1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f0100a9;
+        public static final int hintTextAppearance=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f0100df;
+        public static final int homeAsUpIndicator=0x7f010100;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f010014;
+        public static final int homeLayout=0x7f01001c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f01000d;
+        public static final int icon=0x7f010015;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1055,7 +1270,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010083;
+        public static final int iconifiedByDefault=0x7f0100a1;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1063,7 +1278,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f01006b;
+        public static final int imageAspectRatio=0x7f010077;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1075,15 +1290,15 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f01006a;
+        public static final int imageAspectRatioAdjust=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int imageButtonStyle=0x7f0100ef;
+        public static final int imageButtonStyle=0x7f010110;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f010016;
+        public static final int indeterminateProgressStyle=0x7f01001e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1091,13 +1306,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f010021;
+        public static final int initialActivityCount=0x7f010029;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f010080;
+        public static final int insetForeground=0x7f01009e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1109,7 +1324,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f010075;
+        public static final int itemBackground=0x7f010093;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1118,7 +1333,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f010073;
+        public static final int itemIconTint=0x7f010091;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1128,11 +1343,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f010018;
+        public static final int itemPadding=0x7f010020;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f010076;
+        public static final int itemTextAppearance=0x7f010094;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1141,15 +1356,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f010074;
+        public static final int itemTextColor=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int keylines=0x7f01004c;
+        public static final int keylines=0x7f010057;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f010082;
+        public static final int layout=0x7f0100a0;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1157,11 +1372,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layoutManager=0x7f01007c;
+        public static final int layoutManager=0x7f01009a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_anchor=0x7f01004f;
+        public static final int layout_anchor=0x7f01005a;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1184,7 +1399,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_anchorGravity=0x7f010051;
+        public static final int layout_anchorGravity=0x7f01005c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1192,7 +1407,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_behavior=0x7f01004e;
+        public static final int layout_behavior=0x7f010059;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1204,7 +1419,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int layout_collapseMode=0x7f01003b;
+        public static final int layout_collapseMode=0x7f010046;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1212,7 +1427,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_collapseParallaxMultiplier=0x7f01003c;
+        public static final int layout_collapseParallaxMultiplier=0x7f010047;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1220,7 +1435,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_keyline=0x7f010050;
+        public static final int layout_keyline=0x7f01005b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1234,31 +1449,31 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
          */
-        public static final int layout_scrollFlags=0x7f010029;
+        public static final int layout_scrollFlags=0x7f010034;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_scrollInterpolator=0x7f01002a;
+        public static final int layout_scrollInterpolator=0x7f010035;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f010100;
+        public static final int listChoiceBackgroundIndicator=0x7f010121;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listDividerAlertDialog=0x7f0100db;
+        public static final int listDividerAlertDialog=0x7f0100fc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listItemLayout=0x7f010027;
+        public static final int listItemLayout=0x7f010032;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listLayout=0x7f010024;
+        public static final int listLayout=0x7f01002f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f0100fa;
+        public static final int listPopupWindowStyle=0x7f01011b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1268,7 +1483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f0100f4;
+        public static final int listPreferredItemHeight=0x7f010115;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1278,7 +1493,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f0100f6;
+        public static final int listPreferredItemHeightLarge=0x7f010117;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1288,7 +1503,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f0100f5;
+        public static final int listPreferredItemHeightSmall=0x7f010116;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1298,7 +1513,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f0100f7;
+        public static final int listPreferredItemPaddingLeft=0x7f010118;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1308,59 +1523,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f0100f8;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int logo=0x7f01000e;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int logoDescription=0x7f010129;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int maxActionInlineWidth=0x7f01008f;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int maxButtonHeight=0x7f010124;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int maxHeight=0x7f01007b;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int maxWidth=0x7f01007a;
+        public static final int listPreferredItemPaddingRight=0x7f010119;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1368,15 +1531,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f010065;
+        public static final int liteMode=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f010072;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int multiChoiceItemLayout=0x7f010025;
+        public static final int logo=0x7f010016;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1384,11 +1543,168 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f010128;
+        public static final int logoDescription=0x7f01014a;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010079;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int maskedWalletDetailsBackground=0x7f01015c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int maskedWalletDetailsButtonBackground=0x7f01015e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f010127;
+        public static final int maskedWalletDetailsButtonTextAppearance=0x7f01015d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01015b;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>google_wallet_monochrome</code></td><td>2</td><td></td></tr>
+<tr><td><code>android_pay</code></td><td>3</td><td></td></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int maskedWalletDetailsLogoImageType=0x7f010160;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maskedWalletDetailsLogoTextColor=0x7f01015f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int maskedWalletDetailsTextAppearance=0x7f01015a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxActionInlineWidth=0x7f0100b0;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxButtonHeight=0x7f010145;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxHeight=0x7f010099;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maxWidth=0x7f010098;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int measureWithLargestChild=0x7f010071;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteButtonStyle=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteCastDrawable=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteConnectingDrawable=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteOffDrawable=0x7f010009;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteOnDrawable=0x7f01000a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRoutePauseDrawable=0x7f01000b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRoutePlayDrawable=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mediaRouteSettingsDrawable=0x7f01000d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu=0x7f010090;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int multiChoiceItemLayout=0x7f010030;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int navigationContentDescription=0x7f010149;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int navigationIcon=0x7f010148;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1400,7 +1716,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f010008;
+        public static final int navigationMode=0x7f010010;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1408,7 +1724,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int negativeButtonText=0x7f010056;
+        public static final int negativeButtonText=0x7f010062;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1416,7 +1732,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f010078;
+        public static final int overlapAnchor=0x7f010096;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1426,7 +1742,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f01012d;
+        public static final int paddingEnd=0x7f01014e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1436,15 +1752,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f01012c;
+        public static final int paddingStart=0x7f01014d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f0100fd;
+        public static final int panelBackground=0x7f01011e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f0100ff;
+        public static final int panelMenuListTheme=0x7f010120;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1454,19 +1770,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f0100fe;
+        public static final int panelMenuListWidth=0x7f01011f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f0100eb;
+        public static final int popupMenuStyle=0x7f01010c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupTheme=0x7f01001f;
+        public static final int popupTheme=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f0100ec;
+        public static final int popupWindowStyle=0x7f01010d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1474,7 +1790,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int positiveButtonText=0x7f010055;
+        public static final int positiveButtonText=0x7f010061;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1482,7 +1798,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f010071;
+        public static final int preserveIconSpacing=0x7f01008f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1492,7 +1808,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pressedTranslationZ=0x7f010062;
+        public static final int pressedTranslationZ=0x7f01006e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1502,15 +1818,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f010017;
+        public static final int progressBarPadding=0x7f01001f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f010015;
+        public static final int progressBarStyle=0x7f01001d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f01008d;
+        public static final int queryBackground=0x7f0100ab;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1518,15 +1834,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010084;
+        public static final int queryHint=0x7f0100a2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int radioButtonStyle=0x7f010118;
+        public static final int radioButtonStyle=0x7f010139;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyle=0x7f010119;
+        public static final int ratingBarStyle=0x7f01013a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1534,7 +1850,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int reverseLayout=0x7f01007e;
+        public static final int reverseLayout=0x7f01009c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1543,31 +1859,36 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f010060;
+        public static final int rippleColor=0x7f01006c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int scopeUris=0x7f0100af;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f010089;
+        public static final int searchHintIcon=0x7f0100a7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f010088;
+        public static final int searchIcon=0x7f0100a6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f0100f3;
+        public static final int searchViewStyle=0x7f010114;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int seekBarStyle=0x7f01011a;
+        public static final int seekBarStyle=0x7f01013b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f0100e3;
+        public static final int selectableItemBackground=0x7f010104;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f0100e4;
+        public static final int selectableItemBackgroundBorderless=0x7f010105;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1581,7 +1902,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f01006d;
+        public static final int showAsAction=0x7f01008b;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1594,7 +1915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010066;
+        public static final int showDividers=0x7f010072;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1602,11 +1923,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010096;
+        public static final int showText=0x7f0100b7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int singleChoiceItemLayout=0x7f010026;
+        public static final int singleChoiceItemLayout=0x7f010031;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1614,7 +1935,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spanCount=0x7f01007d;
+        public static final int spanCount=0x7f01009b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1622,15 +1943,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f010059;
+        public static final int spinBars=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f0100de;
+        public static final int spinnerDropDownItemStyle=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f01011b;
+        public static final int spinnerStyle=0x7f01013c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1638,7 +1959,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010095;
+        public static final int splitTrack=0x7f0100b6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1646,7 +1967,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f01007f;
+        public static final int stackFromEnd=0x7f01009d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1654,11 +1975,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f010079;
+        public static final int state_above_anchor=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int statusBarBackground=0x7f01004d;
+        public static final int statusBarBackground=0x7f010058;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1667,11 +1988,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int statusBarScrim=0x7f010045;
+        public static final int statusBarScrim=0x7f010050;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f01008e;
+        public static final int submitBackground=0x7f0100ac;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1679,11 +2000,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f01000a;
+        public static final int subtitle=0x7f010012;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f01011e;
+        public static final int subtitleTextAppearance=0x7f01013f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1692,15 +2013,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01012b;
+        public static final int subtitleTextColor=0x7f01014c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f01000c;
+        public static final int subtitleTextStyle=0x7f010014;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f01008c;
+        public static final int suggestionRowLayout=0x7f0100aa;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1708,7 +2029,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int summaryOff=0x7f010039;
+        public static final int summaryOff=0x7f010044;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1716,7 +2037,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int summaryOn=0x7f010038;
+        public static final int summaryOn=0x7f010043;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1726,7 +2047,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010093;
+        public static final int switchMinWidth=0x7f0100b4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1736,19 +2057,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010094;
+        public static final int switchPadding=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchPreferenceStyle=0x7f010006;
+        public static final int switchPreferenceStyle=0x7f01000e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f01011c;
+        public static final int switchStyle=0x7f01013d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f010092;
+        public static final int switchTextAppearance=0x7f0100b3;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1756,7 +2077,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchTextOff=0x7f010098;
+        public static final int switchTextOff=0x7f0100b9;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1764,11 +2085,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchTextOn=0x7f010097;
+        public static final int switchTextOn=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f01009c;
+        public static final int tabBackground=0x7f0100bd;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1778,7 +2099,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f01009b;
+        public static final int tabContentStart=0x7f0100bc;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1789,7 +2110,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f01009e;
+        public static final int tabGravity=0x7f0100bf;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1798,7 +2119,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f010099;
+        public static final int tabIndicatorColor=0x7f0100ba;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1808,7 +2129,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f01009a;
+        public static final int tabIndicatorHeight=0x7f0100bb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1818,7 +2139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f0100a0;
+        public static final int tabMaxWidth=0x7f0100c1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1828,7 +2149,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f01009f;
+        public static final int tabMinWidth=0x7f0100c0;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1839,7 +2160,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f01009d;
+        public static final int tabMode=0x7f0100be;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1849,7 +2170,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f0100a8;
+        public static final int tabPadding=0x7f0100c9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1859,7 +2180,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f0100a7;
+        public static final int tabPaddingBottom=0x7f0100c8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1869,7 +2190,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f0100a6;
+        public static final int tabPaddingEnd=0x7f0100c7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1879,7 +2200,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f0100a4;
+        public static final int tabPaddingStart=0x7f0100c5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1889,7 +2210,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f0100a5;
+        public static final int tabPaddingTop=0x7f0100c6;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1898,11 +2219,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f0100a3;
+        public static final int tabSelectedTextColor=0x7f0100c4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f0100a1;
+        public static final int tabTextAppearance=0x7f0100c2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1911,52 +2232,52 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f0100a2;
+        public static final int tabTextColor=0x7f0100c3;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f01002b;
+        public static final int textAllCaps=0x7f010036;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f0100d7;
+        public static final int textAppearanceLargePopupMenu=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f0100fb;
+        public static final int textAppearanceListItem=0x7f01011c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f0100fc;
+        public static final int textAppearanceListItemSmall=0x7f01011d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f0100f1;
+        public static final int textAppearanceSearchResultSubtitle=0x7f010112;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f0100f0;
+        public static final int textAppearanceSearchResultTitle=0x7f010111;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f0100d8;
+        public static final int textAppearanceSmallPopupMenu=0x7f0100f9;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorAlertDialogListItem=0x7f01010e;
+        public static final int textColorAlertDialogListItem=0x7f01012f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f0100f2;
+        public static final int textColorSearchUrl=0x7f010113;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f01012e;
+        public static final int theme=0x7f01014f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1966,7 +2287,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f01005f;
+        public static final int thickness=0x7f01006b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1976,7 +2297,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f010091;
+        public static final int thumbTextPadding=0x7f0100b2;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1984,7 +2305,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title=0x7f010007;
+        public static final int title=0x7f01000f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1992,7 +2313,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleEnabled=0x7f010049;
+        public static final int titleEnabled=0x7f010054;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2002,7 +2323,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010123;
+        public static final int titleMarginBottom=0x7f010144;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2012,7 +2333,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f010121;
+        public static final int titleMarginEnd=0x7f010142;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2022,7 +2343,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f010120;
+        public static final int titleMarginStart=0x7f010141;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2032,7 +2353,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010122;
+        public static final int titleMarginTop=0x7f010143;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2042,11 +2363,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f01011f;
+        public static final int titleMargins=0x7f010140;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f01011d;
+        public static final int titleTextAppearance=0x7f01013e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2055,31 +2376,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01012a;
+        public static final int titleTextColor=0x7f01014b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f01000b;
+        public static final int titleTextStyle=0x7f010013;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarId=0x7f010046;
+        public static final int toolbarId=0x7f010051;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f0100ea;
+        public static final int toolbarNavigationButtonStyle=0x7f01010b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f0100e9;
+        public static final int toolbarStyle=0x7f01010a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f010090;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int voiceIcon=0x7f01008a;
+        public static final int track=0x7f0100b1;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2087,7 +2404,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f0100b1;
+        public static final int uiCompass=0x7f010080;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2095,7 +2412,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f0100b3;
+        public static final int uiMapToolbar=0x7f010088;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2103,85 +2420,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f0100b4;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMajor=0x7f0100b8;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMinor=0x7f0100b6;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMajor=0x7f0100b5;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMinor=0x7f0100b7;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMajor=0x7f0100b9;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMinor=0x7f0100ba;
+        public static final int uiRotateGestures=0x7f010081;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2189,255 +2428,461 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowNoTitle=0x7f0100b2;
+        public static final int uiScrollGestures=0x7f010082;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f010083;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f010084;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f010085;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f010086;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int voiceIcon=0x7f0100a8;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBar=0x7f0100d2;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionBarOverlay=0x7f0100d4;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowActionModeOverlay=0x7f0100d5;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMajor=0x7f0100d9;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMinor=0x7f0100d7;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMajor=0x7f0100d6;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMinor=0x7f0100d8;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f0100da;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f0100db;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowNoTitle=0x7f0100d3;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int windowTransitionStyle=0x7f01005d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010087;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f080003;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f080001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f080004;
-        public static final int abc_allow_stacked_button_bar=0x7f080000;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f080005;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f080002;
-        public static final int abc_config_closeDialogWhenTouchOutside=0x7f080006;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f080007;
+        public static final int abc_action_bar_embed_tabs=0x7f090003;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f090001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f090004;
+        public static final int abc_allow_stacked_button_bar=0x7f090000;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f090005;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f090002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f090006;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0d006a;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0d006b;
-        public static final int abc_color_highlight_material=0x7f0d006c;
-        public static final int abc_input_method_navigation_guard=0x7f0d0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0d006d;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0d006e;
-        public static final int abc_primary_text_material_dark=0x7f0d006f;
-        public static final int abc_primary_text_material_light=0x7f0d0070;
-        public static final int abc_search_url_text=0x7f0d0071;
-        public static final int abc_search_url_text_normal=0x7f0d0001;
-        public static final int abc_search_url_text_pressed=0x7f0d0002;
-        public static final int abc_search_url_text_selected=0x7f0d0003;
-        public static final int abc_secondary_text_material_dark=0x7f0d0072;
-        public static final int abc_secondary_text_material_light=0x7f0d0073;
-        public static final int accent_material_dark=0x7f0d0004;
-        public static final int accent_material_light=0x7f0d0005;
-        public static final int accent_material_light_1=0x7f0d0006;
-        public static final int actionBarColorPrimary=0x7f0d0007;
-        public static final int background_color=0x7f0d0008;
-        public static final int background_floating_material_dark=0x7f0d0009;
-        public static final int background_floating_material_light=0x7f0d000a;
-        public static final int background_material_dark=0x7f0d000b;
-        public static final int background_material_light=0x7f0d000c;
-        public static final int bright_foreground_dark=0x7f0d000d;
-        public static final int bright_foreground_dark_inverse=0x7f0d000e;
-        public static final int bright_foreground_disabled_material_dark=0x7f0d000f;
-        public static final int bright_foreground_disabled_material_light=0x7f0d0010;
-        public static final int bright_foreground_inverse_material_dark=0x7f0d0011;
-        public static final int bright_foreground_inverse_material_light=0x7f0d0012;
-        public static final int bright_foreground_material_dark=0x7f0d0013;
-        public static final int bright_foreground_material_light=0x7f0d0014;
-        public static final int button_material_dark=0x7f0d0015;
-        public static final int button_material_light=0x7f0d0016;
-        public static final int cardview_dark_background=0x7f0d0017;
-        public static final int cardview_light_background=0x7f0d0018;
-        public static final int cardview_shadow_end_color=0x7f0d0019;
-        public static final int cardview_shadow_start_color=0x7f0d001a;
-        public static final int clear_day=0x7f0d001b;
-        public static final int clear_night=0x7f0d001c;
-        public static final int cloudy=0x7f0d001d;
-        public static final int cloudy_night=0x7f0d001e;
-        public static final int colorAccent=0x7f0d001f;
-        public static final int colorPrimary=0x7f0d0020;
-        public static final int colorPrimaryDark=0x7f0d0021;
-        public static final int common_action_bar_splitter=0x7f0d0022;
-        public static final int common_signin_btn_dark_text_default=0x7f0d0023;
-        public static final int common_signin_btn_dark_text_disabled=0x7f0d0024;
-        public static final int common_signin_btn_dark_text_focused=0x7f0d0025;
-        public static final int common_signin_btn_dark_text_pressed=0x7f0d0026;
-        public static final int common_signin_btn_default_background=0x7f0d0027;
-        public static final int common_signin_btn_light_text_default=0x7f0d0028;
-        public static final int common_signin_btn_light_text_disabled=0x7f0d0029;
-        public static final int common_signin_btn_light_text_focused=0x7f0d002a;
-        public static final int common_signin_btn_light_text_pressed=0x7f0d002b;
-        public static final int common_signin_btn_text_dark=0x7f0d0074;
-        public static final int common_signin_btn_text_light=0x7f0d0075;
-        public static final int design_fab_shadow_end_color=0x7f0d002c;
-        public static final int design_fab_shadow_mid_color=0x7f0d002d;
-        public static final int design_fab_shadow_start_color=0x7f0d002e;
-        public static final int design_fab_stroke_end_inner_color=0x7f0d002f;
-        public static final int design_fab_stroke_end_outer_color=0x7f0d0030;
-        public static final int design_fab_stroke_top_inner_color=0x7f0d0031;
-        public static final int design_fab_stroke_top_outer_color=0x7f0d0032;
-        public static final int design_snackbar_background_color=0x7f0d0033;
-        public static final int design_textinput_error_color=0x7f0d0034;
-        public static final int dim_foreground_dark=0x7f0d0035;
-        public static final int dim_foreground_dark_disabled=0x7f0d0036;
-        public static final int dim_foreground_dark_inverse=0x7f0d0037;
-        public static final int dim_foreground_dark_inverse_disabled=0x7f0d0038;
-        public static final int dim_foreground_disabled_material_dark=0x7f0d0039;
-        public static final int dim_foreground_disabled_material_light=0x7f0d003a;
-        public static final int dim_foreground_material_dark=0x7f0d003b;
-        public static final int dim_foreground_material_light=0x7f0d003c;
-        public static final int foreground_material_dark=0x7f0d003d;
-        public static final int foreground_material_light=0x7f0d003e;
-        public static final int highlighted_text_material_dark=0x7f0d003f;
-        public static final int highlighted_text_material_light=0x7f0d0040;
-        public static final int hint_foreground_material_dark=0x7f0d0041;
-        public static final int hint_foreground_material_light=0x7f0d0042;
-        public static final int legacy_primary=0x7f0d0043;
-        public static final int legacy_primary_dark=0x7f0d0044;
-        public static final int material_blue_grey_800=0x7f0d0045;
-        public static final int material_blue_grey_900=0x7f0d0046;
-        public static final int material_blue_grey_950=0x7f0d0047;
-        public static final int material_deep_teal_200=0x7f0d0048;
-        public static final int material_deep_teal_500=0x7f0d0049;
-        public static final int material_grey_100=0x7f0d004a;
-        public static final int material_grey_300=0x7f0d004b;
-        public static final int material_grey_50=0x7f0d004c;
-        public static final int material_grey_600=0x7f0d004d;
-        public static final int material_grey_800=0x7f0d004e;
-        public static final int material_grey_850=0x7f0d004f;
-        public static final int material_grey_900=0x7f0d0050;
-        public static final int partly_cloudy=0x7f0d0051;
-        public static final int primary_dark_material_dark=0x7f0d0052;
-        public static final int primary_dark_material_light=0x7f0d0053;
-        public static final int primary_material_dark=0x7f0d0054;
-        public static final int primary_material_light=0x7f0d0055;
-        public static final int primary_text_color=0x7f0d0056;
-        public static final int primary_text_default_material_dark=0x7f0d0057;
-        public static final int primary_text_default_material_light=0x7f0d0058;
-        public static final int primary_text_disabled_material_dark=0x7f0d0059;
-        public static final int primary_text_disabled_material_light=0x7f0d005a;
-        public static final int rain=0x7f0d005b;
-        public static final int ripple_material_dark=0x7f0d005c;
-        public static final int ripple_material_light=0x7f0d005d;
-        public static final int secondary_text_color=0x7f0d005e;
-        public static final int secondary_text_dark=0x7f0d0076;
-        public static final int secondary_text_default_material_dark=0x7f0d005f;
-        public static final int secondary_text_default_material_light=0x7f0d0060;
-        public static final int secondary_text_disabled_material_dark=0x7f0d0061;
-        public static final int secondary_text_disabled_material_light=0x7f0d0062;
-        public static final int settings_activity_action_bar_text_light=0x7f0d0063;
-        public static final int snow=0x7f0d0064;
-        public static final int switch_thumb_disabled_material_dark=0x7f0d0065;
-        public static final int switch_thumb_disabled_material_light=0x7f0d0066;
-        public static final int switch_thumb_material_dark=0x7f0d0077;
-        public static final int switch_thumb_material_light=0x7f0d0078;
-        public static final int switch_thumb_normal_material_dark=0x7f0d0067;
-        public static final int switch_thumb_normal_material_light=0x7f0d0068;
-        public static final int wind=0x7f0d0069;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0e0084;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0e0085;
+        public static final int abc_color_highlight_material=0x7f0e0086;
+        public static final int abc_input_method_navigation_guard=0x7f0e0000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0e0087;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0e0088;
+        public static final int abc_primary_text_material_dark=0x7f0e0089;
+        public static final int abc_primary_text_material_light=0x7f0e008a;
+        public static final int abc_search_url_text=0x7f0e008b;
+        public static final int abc_search_url_text_normal=0x7f0e0001;
+        public static final int abc_search_url_text_pressed=0x7f0e0002;
+        public static final int abc_search_url_text_selected=0x7f0e0003;
+        public static final int abc_secondary_text_material_dark=0x7f0e008c;
+        public static final int abc_secondary_text_material_light=0x7f0e008d;
+        public static final int accent_material_dark=0x7f0e0004;
+        public static final int accent_material_light=0x7f0e0005;
+        public static final int accent_material_light_1=0x7f0e0006;
+        public static final int actionBarColorPrimary=0x7f0e0007;
+        public static final int background_color=0x7f0e0008;
+        public static final int background_floating_material_dark=0x7f0e0009;
+        public static final int background_floating_material_light=0x7f0e000a;
+        public static final int background_material_dark=0x7f0e000b;
+        public static final int background_material_light=0x7f0e000c;
+        public static final int bright_foreground_dark=0x7f0e000d;
+        public static final int bright_foreground_dark_inverse=0x7f0e000e;
+        public static final int bright_foreground_disabled_material_dark=0x7f0e000f;
+        public static final int bright_foreground_disabled_material_light=0x7f0e0010;
+        public static final int bright_foreground_inverse_material_dark=0x7f0e0011;
+        public static final int bright_foreground_inverse_material_light=0x7f0e0012;
+        public static final int bright_foreground_material_dark=0x7f0e0013;
+        public static final int bright_foreground_material_light=0x7f0e0014;
+        public static final int button_material_dark=0x7f0e0015;
+        public static final int button_material_light=0x7f0e0016;
+        public static final int cardview_dark_background=0x7f0e0017;
+        public static final int cardview_light_background=0x7f0e0018;
+        public static final int cardview_shadow_end_color=0x7f0e0019;
+        public static final int cardview_shadow_start_color=0x7f0e001a;
+        public static final int clear_day=0x7f0e001b;
+        public static final int clear_night=0x7f0e001c;
+        public static final int cloudy=0x7f0e001d;
+        public static final int cloudy_night=0x7f0e001e;
+        public static final int colorAccent=0x7f0e001f;
+        public static final int colorPrimary=0x7f0e0020;
+        public static final int colorPrimaryDark=0x7f0e0021;
+        public static final int common_action_bar_splitter=0x7f0e0022;
+        public static final int common_google_signin_btn_text_dark=0x7f0e008e;
+        public static final int common_google_signin_btn_text_dark_default=0x7f0e0023;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f0e0024;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f0e0025;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f0e0026;
+        public static final int common_google_signin_btn_text_light=0x7f0e008f;
+        public static final int common_google_signin_btn_text_light_default=0x7f0e0027;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f0e0028;
+        public static final int common_google_signin_btn_text_light_focused=0x7f0e0029;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f0e002a;
+        public static final int common_plus_signin_btn_text_dark=0x7f0e0090;
+        public static final int common_plus_signin_btn_text_dark_default=0x7f0e002b;
+        public static final int common_plus_signin_btn_text_dark_disabled=0x7f0e002c;
+        public static final int common_plus_signin_btn_text_dark_focused=0x7f0e002d;
+        public static final int common_plus_signin_btn_text_dark_pressed=0x7f0e002e;
+        public static final int common_plus_signin_btn_text_light=0x7f0e0091;
+        public static final int common_plus_signin_btn_text_light_default=0x7f0e002f;
+        public static final int common_plus_signin_btn_text_light_disabled=0x7f0e0030;
+        public static final int common_plus_signin_btn_text_light_focused=0x7f0e0031;
+        public static final int common_plus_signin_btn_text_light_pressed=0x7f0e0032;
+        public static final int design_fab_shadow_end_color=0x7f0e0033;
+        public static final int design_fab_shadow_mid_color=0x7f0e0034;
+        public static final int design_fab_shadow_start_color=0x7f0e0035;
+        public static final int design_fab_stroke_end_inner_color=0x7f0e0036;
+        public static final int design_fab_stroke_end_outer_color=0x7f0e0037;
+        public static final int design_fab_stroke_top_inner_color=0x7f0e0038;
+        public static final int design_fab_stroke_top_outer_color=0x7f0e0039;
+        public static final int design_snackbar_background_color=0x7f0e003a;
+        public static final int design_textinput_error_color=0x7f0e003b;
+        public static final int dim_foreground_dark=0x7f0e003c;
+        public static final int dim_foreground_dark_disabled=0x7f0e003d;
+        public static final int dim_foreground_dark_inverse=0x7f0e003e;
+        public static final int dim_foreground_dark_inverse_disabled=0x7f0e003f;
+        public static final int dim_foreground_disabled_material_dark=0x7f0e0040;
+        public static final int dim_foreground_disabled_material_light=0x7f0e0041;
+        public static final int dim_foreground_material_dark=0x7f0e0042;
+        public static final int dim_foreground_material_light=0x7f0e0043;
+        public static final int foreground_material_dark=0x7f0e0044;
+        public static final int foreground_material_light=0x7f0e0045;
+        public static final int highlighted_text_material_dark=0x7f0e0046;
+        public static final int highlighted_text_material_light=0x7f0e0047;
+        public static final int hint_foreground_material_dark=0x7f0e0048;
+        public static final int hint_foreground_material_light=0x7f0e0049;
+        public static final int legacy_primary=0x7f0e004a;
+        public static final int legacy_primary_dark=0x7f0e004b;
+        public static final int material_blue_grey_800=0x7f0e004c;
+        public static final int material_blue_grey_900=0x7f0e004d;
+        public static final int material_blue_grey_950=0x7f0e004e;
+        public static final int material_deep_teal_200=0x7f0e004f;
+        public static final int material_deep_teal_500=0x7f0e0050;
+        public static final int material_grey_100=0x7f0e0051;
+        public static final int material_grey_300=0x7f0e0052;
+        public static final int material_grey_50=0x7f0e0053;
+        public static final int material_grey_600=0x7f0e0054;
+        public static final int material_grey_800=0x7f0e0055;
+        public static final int material_grey_850=0x7f0e0056;
+        public static final int material_grey_900=0x7f0e0057;
+        public static final int partly_cloudy=0x7f0e0058;
+        public static final int place_autocomplete_prediction_primary_text=0x7f0e0059;
+        public static final int place_autocomplete_prediction_primary_text_highlight=0x7f0e005a;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f0e005b;
+        public static final int place_autocomplete_search_hint=0x7f0e005c;
+        public static final int place_autocomplete_search_text=0x7f0e005d;
+        public static final int place_autocomplete_separator=0x7f0e005e;
+        public static final int primary_dark_material_dark=0x7f0e005f;
+        public static final int primary_dark_material_light=0x7f0e0060;
+        public static final int primary_material_dark=0x7f0e0061;
+        public static final int primary_material_light=0x7f0e0062;
+        public static final int primary_text_color=0x7f0e0063;
+        public static final int primary_text_default_material_dark=0x7f0e0064;
+        public static final int primary_text_default_material_light=0x7f0e0065;
+        public static final int primary_text_disabled_material_dark=0x7f0e0066;
+        public static final int primary_text_disabled_material_light=0x7f0e0067;
+        public static final int rain=0x7f0e0068;
+        public static final int ripple_material_dark=0x7f0e0069;
+        public static final int ripple_material_light=0x7f0e006a;
+        public static final int secondary_text_color=0x7f0e006b;
+        public static final int secondary_text_dark=0x7f0e0092;
+        public static final int secondary_text_default_material_dark=0x7f0e006c;
+        public static final int secondary_text_default_material_light=0x7f0e006d;
+        public static final int secondary_text_disabled_material_dark=0x7f0e006e;
+        public static final int secondary_text_disabled_material_light=0x7f0e006f;
+        public static final int settings_activity_action_bar_text_light=0x7f0e0070;
+        public static final int snow=0x7f0e0071;
+        public static final int switch_thumb_disabled_material_dark=0x7f0e0072;
+        public static final int switch_thumb_disabled_material_light=0x7f0e0073;
+        public static final int switch_thumb_material_dark=0x7f0e0093;
+        public static final int switch_thumb_material_light=0x7f0e0094;
+        public static final int switch_thumb_normal_material_dark=0x7f0e0074;
+        public static final int switch_thumb_normal_material_light=0x7f0e0075;
+        public static final int wallet_bright_foreground_disabled_holo_light=0x7f0e0076;
+        public static final int wallet_bright_foreground_holo_dark=0x7f0e0077;
+        public static final int wallet_bright_foreground_holo_light=0x7f0e0078;
+        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f0e0079;
+        public static final int wallet_dim_foreground_holo_dark=0x7f0e007a;
+        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f0e007b;
+        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f0e007c;
+        public static final int wallet_highlighted_text_holo_dark=0x7f0e007d;
+        public static final int wallet_highlighted_text_holo_light=0x7f0e007e;
+        public static final int wallet_hint_foreground_holo_dark=0x7f0e007f;
+        public static final int wallet_hint_foreground_holo_light=0x7f0e0080;
+        public static final int wallet_holo_blue_light=0x7f0e0081;
+        public static final int wallet_link_text_light=0x7f0e0082;
+        public static final int wallet_primary_text_holo_light=0x7f0e0095;
+        public static final int wallet_secondary_text_holo_dark=0x7f0e0096;
+        public static final int wind=0x7f0e0083;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f09000d;
-        public static final int abc_action_bar_default_height_material=0x7f090001;
-        public static final int abc_action_bar_default_padding_end_material=0x7f09000e;
-        public static final int abc_action_bar_default_padding_start_material=0x7f09000f;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f09001a;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f09001b;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f09001c;
-        public static final int abc_action_bar_progress_bar_size=0x7f090002;
-        public static final int abc_action_bar_stacked_max_height=0x7f09001d;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f09001e;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f09001f;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f090020;
-        public static final int abc_action_button_min_height_material=0x7f090021;
-        public static final int abc_action_button_min_width_material=0x7f090022;
-        public static final int abc_action_button_min_width_overflow_material=0x7f090023;
-        public static final int abc_alert_dialog_button_bar_height=0x7f090000;
-        public static final int abc_button_inset_horizontal_material=0x7f090024;
-        public static final int abc_button_inset_vertical_material=0x7f090025;
-        public static final int abc_button_padding_horizontal_material=0x7f090026;
-        public static final int abc_button_padding_vertical_material=0x7f090027;
-        public static final int abc_config_prefDialogWidth=0x7f090005;
-        public static final int abc_control_corner_material=0x7f090028;
-        public static final int abc_control_inset_material=0x7f090029;
-        public static final int abc_control_padding_material=0x7f09002a;
-        public static final int abc_dialog_fixed_height_major=0x7f090006;
-        public static final int abc_dialog_fixed_height_minor=0x7f090007;
-        public static final int abc_dialog_fixed_width_major=0x7f090008;
-        public static final int abc_dialog_fixed_width_minor=0x7f090009;
-        public static final int abc_dialog_list_padding_vertical_material=0x7f09002b;
-        public static final int abc_dialog_min_width_major=0x7f09000a;
-        public static final int abc_dialog_min_width_minor=0x7f09000b;
-        public static final int abc_dialog_padding_material=0x7f09002c;
-        public static final int abc_dialog_padding_top_material=0x7f09002d;
-        public static final int abc_disabled_alpha_material_dark=0x7f09002e;
-        public static final int abc_disabled_alpha_material_light=0x7f09002f;
-        public static final int abc_dropdownitem_icon_width=0x7f090030;
-        public static final int abc_dropdownitem_text_padding_left=0x7f090031;
-        public static final int abc_dropdownitem_text_padding_right=0x7f090032;
-        public static final int abc_edit_text_inset_bottom_material=0x7f090033;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f090034;
-        public static final int abc_edit_text_inset_top_material=0x7f090035;
-        public static final int abc_floating_window_z=0x7f090036;
-        public static final int abc_list_item_padding_horizontal_material=0x7f090037;
-        public static final int abc_panel_menu_list_width=0x7f090038;
-        public static final int abc_search_view_preferred_width=0x7f090039;
-        public static final int abc_search_view_text_min_width=0x7f09000c;
-        public static final int abc_seekbar_track_background_height_material=0x7f09003a;
-        public static final int abc_seekbar_track_progress_height_material=0x7f09003b;
-        public static final int abc_select_dialog_padding_start_material=0x7f09003c;
-        public static final int abc_switch_padding=0x7f090017;
-        public static final int abc_text_size_body_1_material=0x7f09003d;
-        public static final int abc_text_size_body_2_material=0x7f09003e;
-        public static final int abc_text_size_button_material=0x7f09003f;
-        public static final int abc_text_size_caption_material=0x7f090040;
-        public static final int abc_text_size_display_1_material=0x7f090041;
-        public static final int abc_text_size_display_2_material=0x7f090042;
-        public static final int abc_text_size_display_3_material=0x7f090043;
-        public static final int abc_text_size_display_4_material=0x7f090044;
-        public static final int abc_text_size_headline_material=0x7f090045;
-        public static final int abc_text_size_large_material=0x7f090046;
-        public static final int abc_text_size_medium_material=0x7f090047;
-        public static final int abc_text_size_menu_material=0x7f090048;
-        public static final int abc_text_size_small_material=0x7f090049;
-        public static final int abc_text_size_subhead_material=0x7f09004a;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f090003;
-        public static final int abc_text_size_title_material=0x7f09004b;
-        public static final int abc_text_size_title_material_toolbar=0x7f090004;
-        public static final int abs_text_size=0x7f09004c;
-        public static final int activity_horizontal_margin=0x7f090019;
-        public static final int activity_vertical_margin=0x7f09004d;
-        public static final int card_margin_sides=0x7f09004e;
-        public static final int cardview_compat_inset_shadow=0x7f09004f;
-        public static final int cardview_default_elevation=0x7f090050;
-        public static final int cardview_default_radius=0x7f090051;
-        public static final int design_appbar_elevation=0x7f090052;
-        public static final int design_fab_border_width=0x7f090053;
-        public static final int design_fab_content_size=0x7f090054;
-        public static final int design_fab_elevation=0x7f090055;
-        public static final int design_fab_size_mini=0x7f090056;
-        public static final int design_fab_size_normal=0x7f090057;
-        public static final int design_fab_translation_z_pressed=0x7f090058;
-        public static final int design_navigation_elevation=0x7f090059;
-        public static final int design_navigation_icon_padding=0x7f09005a;
-        public static final int design_navigation_icon_size=0x7f09005b;
-        public static final int design_navigation_max_width=0x7f09005c;
-        public static final int design_navigation_padding_bottom=0x7f09005d;
-        public static final int design_navigation_padding_top_default=0x7f090018;
-        public static final int design_navigation_separator_vertical_padding=0x7f09005e;
-        public static final int design_snackbar_action_inline_max_width=0x7f090010;
-        public static final int design_snackbar_background_corner_radius=0x7f090011;
-        public static final int design_snackbar_elevation=0x7f09005f;
-        public static final int design_snackbar_extra_spacing_horizontal=0x7f090012;
-        public static final int design_snackbar_max_width=0x7f090013;
-        public static final int design_snackbar_min_width=0x7f090014;
-        public static final int design_snackbar_padding_horizontal=0x7f090060;
-        public static final int design_snackbar_padding_vertical=0x7f090061;
-        public static final int design_snackbar_padding_vertical_2lines=0x7f090015;
-        public static final int design_snackbar_text_size=0x7f090062;
-        public static final int design_tab_max_width=0x7f090063;
-        public static final int design_tab_scrollable_min_width=0x7f090016;
-        public static final int design_tab_text_size=0x7f090064;
-        public static final int design_tab_text_size_2line=0x7f090065;
-        public static final int disabled_alpha_material_dark=0x7f090066;
-        public static final int disabled_alpha_material_light=0x7f090067;
-        public static final int fab_margin=0x7f090068;
-        public static final int highlight_alpha_material_colored=0x7f090069;
-        public static final int highlight_alpha_material_dark=0x7f09006a;
-        public static final int highlight_alpha_material_light=0x7f09006b;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f09006c;
-        public static final int notification_large_icon_height=0x7f09006d;
-        public static final int notification_large_icon_width=0x7f09006e;
-        public static final int notification_subtext_size=0x7f09006f;
-        public static final int preference_category_margin_vertical_sides=0x7f090070;
+        public static final int abc_action_bar_content_inset_material=0x7f0a000d;
+        public static final int abc_action_bar_default_height_material=0x7f0a0001;
+        public static final int abc_action_bar_default_padding_end_material=0x7f0a000e;
+        public static final int abc_action_bar_default_padding_start_material=0x7f0a000f;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f0a001b;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f0a001c;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f0a001d;
+        public static final int abc_action_bar_progress_bar_size=0x7f0a0002;
+        public static final int abc_action_bar_stacked_max_height=0x7f0a001e;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f0a001f;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f0a0020;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f0a0021;
+        public static final int abc_action_button_min_height_material=0x7f0a0022;
+        public static final int abc_action_button_min_width_material=0x7f0a0023;
+        public static final int abc_action_button_min_width_overflow_material=0x7f0a0024;
+        public static final int abc_alert_dialog_button_bar_height=0x7f0a0000;
+        public static final int abc_button_inset_horizontal_material=0x7f0a0025;
+        public static final int abc_button_inset_vertical_material=0x7f0a0026;
+        public static final int abc_button_padding_horizontal_material=0x7f0a0027;
+        public static final int abc_button_padding_vertical_material=0x7f0a0028;
+        public static final int abc_config_prefDialogWidth=0x7f0a0005;
+        public static final int abc_control_corner_material=0x7f0a0029;
+        public static final int abc_control_inset_material=0x7f0a002a;
+        public static final int abc_control_padding_material=0x7f0a002b;
+        public static final int abc_dialog_fixed_height_major=0x7f0a0006;
+        public static final int abc_dialog_fixed_height_minor=0x7f0a0007;
+        public static final int abc_dialog_fixed_width_major=0x7f0a0008;
+        public static final int abc_dialog_fixed_width_minor=0x7f0a0009;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f0a002c;
+        public static final int abc_dialog_min_width_major=0x7f0a000a;
+        public static final int abc_dialog_min_width_minor=0x7f0a000b;
+        public static final int abc_dialog_padding_material=0x7f0a002d;
+        public static final int abc_dialog_padding_top_material=0x7f0a002e;
+        public static final int abc_disabled_alpha_material_dark=0x7f0a002f;
+        public static final int abc_disabled_alpha_material_light=0x7f0a0030;
+        public static final int abc_dropdownitem_icon_width=0x7f0a0031;
+        public static final int abc_dropdownitem_text_padding_left=0x7f0a0032;
+        public static final int abc_dropdownitem_text_padding_right=0x7f0a0033;
+        public static final int abc_edit_text_inset_bottom_material=0x7f0a0034;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f0a0035;
+        public static final int abc_edit_text_inset_top_material=0x7f0a0036;
+        public static final int abc_floating_window_z=0x7f0a0037;
+        public static final int abc_list_item_padding_horizontal_material=0x7f0a0038;
+        public static final int abc_panel_menu_list_width=0x7f0a0039;
+        public static final int abc_search_view_preferred_width=0x7f0a003a;
+        public static final int abc_search_view_text_min_width=0x7f0a000c;
+        public static final int abc_seekbar_track_background_height_material=0x7f0a003b;
+        public static final int abc_seekbar_track_progress_height_material=0x7f0a003c;
+        public static final int abc_select_dialog_padding_start_material=0x7f0a003d;
+        public static final int abc_switch_padding=0x7f0a0018;
+        public static final int abc_text_size_body_1_material=0x7f0a003e;
+        public static final int abc_text_size_body_2_material=0x7f0a003f;
+        public static final int abc_text_size_button_material=0x7f0a0040;
+        public static final int abc_text_size_caption_material=0x7f0a0041;
+        public static final int abc_text_size_display_1_material=0x7f0a0042;
+        public static final int abc_text_size_display_2_material=0x7f0a0043;
+        public static final int abc_text_size_display_3_material=0x7f0a0044;
+        public static final int abc_text_size_display_4_material=0x7f0a0045;
+        public static final int abc_text_size_headline_material=0x7f0a0046;
+        public static final int abc_text_size_large_material=0x7f0a0047;
+        public static final int abc_text_size_medium_material=0x7f0a0048;
+        public static final int abc_text_size_menu_material=0x7f0a0049;
+        public static final int abc_text_size_small_material=0x7f0a004a;
+        public static final int abc_text_size_subhead_material=0x7f0a004b;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f0a0003;
+        public static final int abc_text_size_title_material=0x7f0a004c;
+        public static final int abc_text_size_title_material_toolbar=0x7f0a0004;
+        public static final int abs_text_size=0x7f0a004d;
+        public static final int activity_horizontal_margin=0x7f0a001a;
+        public static final int activity_vertical_margin=0x7f0a004e;
+        public static final int card_margin_sides=0x7f0a004f;
+        public static final int cardview_compat_inset_shadow=0x7f0a0050;
+        public static final int cardview_default_elevation=0x7f0a0051;
+        public static final int cardview_default_radius=0x7f0a0052;
+        public static final int design_appbar_elevation=0x7f0a0053;
+        public static final int design_fab_border_width=0x7f0a0054;
+        public static final int design_fab_content_size=0x7f0a0055;
+        public static final int design_fab_elevation=0x7f0a0056;
+        public static final int design_fab_size_mini=0x7f0a0057;
+        public static final int design_fab_size_normal=0x7f0a0058;
+        public static final int design_fab_translation_z_pressed=0x7f0a0059;
+        public static final int design_navigation_elevation=0x7f0a005a;
+        public static final int design_navigation_icon_padding=0x7f0a005b;
+        public static final int design_navigation_icon_size=0x7f0a005c;
+        public static final int design_navigation_max_width=0x7f0a005d;
+        public static final int design_navigation_padding_bottom=0x7f0a005e;
+        public static final int design_navigation_padding_top_default=0x7f0a0019;
+        public static final int design_navigation_separator_vertical_padding=0x7f0a005f;
+        public static final int design_snackbar_action_inline_max_width=0x7f0a0010;
+        public static final int design_snackbar_background_corner_radius=0x7f0a0011;
+        public static final int design_snackbar_elevation=0x7f0a0060;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f0a0012;
+        public static final int design_snackbar_max_width=0x7f0a0013;
+        public static final int design_snackbar_min_width=0x7f0a0014;
+        public static final int design_snackbar_padding_horizontal=0x7f0a0061;
+        public static final int design_snackbar_padding_vertical=0x7f0a0062;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f0a0015;
+        public static final int design_snackbar_text_size=0x7f0a0063;
+        public static final int design_tab_max_width=0x7f0a0064;
+        public static final int design_tab_scrollable_min_width=0x7f0a0016;
+        public static final int design_tab_text_size=0x7f0a0065;
+        public static final int design_tab_text_size_2line=0x7f0a0066;
+        public static final int disabled_alpha_material_dark=0x7f0a0067;
+        public static final int disabled_alpha_material_light=0x7f0a0068;
+        public static final int fab_margin=0x7f0a0069;
+        public static final int highlight_alpha_material_colored=0x7f0a006a;
+        public static final int highlight_alpha_material_dark=0x7f0a006b;
+        public static final int highlight_alpha_material_light=0x7f0a006c;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f0a006d;
+        public static final int mr_media_route_controller_art_max_height=0x7f0a0017;
+        public static final int notification_large_icon_height=0x7f0a006e;
+        public static final int notification_large_icon_width=0x7f0a006f;
+        public static final int notification_subtext_size=0x7f0a0070;
+        public static final int place_autocomplete_button_padding=0x7f0a0071;
+        public static final int place_autocomplete_powered_by_google_height=0x7f0a0072;
+        public static final int place_autocomplete_powered_by_google_start=0x7f0a0073;
+        public static final int place_autocomplete_prediction_height=0x7f0a0074;
+        public static final int place_autocomplete_prediction_horizontal_margin=0x7f0a0075;
+        public static final int place_autocomplete_prediction_primary_text=0x7f0a0076;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f0a0077;
+        public static final int place_autocomplete_progress_horizontal_margin=0x7f0a0078;
+        public static final int place_autocomplete_progress_size=0x7f0a0079;
+        public static final int place_autocomplete_separator_start=0x7f0a007a;
+        public static final int preference_category_margin_vertical_sides=0x7f0a007b;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2509,195 +2954,342 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
         public static final int abc_textfield_search_material=0x7f020044;
-        public static final int clear_day=0x7f020045;
-        public static final int clear_night=0x7f020046;
-        public static final int cloudy=0x7f020047;
-        public static final int cloudy_night=0x7f020048;
-        public static final int common_full_open_on_phone=0x7f020049;
-        public static final int common_ic_googleplayservices=0x7f02004a;
-        public static final int design_fab_background=0x7f02004b;
-        public static final int design_snackbar_background=0x7f02004c;
-        public static final int fog=0x7f02004d;
-        public static final int ic_action_bar_back_arrow=0x7f02004e;
-        public static final int ic_info_black_24dp=0x7f02004f;
-        public static final int ic_notifications_black_24dp=0x7f020050;
-        public static final int ic_ruler=0x7f020051;
-        public static final int ic_settings_button=0x7f020052;
-        public static final int ic_settings_button_white=0x7f020053;
-        public static final int ic_sync_black_24dp=0x7f020054;
-        public static final int mpl__action_bar_shadow=0x7f020055;
-        public static final int notification_template_icon_bg=0x7f02005e;
-        public static final int partly_cloudy=0x7f020056;
-        public static final int progress_drawable=0x7f020057;
-        public static final int rain=0x7f020058;
-        public static final int refresh=0x7f020059;
-        public static final int sleet=0x7f02005a;
-        public static final int snow=0x7f02005b;
-        public static final int sunny=0x7f02005c;
-        public static final int wind=0x7f02005d;
+        public static final int cast_ic_notification_0=0x7f020045;
+        public static final int cast_ic_notification_1=0x7f020046;
+        public static final int cast_ic_notification_2=0x7f020047;
+        public static final int cast_ic_notification_connecting=0x7f020048;
+        public static final int cast_ic_notification_on=0x7f020049;
+        public static final int clear_day=0x7f02004a;
+        public static final int clear_night=0x7f02004b;
+        public static final int cloudy=0x7f02004c;
+        public static final int cloudy_night=0x7f02004d;
+        public static final int common_full_open_on_phone=0x7f02004e;
+        public static final int common_google_signin_btn_icon_dark=0x7f02004f;
+        public static final int common_google_signin_btn_icon_dark_disabled=0x7f020050;
+        public static final int common_google_signin_btn_icon_dark_focused=0x7f020051;
+        public static final int common_google_signin_btn_icon_dark_normal=0x7f020052;
+        public static final int common_google_signin_btn_icon_dark_pressed=0x7f020053;
+        public static final int common_google_signin_btn_icon_light=0x7f020054;
+        public static final int common_google_signin_btn_icon_light_disabled=0x7f020055;
+        public static final int common_google_signin_btn_icon_light_focused=0x7f020056;
+        public static final int common_google_signin_btn_icon_light_normal=0x7f020057;
+        public static final int common_google_signin_btn_icon_light_pressed=0x7f020058;
+        public static final int common_google_signin_btn_text_dark=0x7f020059;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f02005a;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f02005b;
+        public static final int common_google_signin_btn_text_dark_normal=0x7f02005c;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f02005d;
+        public static final int common_google_signin_btn_text_light=0x7f02005e;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f02005f;
+        public static final int common_google_signin_btn_text_light_focused=0x7f020060;
+        public static final int common_google_signin_btn_text_light_normal=0x7f020061;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f020062;
+        public static final int common_ic_googleplayservices=0x7f020063;
+        public static final int common_plus_signin_btn_icon_dark=0x7f020064;
+        public static final int common_plus_signin_btn_icon_dark_disabled=0x7f020065;
+        public static final int common_plus_signin_btn_icon_dark_focused=0x7f020066;
+        public static final int common_plus_signin_btn_icon_dark_normal=0x7f020067;
+        public static final int common_plus_signin_btn_icon_dark_pressed=0x7f020068;
+        public static final int common_plus_signin_btn_icon_light=0x7f020069;
+        public static final int common_plus_signin_btn_icon_light_disabled=0x7f02006a;
+        public static final int common_plus_signin_btn_icon_light_focused=0x7f02006b;
+        public static final int common_plus_signin_btn_icon_light_normal=0x7f02006c;
+        public static final int common_plus_signin_btn_icon_light_pressed=0x7f02006d;
+        public static final int common_plus_signin_btn_text_dark=0x7f02006e;
+        public static final int common_plus_signin_btn_text_dark_disabled=0x7f02006f;
+        public static final int common_plus_signin_btn_text_dark_focused=0x7f020070;
+        public static final int common_plus_signin_btn_text_dark_normal=0x7f020071;
+        public static final int common_plus_signin_btn_text_dark_pressed=0x7f020072;
+        public static final int common_plus_signin_btn_text_light=0x7f020073;
+        public static final int common_plus_signin_btn_text_light_disabled=0x7f020074;
+        public static final int common_plus_signin_btn_text_light_focused=0x7f020075;
+        public static final int common_plus_signin_btn_text_light_normal=0x7f020076;
+        public static final int common_plus_signin_btn_text_light_pressed=0x7f020077;
+        public static final int design_fab_background=0x7f020078;
+        public static final int design_snackbar_background=0x7f020079;
+        public static final int fog=0x7f02007a;
+        public static final int ic_action_bar_back_arrow=0x7f02007b;
+        public static final int ic_cast_dark=0x7f02007c;
+        public static final int ic_cast_disabled_light=0x7f02007d;
+        public static final int ic_cast_light=0x7f02007e;
+        public static final int ic_cast_off_light=0x7f02007f;
+        public static final int ic_cast_on_0_light=0x7f020080;
+        public static final int ic_cast_on_1_light=0x7f020081;
+        public static final int ic_cast_on_2_light=0x7f020082;
+        public static final int ic_cast_on_light=0x7f020083;
+        public static final int ic_info_black_24dp=0x7f020084;
+        public static final int ic_media_pause=0x7f020085;
+        public static final int ic_media_play=0x7f020086;
+        public static final int ic_media_route_disabled_mono_dark=0x7f020087;
+        public static final int ic_media_route_off_mono_dark=0x7f020088;
+        public static final int ic_media_route_on_0_mono_dark=0x7f020089;
+        public static final int ic_media_route_on_1_mono_dark=0x7f02008a;
+        public static final int ic_media_route_on_2_mono_dark=0x7f02008b;
+        public static final int ic_media_route_on_mono_dark=0x7f02008c;
+        public static final int ic_menu_white_48dp=0x7f02008d;
+        public static final int ic_notifications_black_24dp=0x7f02008e;
+        public static final int ic_pause_dark=0x7f02008f;
+        public static final int ic_pause_light=0x7f020090;
+        public static final int ic_play_dark=0x7f020091;
+        public static final int ic_play_light=0x7f020092;
+        public static final int ic_plusone_medium_off_client=0x7f020093;
+        public static final int ic_plusone_small_off_client=0x7f020094;
+        public static final int ic_plusone_standard_off_client=0x7f020095;
+        public static final int ic_plusone_tall_off_client=0x7f020096;
+        public static final int ic_ruler=0x7f020097;
+        public static final int ic_setting_dark=0x7f020098;
+        public static final int ic_setting_light=0x7f020099;
+        public static final int ic_settings_button=0x7f02009a;
+        public static final int ic_settings_button_white=0x7f02009b;
+        public static final int ic_sync_black_24dp=0x7f02009c;
+        public static final int mpl__action_bar_shadow=0x7f02009d;
+        public static final int mr_ic_cast_dark=0x7f02009e;
+        public static final int mr_ic_cast_light=0x7f02009f;
+        public static final int mr_ic_media_route_connecting_mono_dark=0x7f0200a0;
+        public static final int mr_ic_media_route_connecting_mono_light=0x7f0200a1;
+        public static final int mr_ic_media_route_mono_dark=0x7f0200a2;
+        public static final int mr_ic_media_route_mono_light=0x7f0200a3;
+        public static final int mr_ic_pause_dark=0x7f0200a4;
+        public static final int mr_ic_pause_light=0x7f0200a5;
+        public static final int mr_ic_play_dark=0x7f0200a6;
+        public static final int mr_ic_play_light=0x7f0200a7;
+        public static final int mr_ic_settings_dark=0x7f0200a8;
+        public static final int mr_ic_settings_light=0x7f0200a9;
+        public static final int notification_template_icon_bg=0x7f0200b6;
+        public static final int partly_cloudy=0x7f0200aa;
+        public static final int places_ic_clear=0x7f0200ab;
+        public static final int places_ic_search=0x7f0200ac;
+        public static final int powered_by_google_dark=0x7f0200ad;
+        public static final int powered_by_google_light=0x7f0200ae;
+        public static final int progress_drawable=0x7f0200af;
+        public static final int rain=0x7f0200b0;
+        public static final int refresh=0x7f0200b1;
+        public static final int sleet=0x7f0200b2;
+        public static final int snow=0x7f0200b3;
+        public static final int sunny=0x7f0200b4;
+        public static final int wind=0x7f0200b5;
     }
     public static final class id {
-        public static final int abp__shadowView=0x7f0e0088;
-        public static final int abp__toolbar=0x7f0e0087;
-        public static final int action0=0x7f0e0089;
-        public static final int action_bar=0x7f0e005c;
-        public static final int action_bar_activity_content=0x7f0e0000;
-        public static final int action_bar_container=0x7f0e005b;
-        public static final int action_bar_root=0x7f0e0057;
-        public static final int action_bar_spinner=0x7f0e0001;
-        public static final int action_bar_subtitle=0x7f0e003d;
-        public static final int action_bar_title=0x7f0e003c;
-        public static final int action_context_bar=0x7f0e005d;
-        public static final int action_divider=0x7f0e008d;
-        public static final int action_menu_divider=0x7f0e0002;
-        public static final int action_menu_presenter=0x7f0e0003;
-        public static final int action_mode_bar=0x7f0e0059;
-        public static final int action_mode_bar_stub=0x7f0e0058;
-        public static final int action_mode_close_button=0x7f0e003e;
-        public static final int action_settings=0x7f0e0097;
-        public static final int activity_chooser_view_content=0x7f0e003f;
-        public static final int adjust_height=0x7f0e0032;
-        public static final int adjust_width=0x7f0e0033;
-        public static final int alertTitle=0x7f0e004b;
-        public static final int always=0x7f0e0034;
-        public static final int auto_sync_off_warning_card=0x7f0e007b;
-        public static final int auto_sync_off_warning_textview=0x7f0e007c;
-        public static final int beginning=0x7f0e0030;
-        public static final int bottom=0x7f0e001c;
-        public static final int buttonPanel=0x7f0e0046;
-        public static final int cancel_action=0x7f0e008a;
-        public static final int center=0x7f0e001d;
-        public static final int center_horizontal=0x7f0e001e;
-        public static final int center_vertical=0x7f0e001f;
-        public static final int checkbox=0x7f0e0054;
-        public static final int chronometer=0x7f0e0090;
-        public static final int clip_horizontal=0x7f0e002b;
-        public static final int clip_vertical=0x7f0e002c;
-        public static final int collapseActionView=0x7f0e0035;
-        public static final int contentPanel=0x7f0e004c;
-        public static final int currentWeatherLayout=0x7f0e0071;
-        public static final int current_weather_toolbar=0x7f0e006f;
-        public static final int custom=0x7f0e0052;
-        public static final int customPanel=0x7f0e0051;
-        public static final int decor_content_parent=0x7f0e005a;
-        public static final int default_activity_button=0x7f0e0042;
-        public static final int degreesImageView=0x7f0e0075;
-        public static final int design_menu_item_action_area=0x7f0e0083;
-        public static final int design_menu_item_action_area_stub=0x7f0e0082;
-        public static final int design_menu_item_text=0x7f0e0081;
-        public static final int design_navigation_view=0x7f0e0080;
-        public static final int disableHome=0x7f0e000e;
-        public static final int drawer_layout=0x7f0e006b;
-        public static final int edit_query=0x7f0e005e;
-        public static final int edittext_container=0x7f0e0084;
-        public static final int end=0x7f0e0020;
-        public static final int end_padder=0x7f0e0095;
-        public static final int enterAlways=0x7f0e0015;
-        public static final int enterAlwaysCollapsed=0x7f0e0016;
-        public static final int exitUntilCollapsed=0x7f0e0017;
-        public static final int expand_activities_button=0x7f0e0040;
-        public static final int expanded_menu=0x7f0e0053;
-        public static final int fill=0x7f0e002d;
-        public static final int fill_horizontal=0x7f0e002e;
-        public static final int fill_vertical=0x7f0e0021;
-        public static final int fixed=0x7f0e0039;
-        public static final int home=0x7f0e0004;
-        public static final int homeAsUp=0x7f0e000f;
-        public static final int icon=0x7f0e0044;
-        public static final int iconImageView=0x7f0e0078;
-        public static final int icon_frame=0x7f0e0086;
-        public static final int ifRoom=0x7f0e0036;
-        public static final int image=0x7f0e0041;
-        public static final int info=0x7f0e0094;
-        public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int left=0x7f0e0022;
-        public static final int line1=0x7f0e008e;
-        public static final int line3=0x7f0e0092;
-        public static final int listMode=0x7f0e000b;
-        public static final int list_item=0x7f0e0043;
-        public static final int locationTextView=0x7f0e0076;
-        public static final int mActivityTitle=0x7f0e0070;
-        public static final int media_actions=0x7f0e008c;
-        public static final int message=0x7f0e0085;
-        public static final int middle=0x7f0e0031;
-        public static final int mini=0x7f0e002f;
-        public static final int multiply=0x7f0e0026;
-        public static final int navList=0x7f0e006c;
-        public static final int navigation_header_container=0x7f0e007f;
-        public static final int never=0x7f0e0037;
-        public static final int none=0x7f0e0010;
-        public static final int normal=0x7f0e000c;
-        public static final int parallax=0x7f0e001a;
-        public static final int parentPanel=0x7f0e0048;
-        public static final int pin=0x7f0e001b;
-        public static final int progress_circular=0x7f0e0006;
-        public static final int progress_horizontal=0x7f0e0007;
-        public static final int radio=0x7f0e0056;
-        public static final int refreshFab=0x7f0e006d;
-        public static final int refreshProgress=0x7f0e007a;
-        public static final int right=0x7f0e0023;
-        public static final int screen=0x7f0e0027;
-        public static final int scroll=0x7f0e0018;
-        public static final int scrollIndicatorDown=0x7f0e0050;
-        public static final int scrollIndicatorUp=0x7f0e004d;
-        public static final int scrollView=0x7f0e004e;
-        public static final int scrollable=0x7f0e003a;
-        public static final int search_badge=0x7f0e0060;
-        public static final int search_bar=0x7f0e005f;
-        public static final int search_button=0x7f0e0061;
-        public static final int search_close_btn=0x7f0e0066;
-        public static final int search_edit_frame=0x7f0e0062;
-        public static final int search_go_btn=0x7f0e0068;
-        public static final int search_mag_icon=0x7f0e0063;
-        public static final int search_plate=0x7f0e0064;
-        public static final int search_src_text=0x7f0e0065;
-        public static final int search_voice_btn=0x7f0e0069;
-        public static final int select_dialog_listview=0x7f0e006a;
-        public static final int settings_fragment_container=0x7f0e006e;
-        public static final int settings_toolbar=0x7f0e0096;
-        public static final int shortcut=0x7f0e0055;
-        public static final int showCustom=0x7f0e0011;
-        public static final int showHome=0x7f0e0012;
-        public static final int showTitle=0x7f0e0013;
-        public static final int snackbar_action=0x7f0e007e;
-        public static final int snackbar_text=0x7f0e007d;
-        public static final int snap=0x7f0e0019;
-        public static final int spacer=0x7f0e0047;
-        public static final int split_action_bar=0x7f0e0008;
-        public static final int src_atop=0x7f0e0028;
-        public static final int src_in=0x7f0e0029;
-        public static final int src_over=0x7f0e002a;
-        public static final int start=0x7f0e0024;
-        public static final int status_bar_latest_event_content=0x7f0e008b;
-        public static final int submit_area=0x7f0e0067;
-        public static final int summaryTextView=0x7f0e0079;
-        public static final int summary_card_view=0x7f0e0077;
-        public static final int tabMode=0x7f0e000d;
-        public static final int temperatureTextView=0x7f0e0073;
-        public static final int temperature_card_view=0x7f0e0072;
-        public static final int text=0x7f0e0093;
-        public static final int text2=0x7f0e0091;
-        public static final int textSpacerNoButtons=0x7f0e004f;
-        public static final int time=0x7f0e008f;
-        public static final int timeTextView=0x7f0e0074;
-        public static final int title=0x7f0e0045;
-        public static final int title_template=0x7f0e004a;
-        public static final int top=0x7f0e0025;
-        public static final int topPanel=0x7f0e0049;
-        public static final int up=0x7f0e0009;
-        public static final int useLogo=0x7f0e0014;
-        public static final int view_offset_helper=0x7f0e000a;
-        public static final int withText=0x7f0e0038;
-        public static final int wrap_content=0x7f0e003b;
+        public static final int abp__shadowView=0x7f0f00ad;
+        public static final int abp__toolbar=0x7f0f00ac;
+        public static final int action0=0x7f0f00bc;
+        public static final int action_bar=0x7f0f0081;
+        public static final int action_bar_activity_content=0x7f0f0000;
+        public static final int action_bar_container=0x7f0f0080;
+        public static final int action_bar_root=0x7f0f007c;
+        public static final int action_bar_spinner=0x7f0f0001;
+        public static final int action_bar_subtitle=0x7f0f0062;
+        public static final int action_bar_title=0x7f0f0061;
+        public static final int action_context_bar=0x7f0f0082;
+        public static final int action_divider=0x7f0f00c0;
+        public static final int action_menu_divider=0x7f0f0002;
+        public static final int action_menu_presenter=0x7f0f0003;
+        public static final int action_mode_bar=0x7f0f007e;
+        public static final int action_mode_bar_stub=0x7f0f007d;
+        public static final int action_mode_close_button=0x7f0f0063;
+        public static final int action_settings=0x7f0f00d2;
+        public static final int activity_chooser_view_content=0x7f0f0064;
+        public static final int adjust_height=0x7f0f0034;
+        public static final int adjust_width=0x7f0f0035;
+        public static final int alertTitle=0x7f0f0070;
+        public static final int always=0x7f0f0039;
+        public static final int android_pay=0x7f0f0060;
+        public static final int android_pay_dark=0x7f0f0057;
+        public static final int android_pay_light=0x7f0f0058;
+        public static final int android_pay_light_with_border=0x7f0f0059;
+        public static final int art=0x7f0f00b4;
+        public static final int auto=0x7f0f0041;
+        public static final int auto_sync_off_warning_card=0x7f0f00a0;
+        public static final int auto_sync_off_warning_textview=0x7f0f00a1;
+        public static final int beginning=0x7f0f0032;
+        public static final int book_now=0x7f0f0050;
+        public static final int bottom=0x7f0f001d;
+        public static final int buttonPanel=0x7f0f006b;
+        public static final int buttons=0x7f0f00b9;
+        public static final int buyButton=0x7f0f004d;
+        public static final int buy_now=0x7f0f0051;
+        public static final int buy_with=0x7f0f0052;
+        public static final int buy_with_google=0x7f0f0053;
+        public static final int cancel_action=0x7f0f00bd;
+        public static final int cast_notification_id=0x7f0f0004;
+        public static final int center=0x7f0f001e;
+        public static final int center_horizontal=0x7f0f001f;
+        public static final int center_vertical=0x7f0f0020;
+        public static final int checkbox=0x7f0f0079;
+        public static final int chronometer=0x7f0f00c3;
+        public static final int classic=0x7f0f005a;
+        public static final int clip_horizontal=0x7f0f002c;
+        public static final int clip_vertical=0x7f0f002d;
+        public static final int collapseActionView=0x7f0f003a;
+        public static final int contentPanel=0x7f0f0071;
+        public static final int currentWeatherLayout=0x7f0f0096;
+        public static final int current_weather_toolbar=0x7f0f0094;
+        public static final int custom=0x7f0f0077;
+        public static final int customPanel=0x7f0f0076;
+        public static final int dark=0x7f0f0042;
+        public static final int decor_content_parent=0x7f0f007f;
+        public static final int default_activity_button=0x7f0f0067;
+        public static final int default_control_frame=0x7f0f00b3;
+        public static final int degreesImageView=0x7f0f009a;
+        public static final int design_menu_item_action_area=0x7f0f00a8;
+        public static final int design_menu_item_action_area_stub=0x7f0f00a7;
+        public static final int design_menu_item_text=0x7f0f00a6;
+        public static final int design_navigation_view=0x7f0f00a5;
+        public static final int disableHome=0x7f0f000f;
+        public static final int disconnect=0x7f0f00ba;
+        public static final int donate_with=0x7f0f0054;
+        public static final int donate_with_google=0x7f0f0055;
+        public static final int drawer_layout=0x7f0f0090;
+        public static final int edit_query=0x7f0f0083;
+        public static final int edittext_container=0x7f0f00a9;
+        public static final int end=0x7f0f0021;
+        public static final int end_padder=0x7f0f00c8;
+        public static final int enterAlways=0x7f0f0016;
+        public static final int enterAlwaysCollapsed=0x7f0f0017;
+        public static final int exitUntilCollapsed=0x7f0f0018;
+        public static final int expand_activities_button=0x7f0f0065;
+        public static final int expanded_menu=0x7f0f0078;
+        public static final int fill=0x7f0f002e;
+        public static final int fill_horizontal=0x7f0f002f;
+        public static final int fill_vertical=0x7f0f0022;
+        public static final int fixed=0x7f0f0044;
+        public static final int google_wallet_classic=0x7f0f005b;
+        public static final int google_wallet_grayscale=0x7f0f005c;
+        public static final int google_wallet_monochrome=0x7f0f005d;
+        public static final int grayscale=0x7f0f005e;
+        public static final int holo_dark=0x7f0f0047;
+        public static final int holo_light=0x7f0f0048;
+        public static final int home=0x7f0f0005;
+        public static final int homeAsUp=0x7f0f0010;
+        public static final int hybrid=0x7f0f0036;
+        public static final int icon=0x7f0f0069;
+        public static final int iconImageView=0x7f0f009d;
+        public static final int icon_frame=0x7f0f00ab;
+        public static final int icon_only=0x7f0f003e;
+        public static final int ifRoom=0x7f0f003b;
+        public static final int image=0x7f0f0066;
+        public static final int info=0x7f0f00c7;
+        public static final int item_touch_helper_previous_elevation=0x7f0f0006;
+        public static final int left=0x7f0f0023;
+        public static final int light=0x7f0f0043;
+        public static final int line1=0x7f0f00c1;
+        public static final int line3=0x7f0f00c5;
+        public static final int listMode=0x7f0f000c;
+        public static final int list_item=0x7f0f0068;
+        public static final int locationTextView=0x7f0f009b;
+        public static final int logo_only=0x7f0f0056;
+        public static final int mActivityTitle=0x7f0f0095;
+        public static final int match_parent=0x7f0f004f;
+        public static final int media_actions=0x7f0f00bf;
+        public static final int media_route_control_frame=0x7f0f00b2;
+        public static final int media_route_list=0x7f0f00ae;
+        public static final int media_route_volume_layout=0x7f0f00b7;
+        public static final int media_route_volume_slider=0x7f0f00b8;
+        public static final int message=0x7f0f00aa;
+        public static final int middle=0x7f0f0033;
+        public static final int mini=0x7f0f0031;
+        public static final int monochrome=0x7f0f005f;
+        public static final int multiply=0x7f0f0027;
+        public static final int navList=0x7f0f0091;
+        public static final int navigation_header_container=0x7f0f00a4;
+        public static final int never=0x7f0f003c;
+        public static final int none=0x7f0f0011;
+        public static final int normal=0x7f0f000d;
+        public static final int parallax=0x7f0f001b;
+        public static final int parentPanel=0x7f0f006d;
+        public static final int pin=0x7f0f001c;
+        public static final int place_autocomplete_clear_button=0x7f0f00cb;
+        public static final int place_autocomplete_powered_by_google=0x7f0f00cd;
+        public static final int place_autocomplete_prediction_primary_text=0x7f0f00cf;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f0f00d0;
+        public static final int place_autocomplete_progress=0x7f0f00ce;
+        public static final int place_autocomplete_search_button=0x7f0f00c9;
+        public static final int place_autocomplete_search_input=0x7f0f00ca;
+        public static final int place_autocomplete_separator=0x7f0f00cc;
+        public static final int play_pause=0x7f0f00b5;
+        public static final int production=0x7f0f0049;
+        public static final int progress_circular=0x7f0f0007;
+        public static final int progress_horizontal=0x7f0f0008;
+        public static final int radio=0x7f0f007b;
+        public static final int refreshFab=0x7f0f0092;
+        public static final int refreshProgress=0x7f0f009f;
+        public static final int right=0x7f0f0024;
+        public static final int route_name=0x7f0f00b0;
+        public static final int sandbox=0x7f0f004a;
+        public static final int satellite=0x7f0f0037;
+        public static final int screen=0x7f0f0028;
+        public static final int scroll=0x7f0f0019;
+        public static final int scrollIndicatorDown=0x7f0f0075;
+        public static final int scrollIndicatorUp=0x7f0f0072;
+        public static final int scrollView=0x7f0f0073;
+        public static final int scrollable=0x7f0f0045;
+        public static final int search_badge=0x7f0f0085;
+        public static final int search_bar=0x7f0f0084;
+        public static final int search_button=0x7f0f0086;
+        public static final int search_close_btn=0x7f0f008b;
+        public static final int search_edit_frame=0x7f0f0087;
+        public static final int search_go_btn=0x7f0f008d;
+        public static final int search_mag_icon=0x7f0f0088;
+        public static final int search_plate=0x7f0f0089;
+        public static final int search_src_text=0x7f0f008a;
+        public static final int search_voice_btn=0x7f0f008e;
+        public static final int select_dialog_listview=0x7f0f008f;
+        public static final int selectionDetails=0x7f0f004e;
+        public static final int settings=0x7f0f00b1;
+        public static final int settings_fragment_container=0x7f0f0093;
+        public static final int settings_toolbar=0x7f0f00d1;
+        public static final int shortcut=0x7f0f007a;
+        public static final int showCustom=0x7f0f0012;
+        public static final int showHome=0x7f0f0013;
+        public static final int showTitle=0x7f0f0014;
+        public static final int slide=0x7f0f0030;
+        public static final int snackbar_action=0x7f0f00a3;
+        public static final int snackbar_text=0x7f0f00a2;
+        public static final int snap=0x7f0f001a;
+        public static final int spacer=0x7f0f006c;
+        public static final int split_action_bar=0x7f0f0009;
+        public static final int src_atop=0x7f0f0029;
+        public static final int src_in=0x7f0f002a;
+        public static final int src_over=0x7f0f002b;
+        public static final int standard=0x7f0f003f;
+        public static final int start=0x7f0f0025;
+        public static final int status_bar_latest_event_content=0x7f0f00be;
+        public static final int stop=0x7f0f00bb;
+        public static final int strict_sandbox=0x7f0f004b;
+        public static final int submit_area=0x7f0f008c;
+        public static final int subtitle=0x7f0f00b6;
+        public static final int summaryTextView=0x7f0f009e;
+        public static final int summary_card_view=0x7f0f009c;
+        public static final int tabMode=0x7f0f000e;
+        public static final int temperatureTextView=0x7f0f0098;
+        public static final int temperature_card_view=0x7f0f0097;
+        public static final int terrain=0x7f0f0038;
+        public static final int test=0x7f0f004c;
+        public static final int text=0x7f0f00c6;
+        public static final int text2=0x7f0f00c4;
+        public static final int textSpacerNoButtons=0x7f0f0074;
+        public static final int time=0x7f0f00c2;
+        public static final int timeTextView=0x7f0f0099;
+        public static final int title=0x7f0f006a;
+        public static final int title_bar=0x7f0f00af;
+        public static final int title_template=0x7f0f006f;
+        public static final int top=0x7f0f0026;
+        public static final int topPanel=0x7f0f006e;
+        public static final int up=0x7f0f000a;
+        public static final int useLogo=0x7f0f0015;
+        public static final int view_offset_helper=0x7f0f000b;
+        public static final int wide=0x7f0f0040;
+        public static final int withText=0x7f0f003d;
+        public static final int wrap_content=0x7f0f0046;
     }
     public static final class integer {
-        public static final int abc_config_activityDefaultDur=0x7f0b0002;
-        public static final int abc_config_activityShortDur=0x7f0b0003;
-        public static final int abc_max_action_buttons=0x7f0b0000;
-        public static final int cancel_button_image_alpha=0x7f0b0004;
-        public static final int design_snackbar_text_max_lines=0x7f0b0001;
-        public static final int google_play_services_version=0x7f0b0005;
-        public static final int status_bar_notification_info_maxnum=0x7f0b0006;
+        public static final int abc_config_activityDefaultDur=0x7f0c0002;
+        public static final int abc_config_activityShortDur=0x7f0c0003;
+        public static final int abc_max_action_buttons=0x7f0c0000;
+        public static final int cancel_button_image_alpha=0x7f0c0004;
+        public static final int design_snackbar_text_max_lines=0x7f0c0001;
+        public static final int google_play_services_version=0x7f0c0005;
+        public static final int status_bar_notification_info_maxnum=0x7f0c0006;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f040000;
@@ -2746,23 +3338,30 @@ containing a value of this type.
         public static final int mpl__preference_widget_checkbox=0x7f04002b;
         public static final int mpl__simple_list_item_single_choice=0x7f04002c;
         public static final int mpl__switch_preference=0x7f04002d;
-        public static final int notification_media_action=0x7f04002e;
-        public static final int notification_media_cancel_action=0x7f04002f;
-        public static final int notification_template_big_media=0x7f040030;
-        public static final int notification_template_big_media_narrow=0x7f040031;
-        public static final int notification_template_lines=0x7f040032;
-        public static final int notification_template_media=0x7f040033;
-        public static final int notification_template_part_chronometer=0x7f040034;
-        public static final int notification_template_part_time=0x7f040035;
-        public static final int preference_category=0x7f040036;
-        public static final int select_dialog_item_material=0x7f040037;
-        public static final int select_dialog_multichoice_material=0x7f040038;
-        public static final int select_dialog_singlechoice_material=0x7f040039;
-        public static final int settings_activity_action_bar=0x7f04003a;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003b;
+        public static final int mr_media_route_chooser_dialog=0x7f04002e;
+        public static final int mr_media_route_controller_material_dialog_b=0x7f04002f;
+        public static final int mr_media_route_list_item=0x7f040030;
+        public static final int notification_media_action=0x7f040031;
+        public static final int notification_media_cancel_action=0x7f040032;
+        public static final int notification_template_big_media=0x7f040033;
+        public static final int notification_template_big_media_narrow=0x7f040034;
+        public static final int notification_template_lines=0x7f040035;
+        public static final int notification_template_media=0x7f040036;
+        public static final int notification_template_part_chronometer=0x7f040037;
+        public static final int notification_template_part_time=0x7f040038;
+        public static final int place_autocomplete_fragment=0x7f040039;
+        public static final int place_autocomplete_item_powered_by_google=0x7f04003a;
+        public static final int place_autocomplete_item_prediction=0x7f04003b;
+        public static final int place_autocomplete_progress=0x7f04003c;
+        public static final int preference_category=0x7f04003d;
+        public static final int select_dialog_item_material=0x7f04003e;
+        public static final int select_dialog_multichoice_material=0x7f04003f;
+        public static final int select_dialog_singlechoice_material=0x7f040040;
+        public static final int settings_activity_action_bar=0x7f040041;
+        public static final int support_simple_spinner_dropdown_item=0x7f040042;
     }
     public static final class menu {
-        public static final int menu_main=0x7f0f0000;
+        public static final int menu_main=0x7f100000;
     }
     public static final class mipmap {
         public static final int clear_day=0x7f030000;
@@ -2780,446 +3379,482 @@ containing a value of this type.
         public static final int sunny=0x7f03000c;
         public static final int wind=0x7f03000d;
     }
+    public static final class raw {
+        public static final int gtm_analytics=0x7f070000;
+    }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f070000;
-        public static final int abc_action_bar_home_description_format=0x7f070001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f070002;
-        public static final int abc_action_bar_up_description=0x7f070003;
-        public static final int abc_action_menu_overflow_description=0x7f070004;
-        public static final int abc_action_mode_done=0x7f070005;
-        public static final int abc_activity_chooser_view_see_all=0x7f070006;
-        public static final int abc_activitychooserview_choose_application=0x7f070007;
-        public static final int abc_capital_off=0x7f070008;
-        public static final int abc_capital_on=0x7f070009;
-        public static final int abc_search_hint=0x7f07000a;
-        public static final int abc_searchview_description_clear=0x7f07000b;
-        public static final int abc_searchview_description_query=0x7f07000c;
-        public static final int abc_searchview_description_search=0x7f07000d;
-        public static final int abc_searchview_description_submit=0x7f07000e;
-        public static final int abc_searchview_description_voice=0x7f07000f;
-        public static final int abc_shareactionprovider_share_with=0x7f070010;
-        public static final int abc_shareactionprovider_share_with_application=0x7f070011;
-        public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action_settings=0x7f070032;
-        public static final int app_name=0x7f070033;
-        public static final int appbar_scrolling_view_behavior=0x7f070034;
-        public static final int auth_google_play_services_client_facebook_display_name=0x7f070035;
-        public static final int auth_google_play_services_client_google_display_name=0x7f070036;
-        public static final int auto_sync_four_hour_setting_summary=0x7f070037;
-        public static final int auto_sync_is_set_to_never=0x7f070038;
-        public static final int auto_sync_never_setting_summary=0x7f070039;
-        public static final int auto_sync_one_hour_setting_summary=0x7f07003a;
-        public static final int auto_sync_six_hour_setting_summary=0x7f07003b;
-        public static final int auto_sync_thirty_minute_setting_summary=0x7f07003c;
-        public static final int auto_sync_two_hour_setting_summary=0x7f07003d;
-        public static final int celsius_setting_summary=0x7f07003e;
-        public static final int character_counter_pattern=0x7f07003f;
-        public static final int common_android_wear_notification_needs_update_text=0x7f070013;
-        public static final int common_android_wear_update_text=0x7f070014;
-        public static final int common_android_wear_update_title=0x7f070015;
-        public static final int common_google_play_services_api_unavailable_text=0x7f070016;
-        public static final int common_google_play_services_enable_button=0x7f070017;
-        public static final int common_google_play_services_enable_text=0x7f070018;
-        public static final int common_google_play_services_enable_title=0x7f070019;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f07001a;
-        public static final int common_google_play_services_install_button=0x7f07001b;
-        public static final int common_google_play_services_install_text_phone=0x7f07001c;
-        public static final int common_google_play_services_install_text_tablet=0x7f07001d;
-        public static final int common_google_play_services_install_title=0x7f07001e;
-        public static final int common_google_play_services_invalid_account_text=0x7f07001f;
-        public static final int common_google_play_services_invalid_account_title=0x7f070020;
-        public static final int common_google_play_services_needs_enabling_title=0x7f070021;
-        public static final int common_google_play_services_network_error_text=0x7f070022;
-        public static final int common_google_play_services_network_error_title=0x7f070023;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f070024;
-        public static final int common_google_play_services_notification_ticker=0x7f070025;
-        public static final int common_google_play_services_sign_in_failed_text=0x7f070026;
-        public static final int common_google_play_services_sign_in_failed_title=0x7f070027;
-        public static final int common_google_play_services_unknown_issue=0x7f070028;
-        public static final int common_google_play_services_unsupported_text=0x7f070029;
-        public static final int common_google_play_services_unsupported_title=0x7f07002a;
-        public static final int common_google_play_services_update_button=0x7f07002b;
-        public static final int common_google_play_services_update_text=0x7f07002c;
-        public static final int common_google_play_services_update_title=0x7f07002d;
-        public static final int common_google_play_services_updating_text=0x7f07002e;
-        public static final int common_google_play_services_updating_title=0x7f07002f;
-        public static final int common_open_on_phone=0x7f070030;
-        public static final int current_weather_title=0x7f070040;
-        public static final int distance_kilometres_setting_summary=0x7f070041;
-        public static final int distance_miles_setting_summary=0x7f070042;
-        public static final int drawer_close=0x7f070043;
-        public static final int drawer_open=0x7f070044;
-        public static final int error_message=0x7f070045;
-        public static final int error_title=0x7f070046;
-        public static final int fahrenheit_setting_summary=0x7f070047;
-        public static final int kilometres_per_hour=0x7f070048;
-        public static final int menu_settings=0x7f070049;
-        public static final int meters_per_second=0x7f07004a;
-        public static final int miles_per_hour=0x7f07004b;
-        public static final int network_unavailable_message=0x7f07004c;
-        public static final int ok_button_text=0x7f07004d;
-        public static final int pref_auto_sync_interval_title=0x7f07004e;
-        public static final int pref_default_display_name=0x7f07004f;
-        public static final int pref_description_social_recommendations=0x7f070050;
-        public static final int pref_distance_measurement_title=0x7f070051;
-        public static final int pref_header_data_sync=0x7f070052;
-        public static final int pref_header_general=0x7f070053;
-        public static final int pref_header_notifications=0x7f070054;
-        public static final int pref_ringtone_silent=0x7f070055;
-        public static final int pref_temperature_measurement_title=0x7f070056;
-        public static final int pref_title_add_friends_to_messages=0x7f070057;
-        public static final int pref_title_display_name=0x7f070058;
-        public static final int pref_title_new_message_notifications=0x7f070059;
-        public static final int pref_title_ringtone=0x7f07005a;
-        public static final int pref_title_social_recommendations=0x7f07005b;
-        public static final int pref_title_sync_frequency=0x7f07005c;
-        public static final int pref_title_system_sync_settings=0x7f07005d;
-        public static final int pref_title_vibrate=0x7f07005e;
-        public static final int pref_wind_speed_measurement_title=0x7f07005f;
-        public static final int status_bar_notification_info_overflow=0x7f070031;
-        public static final int title_activity_settings=0x7f070060;
+        public static final int abc_action_bar_home_description=0x7f080000;
+        public static final int abc_action_bar_home_description_format=0x7f080001;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f080002;
+        public static final int abc_action_bar_up_description=0x7f080003;
+        public static final int abc_action_menu_overflow_description=0x7f080004;
+        public static final int abc_action_mode_done=0x7f080005;
+        public static final int abc_activity_chooser_view_see_all=0x7f080006;
+        public static final int abc_activitychooserview_choose_application=0x7f080007;
+        public static final int abc_capital_off=0x7f080008;
+        public static final int abc_capital_on=0x7f080009;
+        public static final int abc_search_hint=0x7f08000a;
+        public static final int abc_searchview_description_clear=0x7f08000b;
+        public static final int abc_searchview_description_query=0x7f08000c;
+        public static final int abc_searchview_description_search=0x7f08000d;
+        public static final int abc_searchview_description_submit=0x7f08000e;
+        public static final int abc_searchview_description_voice=0x7f08000f;
+        public static final int abc_shareactionprovider_share_with=0x7f080010;
+        public static final int abc_shareactionprovider_share_with_application=0x7f080011;
+        public static final int abc_toolbar_collapse_description=0x7f080012;
+        public static final int accept=0x7f08003f;
+        public static final int action_settings=0x7f080040;
+        public static final int app_name=0x7f080041;
+        public static final int appbar_scrolling_view_behavior=0x7f080042;
+        public static final int auth_google_play_services_client_facebook_display_name=0x7f080043;
+        public static final int auth_google_play_services_client_google_display_name=0x7f080044;
+        public static final int auto_sync_four_hour_setting_summary=0x7f080045;
+        public static final int auto_sync_is_set_to_never=0x7f080046;
+        public static final int auto_sync_never_setting_summary=0x7f080047;
+        public static final int auto_sync_one_hour_setting_summary=0x7f080048;
+        public static final int auto_sync_six_hour_setting_summary=0x7f080049;
+        public static final int auto_sync_thirty_minute_setting_summary=0x7f08004a;
+        public static final int auto_sync_two_hour_setting_summary=0x7f08004b;
+        public static final int cast_notification_connected_message=0x7f08004c;
+        public static final int cast_notification_connecting_message=0x7f08004d;
+        public static final int cast_notification_disconnect=0x7f08004e;
+        public static final int celsius_setting_summary=0x7f08004f;
+        public static final int character_counter_pattern=0x7f080050;
+        public static final int common_google_play_services_api_unavailable_text=0x7f080013;
+        public static final int common_google_play_services_enable_button=0x7f080014;
+        public static final int common_google_play_services_enable_text=0x7f080015;
+        public static final int common_google_play_services_enable_title=0x7f080016;
+        public static final int common_google_play_services_install_button=0x7f080017;
+        public static final int common_google_play_services_install_text_phone=0x7f080018;
+        public static final int common_google_play_services_install_text_tablet=0x7f080019;
+        public static final int common_google_play_services_install_title=0x7f08001a;
+        public static final int common_google_play_services_invalid_account_text=0x7f08001b;
+        public static final int common_google_play_services_invalid_account_title=0x7f08001c;
+        public static final int common_google_play_services_network_error_text=0x7f08001d;
+        public static final int common_google_play_services_network_error_title=0x7f08001e;
+        public static final int common_google_play_services_notification_ticker=0x7f08001f;
+        public static final int common_google_play_services_restricted_profile_text=0x7f080020;
+        public static final int common_google_play_services_restricted_profile_title=0x7f080021;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f080022;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f080023;
+        public static final int common_google_play_services_unknown_issue=0x7f080024;
+        public static final int common_google_play_services_unsupported_text=0x7f080025;
+        public static final int common_google_play_services_unsupported_title=0x7f080026;
+        public static final int common_google_play_services_update_button=0x7f080027;
+        public static final int common_google_play_services_update_text=0x7f080028;
+        public static final int common_google_play_services_update_title=0x7f080029;
+        public static final int common_google_play_services_updating_text=0x7f08002a;
+        public static final int common_google_play_services_updating_title=0x7f08002b;
+        public static final int common_google_play_services_wear_update_text=0x7f08002c;
+        public static final int common_open_on_phone=0x7f08002d;
+        public static final int common_signin_button_text=0x7f08002e;
+        public static final int common_signin_button_text_long=0x7f08002f;
+        public static final int create_calendar_message=0x7f080051;
+        public static final int create_calendar_title=0x7f080052;
+        public static final int current_weather_title=0x7f080053;
+        public static final int decline=0x7f080054;
+        public static final int distance_kilometres_setting_summary=0x7f080055;
+        public static final int distance_miles_setting_summary=0x7f080056;
+        public static final int drawer_close=0x7f080057;
+        public static final int drawer_open=0x7f080058;
+        public static final int error_message=0x7f080059;
+        public static final int error_title=0x7f08005a;
+        public static final int fahrenheit_setting_summary=0x7f08005b;
+        public static final int kilometres_per_hour=0x7f08005c;
+        public static final int menu_settings=0x7f08005d;
+        public static final int meters_per_second=0x7f08005e;
+        public static final int miles_per_hour=0x7f08005f;
+        public static final int mr_media_route_button_content_description=0x7f080030;
+        public static final int mr_media_route_chooser_searching=0x7f080031;
+        public static final int mr_media_route_chooser_title=0x7f080032;
+        public static final int mr_media_route_controller_disconnect=0x7f080033;
+        public static final int mr_media_route_controller_no_info_available=0x7f080034;
+        public static final int mr_media_route_controller_pause=0x7f080035;
+        public static final int mr_media_route_controller_play=0x7f080036;
+        public static final int mr_media_route_controller_settings_description=0x7f080037;
+        public static final int mr_media_route_controller_stop=0x7f080038;
+        public static final int mr_system_route_name=0x7f080039;
+        public static final int mr_user_route_category_name=0x7f08003a;
+        public static final int network_unavailable_message=0x7f080060;
+        public static final int ok_button_text=0x7f080061;
+        public static final int place_autocomplete_clear_button=0x7f08003b;
+        public static final int place_autocomplete_search_hint=0x7f08003c;
+        public static final int pref_auto_sync_interval_title=0x7f080062;
+        public static final int pref_default_display_name=0x7f080063;
+        public static final int pref_description_social_recommendations=0x7f080064;
+        public static final int pref_distance_measurement_title=0x7f080065;
+        public static final int pref_header_data_sync=0x7f080066;
+        public static final int pref_header_general=0x7f080067;
+        public static final int pref_header_notifications=0x7f080068;
+        public static final int pref_ringtone_silent=0x7f080069;
+        public static final int pref_temperature_measurement_title=0x7f08006a;
+        public static final int pref_title_add_friends_to_messages=0x7f08006b;
+        public static final int pref_title_display_name=0x7f08006c;
+        public static final int pref_title_new_message_notifications=0x7f08006d;
+        public static final int pref_title_ringtone=0x7f08006e;
+        public static final int pref_title_social_recommendations=0x7f08006f;
+        public static final int pref_title_sync_frequency=0x7f080070;
+        public static final int pref_title_system_sync_settings=0x7f080071;
+        public static final int pref_title_vibrate=0x7f080072;
+        public static final int pref_wind_speed_measurement_title=0x7f080073;
+        public static final int status_bar_notification_info_overflow=0x7f08003d;
+        public static final int store_picture_message=0x7f080074;
+        public static final int store_picture_title=0x7f080075;
+        public static final int title_activity_settings=0x7f080076;
+        public static final int wallet_buy_button_place_holder=0x7f08003e;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0a0080;
-        public static final int AlertDialog_AppCompat_Light=0x7f0a0081;
-        public static final int Animation_AppCompat_Dialog=0x7f0a0082;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0a0083;
-        public static final int AppTheme=0x7f0a0084;
-        public static final int AppTheme_NoActionBar=0x7f0a0030;
-        public static final int AppTheme_PopupOverlay=0x7f0a0085;
-        public static final int Base_AlertDialog_AppCompat=0x7f0a0086;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0a0087;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0a0088;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0a0089;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0a008a;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0a008b;
-        public static final int Base_TextAppearance_AppCompat=0x7f0a0031;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0a0032;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0a0033;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0a001a;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0a0034;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0a0035;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0a0036;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0a0037;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0a0038;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0a0039;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0a0005;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0a003a;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0a0006;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0a003b;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0a003c;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0a003d;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0a0007;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0a003e;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0a008c;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0a003f;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0a0040;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0a0041;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0a0008;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0a0042;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0a0009;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0a0043;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0a000a;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0a0044;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0a0045;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0a0046;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0a0047;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0a0048;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0a0049;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0a004a;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0a004b;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0a007c;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0a008d;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0a004c;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0a004d;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0a004e;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0a004f;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0a008e;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0a0050;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0a0051;
-        public static final int Base_Theme_AppCompat=0x7f0a0052;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0a008f;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0a000b;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0a0090;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0a0091;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0a0092;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0a0002;
-        public static final int Base_Theme_AppCompat_Light=0x7f0a0053;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0a0093;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0a000c;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0a0094;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0a0095;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0a0096;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0a0003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0a0097;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0a0098;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0a0099;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0a009a;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0a009b;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0a000d;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0a000e;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0a0016;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0a0017;
-        public static final int Base_V21_Theme_AppCompat=0x7f0a0054;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0a0055;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0a0056;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0a0057;
-        public static final int Base_V22_Theme_AppCompat=0x7f0a007a;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f0a007b;
-        public static final int Base_V23_Theme_AppCompat=0x7f0a007d;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f0a007e;
-        public static final int Base_V7_Theme_AppCompat=0x7f0a009c;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0a009d;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0a009e;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0a009f;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0a00a0;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0a00a1;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0a00a2;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0a00a3;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0a00a4;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0a0058;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0a0059;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0a005a;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0a005b;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0a005c;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0a00a5;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0a00a6;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0a0018;
-        public static final int Base_Widget_AppCompat_Button=0x7f0a005d;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0a005e;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0a005f;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0a00a7;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0a007f;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0a0060;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0a0061;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0a00a8;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0a0062;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0a0063;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0a00a9;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0a0000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0a00aa;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0a0064;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0a0019;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f0a0065;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0a00ab;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0a00ac;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0a00ad;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0a0066;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0a0067;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0a0068;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0a0069;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0a006a;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0a006b;
-        public static final int Base_Widget_AppCompat_ListView=0x7f0a006c;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0a006d;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0a006e;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0a006f;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0a0070;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0a00ae;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0a000f;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0a0010;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0a0071;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0a00af;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0a00b0;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f0a0072;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0a0073;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0a0004;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0a0074;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0a00b1;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0a0075;
-        public static final int Base_Widget_Design_TabLayout=0x7f0a00b2;
-        public static final int CardView=0x7f0a00b3;
-        public static final int CardView_Dark=0x7f0a00b4;
-        public static final int CardView_Light=0x7f0a00b5;
-        public static final int General=0x7f0a0076;
-        public static final int MPL_PreferenceListHeader=0x7f0a00b6;
-        public static final int OptionsMenu=0x7f0a00b7;
-        public static final int Platform_AppCompat=0x7f0a0011;
-        public static final int Platform_AppCompat_Light=0x7f0a0012;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f0a0077;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0a0078;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0a0079;
-        public static final int Platform_V11_AppCompat=0x7f0a0013;
-        public static final int Platform_V11_AppCompat_Light=0x7f0a0014;
-        public static final int Platform_V14_AppCompat=0x7f0a001b;
-        public static final int Platform_V14_AppCompat_Light=0x7f0a001c;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0a0015;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0a0022;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0a0023;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0a0024;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0a0025;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0a0026;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0a0027;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0a0028;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0a0029;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0a002a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0a002b;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0a002c;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0a002d;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0a002e;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0a002f;
-        public static final int SettingsPageTheme=0x7f0a00b8;
-        public static final int TextAppearance_AppCompat=0x7f0a00b9;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0a00ba;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0a00bb;
-        public static final int TextAppearance_AppCompat_Button=0x7f0a00bc;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0a00bd;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0a00be;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0a00bf;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0a00c0;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0a00c1;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0a00c2;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0a00c3;
-        public static final int TextAppearance_AppCompat_Large=0x7f0a00c4;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0a00c5;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0a00c6;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0a00c7;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0a00c8;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0a00c9;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0a00ca;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0a00cb;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0a00cc;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0a00cd;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0a00ce;
-        public static final int TextAppearance_AppCompat_Small=0x7f0a00cf;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0a00d0;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0a00d1;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0a00d2;
-        public static final int TextAppearance_AppCompat_Title=0x7f0a00d3;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0a00d4;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0a00d5;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0a00d6;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0a00d7;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0a00d8;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0a00d9;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0a00da;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0a00db;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0a00dc;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0a00dd;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0a00de;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0a00df;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0a00e0;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0a00e1;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0a00e2;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0a00e3;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0a00e4;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0a00e5;
-        public static final int TextAppearance_Design_Counter=0x7f0a00e6;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f0a00e7;
-        public static final int TextAppearance_Design_Error=0x7f0a00e8;
-        public static final int TextAppearance_Design_Hint=0x7f0a00e9;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0a00ea;
-        public static final int TextAppearance_Design_Tab=0x7f0a00eb;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f0a001d;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0a001e;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0a001f;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0a0020;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0a0021;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0a00ec;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0a00ed;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0a00ee;
-        public static final int Theme_AppCompat=0x7f0a00ef;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0a00f0;
-        public static final int Theme_AppCompat_Dialog=0x7f0a00f1;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0a00f2;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0a00f3;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0a00f4;
-        public static final int Theme_AppCompat_Light=0x7f0a00f5;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0a00f6;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0a00f7;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0a00f8;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0a00f9;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0a00fa;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0a00fb;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0a00fc;
-        public static final int ThemeOverlay_AppCompat=0x7f0a00fd;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0a00fe;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0a00ff;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0a0100;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0a0101;
-        public static final int ToolBarTheme=0x7f0a0102;
-        public static final int Widget_AppCompat_ActionBar=0x7f0a0103;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0a0104;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0a0105;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0a0106;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0a0107;
-        public static final int Widget_AppCompat_ActionButton=0x7f0a0108;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0a0109;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0a010a;
-        public static final int Widget_AppCompat_ActionMode=0x7f0a010b;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0a010c;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0a010d;
-        public static final int Widget_AppCompat_Button=0x7f0a010e;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0a010f;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0a0110;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0a0111;
-        public static final int Widget_AppCompat_Button_Colored=0x7f0a0112;
-        public static final int Widget_AppCompat_Button_Small=0x7f0a0113;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0a0114;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0a0115;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0a0116;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0a0117;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0a0118;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0a0119;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0a011a;
-        public static final int Widget_AppCompat_EditText=0x7f0a011b;
-        public static final int Widget_AppCompat_ImageButton=0x7f0a011c;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0a011d;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0a011e;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0a011f;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0a0120;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0a0121;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0a0122;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0a0123;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0a0124;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0a0125;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0a0126;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0a0127;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0a0128;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0a0129;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0a012a;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0a012b;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0a012c;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0a012d;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0a012e;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0a012f;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0a0130;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0a0131;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0a0132;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0a0133;
-        public static final int Widget_AppCompat_ListView=0x7f0a0134;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0a0135;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0a0136;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0a0137;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0a0138;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0a0139;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0a013a;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0a013b;
-        public static final int Widget_AppCompat_RatingBar=0x7f0a013c;
-        public static final int Widget_AppCompat_SearchView=0x7f0a013d;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0a013e;
-        public static final int Widget_AppCompat_SeekBar=0x7f0a013f;
-        public static final int Widget_AppCompat_Spinner=0x7f0a0140;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0a0141;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0a0142;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0a0143;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0a0144;
-        public static final int Widget_AppCompat_Toolbar=0x7f0a0145;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0a0146;
-        public static final int Widget_Design_AppBarLayout=0x7f0a0147;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0a0148;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0a0149;
-        public static final int Widget_Design_FloatingActionButton=0x7f0a014a;
-        public static final int Widget_Design_NavigationView=0x7f0a014b;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0a014c;
-        public static final int Widget_Design_Snackbar=0x7f0a014d;
-        public static final int Widget_Design_TabLayout=0x7f0a0001;
-        public static final int Widget_Design_TextInputLayout=0x7f0a014e;
+        public static final int AlertDialog_AppCompat=0x7f0b0081;
+        public static final int AlertDialog_AppCompat_Light=0x7f0b0082;
+        public static final int Animation_AppCompat_Dialog=0x7f0b0083;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0b0084;
+        public static final int AppTheme=0x7f0b0085;
+        public static final int AppTheme_NoActionBar=0x7f0b0031;
+        public static final int AppTheme_PopupOverlay=0x7f0b0086;
+        public static final int Base_AlertDialog_AppCompat=0x7f0b0087;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b0088;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0b0089;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b008a;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b008b;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b008c;
+        public static final int Base_TextAppearance_AppCompat=0x7f0b0032;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0033;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0034;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b001b;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0035;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0036;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0037;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0038;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0039;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b003a;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b0005;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b003b;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b0006;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b003c;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b003d;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b003e;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0007;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b003f;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b008d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0040;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0041;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0042;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0008;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0043;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0009;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0044;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b000a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0045;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0046;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0047;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0048;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0049;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b004a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b004c;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b007d;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b008e;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b004e;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b004f;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0050;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b008f;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0051;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0052;
+        public static final int Base_Theme_AppCompat=0x7f0b0053;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b0090;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0b000b;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0091;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b0092;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0093;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0002;
+        public static final int Base_Theme_AppCompat_Light=0x7f0b0054;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0094;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b000c;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0095;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0096;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0097;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0003;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0b0098;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b0099;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b009a;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b009b;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b009c;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b000d;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b000e;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0017;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0018;
+        public static final int Base_V21_Theme_AppCompat=0x7f0b0055;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0056;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0057;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0058;
+        public static final int Base_V22_Theme_AppCompat=0x7f0b007b;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b007c;
+        public static final int Base_V23_Theme_AppCompat=0x7f0b007e;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b007f;
+        public static final int Base_V7_Theme_AppCompat=0x7f0b009d;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b009e;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b009f;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00a0;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00a1;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00a2;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00a3;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00a4;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00a5;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0059;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b005a;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b005b;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b005c;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b005d;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00a6;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00a7;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0019;
+        public static final int Base_Widget_AppCompat_Button=0x7f0b005e;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b005f;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0060;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00a8;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b0080;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b0061;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b0062;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00a9;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0063;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0064;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00aa;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00ab;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0065;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0b001a;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b0066;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00ac;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00ad;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00ae;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0067;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0068;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0069;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b006a;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b006b;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b006c;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0b006d;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b006e;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b006f;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0070;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0071;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00af;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b000f;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0010;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0072;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00b0;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00b1;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0073;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0074;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0004;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0075;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00b2;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0076;
+        public static final int Base_Widget_Design_TabLayout=0x7f0b00b3;
+        public static final int CardView=0x7f0b00b4;
+        public static final int CardView_Dark=0x7f0b00b5;
+        public static final int CardView_Light=0x7f0b00b6;
+        public static final int General=0x7f0b0077;
+        public static final int MPL_PreferenceListHeader=0x7f0b00b7;
+        public static final int OptionsMenu=0x7f0b00b8;
+        public static final int Platform_AppCompat=0x7f0b0011;
+        public static final int Platform_AppCompat_Light=0x7f0b0012;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b0078;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0079;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b007a;
+        public static final int Platform_V11_AppCompat=0x7f0b0013;
+        public static final int Platform_V11_AppCompat_Light=0x7f0b0014;
+        public static final int Platform_V14_AppCompat=0x7f0b001c;
+        public static final int Platform_V14_AppCompat_Light=0x7f0b001d;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b0015;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0023;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0024;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0025;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0026;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0027;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0028;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0029;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b002a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b002b;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b002c;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b002d;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b002e;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b002f;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0030;
+        public static final int SettingsPageTheme=0x7f0b00b9;
+        public static final int TextAppearance_AppCompat=0x7f0b00ba;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0b00bb;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0b00bc;
+        public static final int TextAppearance_AppCompat_Button=0x7f0b00bd;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0b00be;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0b00bf;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0b00c0;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0b00c1;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0b00c2;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0b00c3;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00c4;
+        public static final int TextAppearance_AppCompat_Large=0x7f0b00c5;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00c6;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00c7;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00c8;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00c9;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00ca;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0b00cb;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00cc;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0b00cd;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00ce;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00cf;
+        public static final int TextAppearance_AppCompat_Small=0x7f0b00d0;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00d1;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00d2;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00d3;
+        public static final int TextAppearance_AppCompat_Title=0x7f0b00d4;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00d5;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00d6;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00d7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00d8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00d9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00da;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00db;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00dc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00dd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00de;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b00df;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00e0;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00e1;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00e2;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00e3;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00e4;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00e5;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b00e6;
+        public static final int TextAppearance_Design_Counter=0x7f0b00e7;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b00e8;
+        public static final int TextAppearance_Design_Error=0x7f0b00e9;
+        public static final int TextAppearance_Design_Hint=0x7f0b00ea;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b00eb;
+        public static final int TextAppearance_Design_Tab=0x7f0b00ec;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0b001e;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b001f;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0020;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b0021;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b0022;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00ed;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00ee;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00ef;
+        public static final int Theme_AppCompat=0x7f0b00f0;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0b00f1;
+        public static final int Theme_AppCompat_Dialog=0x7f0b00f2;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00f3;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00f4;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00f5;
+        public static final int Theme_AppCompat_Light=0x7f0b00f6;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00f7;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00f8;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b00f9;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00fa;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b00fb;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b00fc;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0b00fd;
+        public static final int Theme_AppInvite_Preview=0x7f0b00fe;
+        public static final int Theme_AppInvite_Preview_Base=0x7f0b0016;
+        public static final int Theme_IAPTheme=0x7f0b00ff;
+        public static final int Theme_MediaRouter=0x7f0b0100;
+        public static final int Theme_MediaRouter_Light=0x7f0b0101;
+        public static final int ThemeOverlay_AppCompat=0x7f0b0102;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b0103;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b0104;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0105;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0b0106;
+        public static final int ToolBarTheme=0x7f0b0107;
+        public static final int WalletFragmentDefaultButtonTextAppearance=0x7f0b0108;
+        public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f0b0109;
+        public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f0b010a;
+        public static final int WalletFragmentDefaultStyle=0x7f0b010b;
+        public static final int Widget_AppCompat_ActionBar=0x7f0b010c;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b010d;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b010e;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b010f;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b0110;
+        public static final int Widget_AppCompat_ActionButton=0x7f0b0111;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b0112;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b0113;
+        public static final int Widget_AppCompat_ActionMode=0x7f0b0114;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b0115;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b0116;
+        public static final int Widget_AppCompat_Button=0x7f0b0117;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0b0118;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0119;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b011a;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0b011b;
+        public static final int Widget_AppCompat_Button_Small=0x7f0b011c;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0b011d;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b011e;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b011f;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0120;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0121;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b0122;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0123;
+        public static final int Widget_AppCompat_EditText=0x7f0b0124;
+        public static final int Widget_AppCompat_ImageButton=0x7f0b0125;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0126;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0127;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0128;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0129;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b012a;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b012b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b012c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b012d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b012e;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b012f;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0130;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0131;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b0132;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0133;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0134;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0135;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0136;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0137;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b0138;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0139;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0b013a;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b013b;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b013c;
+        public static final int Widget_AppCompat_ListView=0x7f0b013d;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b013e;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0b013f;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0b0140;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0141;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0b0142;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0b0143;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0144;
+        public static final int Widget_AppCompat_RatingBar=0x7f0b0145;
+        public static final int Widget_AppCompat_SearchView=0x7f0b0146;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b0147;
+        public static final int Widget_AppCompat_SeekBar=0x7f0b0148;
+        public static final int Widget_AppCompat_Spinner=0x7f0b0149;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b014a;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b014b;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b014c;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b014d;
+        public static final int Widget_AppCompat_Toolbar=0x7f0b014e;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b014f;
+        public static final int Widget_Design_AppBarLayout=0x7f0b0150;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0b0151;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0b0152;
+        public static final int Widget_Design_FloatingActionButton=0x7f0b0153;
+        public static final int Widget_Design_NavigationView=0x7f0b0154;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b0155;
+        public static final int Widget_Design_Snackbar=0x7f0b0156;
+        public static final int Widget_Design_TabLayout=0x7f0b0001;
+        public static final int Widget_Design_TextInputLayout=0x7f0b0157;
+        public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0b0158;
+        public static final int Widget_MediaRouter_MediaRouteButton=0x7f0b0159;
         /**  Reimplementation of actionBar on Current Weather Screen
         <item name="android:windowActionBar">false</item>
          */
-        public static final int currentWeatherTheme=0x7f0a014f;
-        public static final int settingCategoryTitleText=0x7f0a0150;
+        public static final int currentWeatherTheme=0x7f0b015a;
+        public static final int settingCategoryTitleText=0x7f0b015b;
     }
     public static final class xml {
         public static final int preference=0x7f060000;
@@ -3231,33 +3866,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.jamesc.stormy:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.jamesc.stormy:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.jamesc.stormy:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.jamesc.stormy:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.jamesc.stormy:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.jamesc.stormy:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.jamesc.stormy:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.jamesc.stormy:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.jamesc.stormy:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.jamesc.stormy:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.jamesc.stormy:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.jamesc.stormy:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.jamesc.stormy:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.jamesc.stormy:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.jamesc.stormy:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.jamesc.stormy:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.jamesc.stormy:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.jamesc.stormy:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.jamesc.stormy:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.jamesc.stormy:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.jamesc.stormy:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.jamesc.stormy:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.jamesc.stormy:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.jamesc.stormy:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.jamesc.stormy:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.jamesc.stormy:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.jamesc.stormy:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.jamesc.stormcast:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.jamesc.stormcast:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.jamesc.stormcast:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.jamesc.stormcast:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.jamesc.stormcast:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.jamesc.stormcast:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.jamesc.stormcast:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.jamesc.stormcast:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.jamesc.stormcast:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.jamesc.stormcast:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.jamesc.stormcast:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.jamesc.stormcast:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.jamesc.stormcast:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.jamesc.stormcast:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.jamesc.stormcast:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.jamesc.stormcast:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.jamesc.stormcast:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.jamesc.stormcast:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.jamesc.stormcast:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.jamesc.stormcast:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.jamesc.stormcast:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.jamesc.stormcast:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.jamesc.stormcast:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.jamesc.stormcast:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.jamesc.stormcast:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.jamesc.stormcast:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.jamesc.stormcast:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3288,26 +3923,26 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f010004, 0x7f010007, 0x7f010008, 0x7f010009,
-            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
-            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010004, 0x7f01000f, 0x7f010010, 0x7f010011,
             0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
             0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001e, 0x7f01001f, 0x7f0100df
+            0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021,
+            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
+            0x7f010026, 0x7f010027, 0x7f010100
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#background}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:background
+          @attr name com.jamesc.stormcast:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3315,11 +3950,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:backgroundSplit
+          @attr name com.jamesc.stormcast:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3327,11 +3962,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:backgroundStacked
+          @attr name com.jamesc.stormcast:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3343,11 +3978,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetEnd
+          @attr name com.jamesc.stormcast:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3359,11 +3994,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetLeft
+          @attr name com.jamesc.stormcast:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3375,11 +4010,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetRight
+          @attr name com.jamesc.stormcast:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3391,21 +4026,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetStart
+          @attr name com.jamesc.stormcast:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:customNavigationLayout
+          @attr name com.jamesc.stormcast:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3423,21 +4058,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:displayOptions
+          @attr name com.jamesc.stormcast:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:divider
+          @attr name com.jamesc.stormcast:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3449,11 +4084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:elevation
+          @attr name com.jamesc.stormcast:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#height}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3465,11 +4100,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:height
+          @attr name com.jamesc.stormcast:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3479,51 +4114,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:hideOnContentScroll
+          @attr name com.jamesc.stormcast:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:homeAsUpIndicator
+          @attr name com.jamesc.stormcast:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:homeLayout
+          @attr name com.jamesc.stormcast:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:icon
+          @attr name com.jamesc.stormcast:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:indeterminateProgressStyle
+          @attr name com.jamesc.stormcast:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3535,21 +4170,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:itemPadding
+          @attr name com.jamesc.stormcast:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:logo
+          @attr name com.jamesc.stormcast:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3563,21 +4198,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:navigationMode
+          @attr name com.jamesc.stormcast:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:popupTheme
+          @attr name com.jamesc.stormcast:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3589,21 +4224,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:progressBarPadding
+          @attr name com.jamesc.stormcast:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:progressBarStyle
+          @attr name com.jamesc.stormcast:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3613,21 +4248,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:subtitle
+          @attr name com.jamesc.stormcast:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:subtitleTextStyle
+          @attr name com.jamesc.stormcast:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#title}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3637,17 +4272,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:title
+          @attr name com.jamesc.stormcast:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:titleTextStyle
+          @attr name com.jamesc.stormcast:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3699,12 +4334,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.jamesc.stormy:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.jamesc.stormy:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.jamesc.stormy:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.jamesc.stormy:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.jamesc.stormy:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.jamesc.stormy:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.jamesc.stormcast:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.jamesc.stormcast:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.jamesc.stormcast:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.jamesc.stormcast:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.jamesc.stormcast:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.jamesc.stormcast:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3714,21 +4349,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f010004, 0x7f01000b, 0x7f01000c, 0x7f010010,
-            0x7f010012, 0x7f010020
+            0x7f010004, 0x7f010013, 0x7f010014, 0x7f010018,
+            0x7f01001a, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#background}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:background
+          @attr name com.jamesc.stormcast:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3736,21 +4371,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:backgroundSplit
+          @attr name com.jamesc.stormcast:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:closeItemLayout
+          @attr name com.jamesc.stormcast:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#height}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3762,27 +4397,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:height
+          @attr name com.jamesc.stormcast:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:subtitleTextStyle
+          @attr name com.jamesc.stormcast:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:titleTextStyle
+          @attr name com.jamesc.stormcast:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3791,27 +4426,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.jamesc.stormy:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.jamesc.stormy:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.jamesc.stormcast:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.jamesc.stormcast:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f010021, 0x7f010022
+            0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:expandActivityOverflowButtonDrawable
+          @attr name com.jamesc.stormcast:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3821,9 +4456,68 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:initialActivityCount
+          @attr name com.jamesc.stormcast:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.jamesc.stormcast:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.jamesc.stormcast:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.jamesc.stormcast:adUnitId}</code></td><td></td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adSizes
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f01002b, 0x7f01002c, 0x7f01002d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#adSize}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#adSizes}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:adSizes
+        */
+        public static final int AdsAttrs_adSizes = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#adUnitId}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
@@ -3831,11 +4525,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.jamesc.stormy:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.jamesc.stormy:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.jamesc.stormy:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.jamesc.stormy:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.jamesc.stormy:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.jamesc.stormcast:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.jamesc.stormcast:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.jamesc.stormcast:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.jamesc.stormcast:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.jamesc.stormcast:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -3845,8 +4539,8 @@ containing a value of this type.
            @see #AlertDialog_singleChoiceItemLayout
          */
         public static final int[] AlertDialog = {
-            0x010100f2, 0x7f010023, 0x7f010024, 0x7f010025,
-            0x7f010026, 0x7f010027
+            0x010100f2, 0x7f01002e, 0x7f01002f, 0x7f010030,
+            0x7f010031, 0x7f010032
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3855,53 +4549,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonPanelSideLayout
+          @attr name com.jamesc.stormcast:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:listItemLayout
+          @attr name com.jamesc.stormcast:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:listLayout
+          @attr name com.jamesc.stormcast:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:multiChoiceItemLayout
+          @attr name com.jamesc.stormcast:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:singleChoiceItemLayout
+          @attr name com.jamesc.stormcast:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -3911,15 +4605,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.jamesc.stormy:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.jamesc.stormy:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.jamesc.stormcast:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.jamesc.stormcast:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x7f01001e, 0x7f010028
+            0x010100d4, 0x7f010026, 0x7f010033
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -3928,7 +4622,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3940,11 +4634,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:elevation
+          @attr name com.jamesc.stormcast:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3954,7 +4648,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expanded
+          @attr name com.jamesc.stormcast:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -3963,17 +4657,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.jamesc.stormy:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.jamesc.stormy:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.jamesc.stormcast:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.jamesc.stormcast:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
          */
         public static final int[] AppBarLayout_LayoutParams = {
-            0x7f010029, 0x7f01002a
+            0x7f010034, 0x7f010035
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -3989,17 +4683,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:layout_scrollFlags
+          @attr name com.jamesc.stormcast:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:layout_scrollInterpolator
+          @attr name com.jamesc.stormcast:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4009,13 +4703,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.jamesc.stormy:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.jamesc.stormcast:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f01002b
+            0x01010034, 0x7f010036
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4024,14 +4718,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.jamesc.stormy:textAllCaps
+          @attr name com.jamesc.stormcast:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -4040,15 +4734,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.jamesc.stormy:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.jamesc.stormcast:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f01002c
+            0x7f010037
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -4058,7 +4752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:allowStacking
+          @attr name com.jamesc.stormcast:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -4067,17 +4761,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor com.jamesc.stormy:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius com.jamesc.stormy:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation com.jamesc.stormy:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation com.jamesc.stormy:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.jamesc.stormy:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding com.jamesc.stormy:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding com.jamesc.stormy:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom com.jamesc.stormy:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft com.jamesc.stormy:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight com.jamesc.stormy:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop com.jamesc.stormy:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.jamesc.stormcast:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.jamesc.stormcast:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.jamesc.stormcast:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.jamesc.stormcast:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.jamesc.stormcast:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.jamesc.stormcast:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.jamesc.stormcast:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.jamesc.stormcast:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.jamesc.stormcast:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.jamesc.stormcast:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.jamesc.stormcast:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -4092,12 +4786,12 @@ containing a value of this type.
            @see #CardView_contentPaddingTop
          */
         public static final int[] CardView = {
-            0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030,
-            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
-            0x7f010035, 0x7f010036, 0x7f010037
+            0x7f010038, 0x7f010039, 0x7f01003a, 0x7f01003b,
+            0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f,
+            0x7f010040, 0x7f010041, 0x7f010042
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4108,11 +4802,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardBackgroundColor
+          @attr name com.jamesc.stormcast:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4124,11 +4818,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardCornerRadius
+          @attr name com.jamesc.stormcast:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4140,11 +4834,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardElevation
+          @attr name com.jamesc.stormcast:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4156,11 +4850,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardMaxElevation
+          @attr name com.jamesc.stormcast:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4170,11 +4864,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardPreventCornerOverlap
+          @attr name com.jamesc.stormcast:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4184,11 +4878,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:cardUseCompatPadding
+          @attr name com.jamesc.stormcast:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4200,11 +4894,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentPadding
+          @attr name com.jamesc.stormcast:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4216,11 +4910,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentPaddingBottom
+          @attr name com.jamesc.stormcast:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4232,11 +4926,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentPaddingLeft
+          @attr name com.jamesc.stormcast:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4248,11 +4942,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentPaddingRight
+          @attr name com.jamesc.stormcast:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4264,7 +4958,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentPaddingTop
+          @attr name com.jamesc.stormcast:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CheckBoxPreference.
@@ -4273,19 +4967,19 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CheckBoxPreference_disableDependentsState com.jamesc.stormy:disableDependentsState}</code></td><td></td></tr>
-           <tr><td><code>{@link #CheckBoxPreference_summaryOff com.jamesc.stormy:summaryOff}</code></td><td></td></tr>
-           <tr><td><code>{@link #CheckBoxPreference_summaryOn com.jamesc.stormy:summaryOn}</code></td><td></td></tr>
+           <tr><td><code>{@link #CheckBoxPreference_disableDependentsState com.jamesc.stormcast:disableDependentsState}</code></td><td></td></tr>
+           <tr><td><code>{@link #CheckBoxPreference_summaryOff com.jamesc.stormcast:summaryOff}</code></td><td></td></tr>
+           <tr><td><code>{@link #CheckBoxPreference_summaryOn com.jamesc.stormcast:summaryOn}</code></td><td></td></tr>
            </table>
            @see #CheckBoxPreference_disableDependentsState
            @see #CheckBoxPreference_summaryOff
            @see #CheckBoxPreference_summaryOn
          */
         public static final int[] CheckBoxPreference = {
-            0x7f010038, 0x7f010039, 0x7f01003a
+            0x7f010043, 0x7f010044, 0x7f010045
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#disableDependentsState}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#disableDependentsState}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
 
 
@@ -4295,11 +4989,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:disableDependentsState
+          @attr name com.jamesc.stormcast:disableDependentsState
         */
         public static final int CheckBoxPreference_disableDependentsState = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#summaryOff}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#summaryOff}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
 
 
@@ -4309,11 +5003,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:summaryOff
+          @attr name com.jamesc.stormcast:summaryOff
         */
         public static final int CheckBoxPreference_summaryOff = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#summaryOn}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#summaryOn}
           attribute's value can be found in the {@link #CheckBoxPreference} array.
 
 
@@ -4323,7 +5017,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:summaryOn
+          @attr name com.jamesc.stormcast:summaryOn
         */
         public static final int CheckBoxPreference_summaryOn = 0;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -4332,17 +5026,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.jamesc.stormy:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.jamesc.stormy:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.jamesc.stormcast:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.jamesc.stormcast:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingAppBarLayout_LayoutParams = {
-            0x7f01003b, 0x7f01003c
+            0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4356,11 +5050,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:layout_collapseMode
+          @attr name com.jamesc.stormcast:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4370,7 +5064,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:layout_collapseParallaxMultiplier
+          @attr name com.jamesc.stormcast:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -4379,20 +5073,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.jamesc.stormy:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.jamesc.stormy:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.jamesc.stormy:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.jamesc.stormy:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.jamesc.stormy:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.jamesc.stormy:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.jamesc.stormy:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.jamesc.stormy:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.jamesc.stormy:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.jamesc.stormy:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.jamesc.stormy:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.jamesc.stormy:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.jamesc.stormy:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.jamesc.stormy:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.jamesc.stormcast:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.jamesc.stormcast:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.jamesc.stormcast:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.jamesc.stormcast:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.jamesc.stormcast:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.jamesc.stormcast:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.jamesc.stormcast:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.jamesc.stormcast:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.jamesc.stormcast:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.jamesc.stormcast:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.jamesc.stormcast:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.jamesc.stormcast:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.jamesc.stormcast:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.jamesc.stormcast:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -4410,13 +5104,13 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f010007, 0x7f01003d, 0x7f01003e, 0x7f01003f,
-            0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043,
-            0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047,
-            0x7f010048, 0x7f010049
+            0x7f01000f, 0x7f010048, 0x7f010049, 0x7f01004a,
+            0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e,
+            0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052,
+            0x7f010053, 0x7f010054
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4437,21 +5131,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:collapsedTitleGravity
+          @attr name com.jamesc.stormcast:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:collapsedTitleTextAppearance
+          @attr name com.jamesc.stormcast:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4462,11 +5156,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentScrim
+          @attr name com.jamesc.stormcast:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4487,11 +5181,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:expandedTitleGravity
+          @attr name com.jamesc.stormcast:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4503,11 +5197,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expandedTitleMargin
+          @attr name com.jamesc.stormcast:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4519,11 +5213,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expandedTitleMarginBottom
+          @attr name com.jamesc.stormcast:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4535,11 +5229,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expandedTitleMarginEnd
+          @attr name com.jamesc.stormcast:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4551,11 +5245,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expandedTitleMarginStart
+          @attr name com.jamesc.stormcast:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4567,21 +5261,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:expandedTitleMarginTop
+          @attr name com.jamesc.stormcast:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:expandedTitleTextAppearance
+          @attr name com.jamesc.stormcast:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4592,11 +5286,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:statusBarScrim
+          @attr name com.jamesc.stormcast:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#title}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4606,11 +5300,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:title
+          @attr name com.jamesc.stormcast:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4620,17 +5314,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleEnabled
+          @attr name com.jamesc.stormcast:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:toolbarId
+          @attr name com.jamesc.stormcast:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -4640,15 +5334,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.jamesc.stormy:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.jamesc.stormy:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.jamesc.stormcast:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.jamesc.stormcast:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f01004a, 0x7f01004b
+            0x01010107, 0x7f010055, 0x7f010056
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -4657,7 +5351,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4668,11 +5362,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:buttonTint
+          @attr name com.jamesc.stormcast:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4688,7 +5382,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:buttonTintMode
+          @attr name com.jamesc.stormcast:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -4697,33 +5391,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.jamesc.stormy:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.jamesc.stormy:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.jamesc.stormcast:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.jamesc.stormcast:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f01004c, 0x7f01004d
+            0x7f010057, 0x7f010058
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:keylines
+          @attr name com.jamesc.stormcast:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:statusBarBackground
+          @attr name com.jamesc.stormcast:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -4733,10 +5427,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.jamesc.stormy:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.jamesc.stormy:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.jamesc.stormy:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.jamesc.stormy:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.jamesc.stormcast:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.jamesc.stormcast:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.jamesc.stormcast:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.jamesc.stormcast:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -4745,8 +5439,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_LayoutParams_layout_keyline
          */
         public static final int[] CoordinatorLayout_LayoutParams = {
-            0x010100b3, 0x7f01004e, 0x7f01004f, 0x7f010050,
-            0x7f010051
+            0x010100b3, 0x7f010059, 0x7f01005a, 0x7f01005b,
+            0x7f01005c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -4755,17 +5449,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:layout_anchor
+          @attr name com.jamesc.stormcast:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4790,11 +5484,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:layout_anchorGravity
+          @attr name com.jamesc.stormcast:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4804,11 +5498,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:layout_behavior
+          @attr name com.jamesc.stormcast:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4818,21 +5512,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:layout_keyline
+          @attr name com.jamesc.stormcast:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
+        /** Attributes that can be used with a CustomWalletTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.jamesc.stormcast:windowTransitionStyle}</code></td><td></td></tr>
+           </table>
+           @see #CustomWalletTheme_windowTransitionStyle
+         */
+        public static final int[] CustomWalletTheme = {
+            0x7f01005d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowTransitionStyle}
+          attribute's value can be found in the {@link #CustomWalletTheme} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>slide</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:windowTransitionStyle
+        */
+        public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a DialogPreference.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DialogPreference_dialogIcon com.jamesc.stormy:dialogIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #DialogPreference_dialogLayout com.jamesc.stormy:dialogLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #DialogPreference_dialogMessage com.jamesc.stormy:dialogMessage}</code></td><td></td></tr>
-           <tr><td><code>{@link #DialogPreference_dialogTitle com.jamesc.stormy:dialogTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DialogPreference_negativeButtonText com.jamesc.stormy:negativeButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #DialogPreference_positiveButtonText com.jamesc.stormy:positiveButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_dialogIcon com.jamesc.stormcast:dialogIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_dialogLayout com.jamesc.stormcast:dialogLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_dialogMessage com.jamesc.stormcast:dialogMessage}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_dialogTitle com.jamesc.stormcast:dialogTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_negativeButtonText com.jamesc.stormcast:negativeButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #DialogPreference_positiveButtonText com.jamesc.stormcast:positiveButtonText}</code></td><td></td></tr>
            </table>
            @see #DialogPreference_dialogIcon
            @see #DialogPreference_dialogLayout
@@ -4842,31 +5566,31 @@ containing a value of this type.
            @see #DialogPreference_positiveButtonText
          */
         public static final int[] DialogPreference = {
-            0x7f010052, 0x7f010053, 0x7f010054, 0x7f010055,
-            0x7f010056, 0x7f010057
+            0x7f01005e, 0x7f01005f, 0x7f010060, 0x7f010061,
+            0x7f010062, 0x7f010063
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogIcon}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dialogIcon
+          @attr name com.jamesc.stormcast:dialogIcon
         */
         public static final int DialogPreference_dialogIcon = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogLayout}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dialogLayout
+          @attr name com.jamesc.stormcast:dialogLayout
         */
         public static final int DialogPreference_dialogLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogMessage}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogMessage}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
@@ -4876,11 +5600,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:dialogMessage
+          @attr name com.jamesc.stormcast:dialogMessage
         */
         public static final int DialogPreference_dialogMessage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogTitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogTitle}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
@@ -4890,11 +5614,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:dialogTitle
+          @attr name com.jamesc.stormcast:dialogTitle
         */
         public static final int DialogPreference_dialogTitle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#negativeButtonText}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#negativeButtonText}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
@@ -4904,11 +5628,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:negativeButtonText
+          @attr name com.jamesc.stormcast:negativeButtonText
         */
         public static final int DialogPreference_negativeButtonText = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#positiveButtonText}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#positiveButtonText}
           attribute's value can be found in the {@link #DialogPreference} array.
 
 
@@ -4918,7 +5642,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:positiveButtonText
+          @attr name com.jamesc.stormcast:positiveButtonText
         */
         public static final int DialogPreference_positiveButtonText = 3;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -4927,14 +5651,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.jamesc.stormy:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.jamesc.stormy:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.jamesc.stormy:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.jamesc.stormy:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.jamesc.stormy:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.jamesc.stormy:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.jamesc.stormy:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.jamesc.stormy:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.jamesc.stormcast:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.jamesc.stormcast:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.jamesc.stormcast:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.jamesc.stormcast:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.jamesc.stormcast:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.jamesc.stormcast:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.jamesc.stormcast:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.jamesc.stormcast:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -4946,11 +5670,11 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b,
-            0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f
+            0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067,
+            0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4962,11 +5686,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:arrowHeadLength
+          @attr name com.jamesc.stormcast:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4978,11 +5702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:arrowShaftLength
+          @attr name com.jamesc.stormcast:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4994,11 +5718,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:barLength
+          @attr name com.jamesc.stormcast:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#color}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5009,11 +5733,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:color
+          @attr name com.jamesc.stormcast:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5025,11 +5749,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:drawableSize
+          @attr name com.jamesc.stormcast:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5041,11 +5765,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:gapBetweenBars
+          @attr name com.jamesc.stormcast:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5055,11 +5779,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:spinBars
+          @attr name com.jamesc.stormcast:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5071,7 +5795,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:thickness
+          @attr name com.jamesc.stormcast:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -5080,13 +5804,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.jamesc.stormy:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.jamesc.stormy:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.jamesc.stormy:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.jamesc.stormy:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.jamesc.stormy:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.jamesc.stormy:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.jamesc.stormy:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.jamesc.stormcast:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.jamesc.stormcast:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.jamesc.stormcast:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.jamesc.stormcast:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.jamesc.stormcast:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.jamesc.stormcast:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.jamesc.stormcast:rippleColor}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -5097,11 +5821,11 @@ containing a value of this type.
            @see #FloatingActionButton_rippleColor
          */
         public static final int[] FloatingActionButton = {
-            0x7f01001e, 0x7f010060, 0x7f010061, 0x7f010062,
-            0x7f010063, 0x7f01012f, 0x7f010130
+            0x7f010026, 0x7f01006c, 0x7f01006d, 0x7f01006e,
+            0x7f01006f, 0x7f010150, 0x7f010151
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5112,11 +5836,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:backgroundTint
+          @attr name com.jamesc.stormcast:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5132,11 +5856,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:backgroundTintMode
+          @attr name com.jamesc.stormcast:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5148,11 +5872,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:borderWidth
+          @attr name com.jamesc.stormcast:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5164,11 +5888,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:elevation
+          @attr name com.jamesc.stormcast:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5181,11 +5905,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:fabSize
+          @attr name com.jamesc.stormcast:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5197,11 +5921,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:pressedTranslationZ
+          @attr name com.jamesc.stormcast:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5212,7 +5936,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:rippleColor
+          @attr name com.jamesc.stormcast:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -5223,14 +5947,14 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.jamesc.stormy:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.jamesc.stormcast:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f010064
+            0x01010109, 0x01010200, 0x7f010070
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -5245,7 +5969,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -5255,7 +5979,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:foregroundInsidePadding
+          @attr name com.jamesc.stormcast:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5269,10 +5993,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.jamesc.stormy:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.jamesc.stormy:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.jamesc.stormy:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.jamesc.stormy:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.jamesc.stormcast:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.jamesc.stormcast:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.jamesc.stormcast:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.jamesc.stormcast:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5286,8 +6010,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f01000f, 0x7f010065, 0x7f010066,
-            0x7f010067
+            0x01010128, 0x7f010017, 0x7f010071, 0x7f010072,
+            0x7f010073
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -5320,17 +6044,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:divider
+          @attr name com.jamesc.stormcast:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5342,11 +6066,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:dividerPadding
+          @attr name com.jamesc.stormcast:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5356,11 +6080,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:measureWithLargestChild
+          @attr name com.jamesc.stormcast:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5375,7 +6099,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:showDividers
+          @attr name com.jamesc.stormcast:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5454,33 +6178,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ListPreference_entries com.jamesc.stormy:entries}</code></td><td></td></tr>
-           <tr><td><code>{@link #ListPreference_entryValues com.jamesc.stormy:entryValues}</code></td><td></td></tr>
+           <tr><td><code>{@link #ListPreference_entries com.jamesc.stormcast:entries}</code></td><td></td></tr>
+           <tr><td><code>{@link #ListPreference_entryValues com.jamesc.stormcast:entryValues}</code></td><td></td></tr>
            </table>
            @see #ListPreference_entries
            @see #ListPreference_entryValues
          */
         public static final int[] ListPreference = {
-            0x7f010068, 0x7f010069
+            0x7f010074, 0x7f010075
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#entries}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#entries}
           attribute's value can be found in the {@link #ListPreference} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:entries
+          @attr name com.jamesc.stormcast:entries
         */
         public static final int ListPreference_entries = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#entryValues}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#entryValues}
           attribute's value can be found in the {@link #ListPreference} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:entryValues
+          @attr name com.jamesc.stormcast:entryValues
         */
         public static final int ListPreference_entryValues = 1;
         /** Attributes that can be used with a LoadingImageView.
@@ -5489,19 +6213,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.jamesc.stormy:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.jamesc.stormy:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.jamesc.stormy:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.jamesc.stormcast:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.jamesc.stormcast:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.jamesc.stormcast:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
            @see #LoadingImageView_imageAspectRatioAdjust
          */
         public static final int[] LoadingImageView = {
-            0x7f01006a, 0x7f01006b, 0x7f01006c
+            0x7f010076, 0x7f010077, 0x7f010078
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5511,11 +6235,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:circleCrop
+          @attr name com.jamesc.stormcast:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5525,11 +6249,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:imageAspectRatio
+          @attr name com.jamesc.stormcast:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5543,9 +6267,341 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:imageAspectRatioAdjust
+          @attr name com.jamesc.stormcast:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled com.jamesc.stormcast:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.jamesc.stormcast:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.jamesc.stormcast:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.jamesc.stormcast:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.jamesc.stormcast:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.jamesc.stormcast:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.jamesc.stormcast:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.jamesc.stormcast:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.jamesc.stormcast:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.jamesc.stormcast:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.jamesc.stormcast:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.jamesc.stormcast:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.jamesc.stormcast:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.jamesc.stormcast:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.jamesc.stormcast:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.jamesc.stormcast:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.jamesc.stormcast:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_ambientEnabled
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_liteMode
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiMapToolbar
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010079, 0x7f01007a, 0x7f01007b, 0x7f01007c,
+            0x7f01007d, 0x7f01007e, 0x7f01007f, 0x7f010080,
+            0x7f010081, 0x7f010082, 0x7f010083, 0x7f010084,
+            0x7f010085, 0x7f010086, 0x7f010087, 0x7f010088,
+            0x7f010089
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#ambientEnabled}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:ambientEnabled
+        */
+        public static final int MapAttrs_ambientEnabled = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#liteMode}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:liteMode
+        */
+        public static final int MapAttrs_liteMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiMapToolbar}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiMapToolbar
+        */
+        public static final int MapAttrs_uiMapToolbar = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 14;
+        /** Attributes that can be used with a MediaRouteButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.jamesc.stormcast:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           </table>
+           @see #MediaRouteButton_android_minHeight
+           @see #MediaRouteButton_android_minWidth
+           @see #MediaRouteButton_externalRouteEnabledDrawable
+         */
+        public static final int[] MediaRouteButton = {
+            0x0101013f, 0x01010140, 0x7f01008a
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #MediaRouteButton} array.
+          @attr name android:minHeight
+        */
+        public static final int MediaRouteButton_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #MediaRouteButton} array.
+          @attr name android:minWidth
+        */
+        public static final int MediaRouteButton_android_minWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#externalRouteEnabledDrawable}
+          attribute's value can be found in the {@link #MediaRouteButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jamesc.stormcast:externalRouteEnabledDrawable
+        */
+        public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>
@@ -5612,9 +6668,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.jamesc.stormy:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.jamesc.stormy:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.jamesc.stormy:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.jamesc.stormcast:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.jamesc.stormcast:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.jamesc.stormcast:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5628,7 +6684,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.jamesc.stormy:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.jamesc.stormcast:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5652,21 +6708,21 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f01006d, 0x7f01006e, 0x7f01006f,
-            0x7f010070
+            0x0101026f, 0x7f01008b, 0x7f01008c, 0x7f01008d,
+            0x7f01008e
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionLayout
+          @attr name com.jamesc.stormcast:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5676,11 +6732,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:actionProviderClass
+          @attr name com.jamesc.stormcast:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5690,7 +6746,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:actionViewClass
+          @attr name com.jamesc.stormcast:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -5772,7 +6828,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5788,7 +6844,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:showAsAction
+          @attr name com.jamesc.stormcast:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -5804,7 +6860,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.jamesc.stormy:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.jamesc.stormcast:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -5817,7 +6873,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f010071
+            0x0101012f, 0x01010130, 0x01010131, 0x7f01008f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -5862,7 +6918,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5872,7 +6928,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:preserveIconSpacing
+          @attr name com.jamesc.stormcast:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -5884,13 +6940,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.jamesc.stormy:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.jamesc.stormy:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.jamesc.stormy:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.jamesc.stormy:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.jamesc.stormy:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.jamesc.stormy:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.jamesc.stormy:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.jamesc.stormcast:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.jamesc.stormcast:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.jamesc.stormcast:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.jamesc.stormcast:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.jamesc.stormcast:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.jamesc.stormcast:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.jamesc.stormcast:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -5904,9 +6960,9 @@ containing a value of this type.
            @see #NavigationView_menu
          */
         public static final int[] NavigationView = {
-            0x010100d4, 0x010100dd, 0x0101011f, 0x7f01001e,
-            0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075,
-            0x7f010076, 0x7f010077
+            0x010100d4, 0x010100dd, 0x0101011f, 0x7f010026,
+            0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093,
+            0x7f010094, 0x7f010095
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -5927,7 +6983,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5939,31 +6995,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:elevation
+          @attr name com.jamesc.stormcast:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:headerLayout
+          @attr name com.jamesc.stormcast:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:itemBackground
+          @attr name com.jamesc.stormcast:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5974,21 +7030,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:itemIconTint
+          @attr name com.jamesc.stormcast:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:itemTextAppearance
+          @attr name com.jamesc.stormcast:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5999,17 +7055,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:itemTextColor
+          @attr name com.jamesc.stormcast:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:menu
+          @attr name com.jamesc.stormcast:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -6019,13 +7075,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.jamesc.stormy:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.jamesc.stormcast:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010078
+            0x01010176, 0x7f010096
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -6034,7 +7090,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -6044,7 +7100,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:overlapAnchor
+          @attr name com.jamesc.stormcast:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -6053,15 +7109,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.jamesc.stormy:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.jamesc.stormcast:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010079
+            0x7f010097
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -6071,7 +7127,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:state_above_anchor
+          @attr name com.jamesc.stormcast:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a Preference.
@@ -6080,21 +7136,21 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Preference_icon com.jamesc.stormy:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Preference_icon com.jamesc.stormcast:icon}</code></td><td></td></tr>
            </table>
            @see #Preference_icon
          */
         public static final int[] Preference = {
-            0x7f01000d
+            0x7f010015
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#icon}
           attribute's value can be found in the {@link #Preference} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:icon
+          @attr name com.jamesc.stormcast:icon
         */
         public static final int Preference_icon = 0;
         /** Attributes that can be used with a PreferenceImageView.
@@ -6103,17 +7159,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PreferenceImageView_maxHeight com.jamesc.stormy:maxHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PreferenceImageView_maxWidth com.jamesc.stormy:maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #PreferenceImageView_maxHeight com.jamesc.stormcast:maxHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PreferenceImageView_maxWidth com.jamesc.stormcast:maxWidth}</code></td><td></td></tr>
            </table>
            @see #PreferenceImageView_maxHeight
            @see #PreferenceImageView_maxWidth
          */
         public static final int[] PreferenceImageView = {
-            0x7f01007a, 0x7f01007b
+            0x7f010098, 0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#maxHeight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maxHeight}
           attribute's value can be found in the {@link #PreferenceImageView} array.
 
 
@@ -6125,11 +7181,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:maxHeight
+          @attr name com.jamesc.stormcast:maxHeight
         */
         public static final int PreferenceImageView_maxHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#maxWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maxWidth}
           attribute's value can be found in the {@link #PreferenceImageView} array.
 
 
@@ -6141,7 +7197,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:maxWidth
+          @attr name com.jamesc.stormcast:maxWidth
         */
         public static final int PreferenceImageView_maxWidth = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -6151,10 +7207,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.jamesc.stormy:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.jamesc.stormy:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.jamesc.stormy:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.jamesc.stormy:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.jamesc.stormcast:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.jamesc.stormcast:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.jamesc.stormcast:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.jamesc.stormcast:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -6163,8 +7219,8 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f01007c, 0x7f01007d, 0x7f01007e,
-            0x7f01007f
+            0x010100c4, 0x7f01009a, 0x7f01009b, 0x7f01009c,
+            0x7f01009d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -6173,7 +7229,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6183,11 +7239,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:layoutManager
+          @attr name com.jamesc.stormcast:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6197,11 +7253,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:reverseLayout
+          @attr name com.jamesc.stormcast:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6211,11 +7267,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:spanCount
+          @attr name com.jamesc.stormcast:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6225,7 +7281,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:stackFromEnd
+          @attr name com.jamesc.stormcast:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -6234,15 +7290,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.jamesc.stormy:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.jamesc.stormcast:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f010080
+            0x7f01009e
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -6250,7 +7306,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:insetForeground
+          @attr name com.jamesc.stormcast:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -6259,15 +7315,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.jamesc.stormy:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.jamesc.stormcast:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f010081
+            0x7f01009f
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -6279,7 +7335,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:behavior_overlapTop
+          @attr name com.jamesc.stormcast:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -6292,19 +7348,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.jamesc.stormy:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.jamesc.stormy:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.jamesc.stormy:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.jamesc.stormy:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.jamesc.stormy:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.jamesc.stormy:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.jamesc.stormy:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.jamesc.stormy:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.jamesc.stormy:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.jamesc.stormy:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.jamesc.stormy:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.jamesc.stormy:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.jamesc.stormy:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.jamesc.stormcast:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.jamesc.stormcast:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.jamesc.stormcast:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.jamesc.stormcast:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.jamesc.stormcast:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.jamesc.stormcast:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.jamesc.stormcast:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.jamesc.stormcast:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.jamesc.stormcast:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.jamesc.stormcast:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.jamesc.stormcast:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.jamesc.stormcast:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.jamesc.stormcast:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6326,10 +7382,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010082, 0x7f010083, 0x7f010084, 0x7f010085,
-            0x7f010086, 0x7f010087, 0x7f010088, 0x7f010089,
-            0x7f01008a, 0x7f01008b, 0x7f01008c, 0x7f01008d,
-            0x7f01008e
+            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
+            0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7,
+            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
+            0x7f0100ac
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6356,27 +7412,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:closeIcon
+          @attr name com.jamesc.stormcast:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:commitIcon
+          @attr name com.jamesc.stormcast:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6386,21 +7442,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:defaultQueryHint
+          @attr name com.jamesc.stormcast:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:goIcon
+          @attr name com.jamesc.stormcast:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6410,31 +7466,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:iconifiedByDefault
+          @attr name com.jamesc.stormcast:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:layout
+          @attr name com.jamesc.stormcast:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:queryBackground
+          @attr name com.jamesc.stormcast:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6444,59 +7500,127 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:queryHint
+          @attr name com.jamesc.stormcast:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:searchHintIcon
+          @attr name com.jamesc.stormcast:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:searchIcon
+          @attr name com.jamesc.stormcast:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:submitBackground
+          @attr name com.jamesc.stormcast:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:suggestionRowLayout
+          @attr name com.jamesc.stormcast:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:voiceIcon
+          @attr name com.jamesc.stormcast:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
+        /** Attributes that can be used with a SignInButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.jamesc.stormcast:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.jamesc.stormcast:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.jamesc.stormcast:scopeUris}</code></td><td></td></tr>
+           </table>
+           @see #SignInButton_buttonSize
+           @see #SignInButton_colorScheme
+           @see #SignInButton_scopeUris
+         */
+        public static final int[] SignInButton = {
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonSize}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:buttonSize
+        */
+        public static final int SignInButton_buttonSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorScheme}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:colorScheme
+        */
+        public static final int SignInButton_colorScheme = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#scopeUris}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.jamesc.stormcast:scopeUris
+        */
+        public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -6504,15 +7628,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.jamesc.stormy:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.jamesc.stormy:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.jamesc.stormcast:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.jamesc.stormcast:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f01001e, 0x7f01008f
+            0x0101011f, 0x7f010026, 0x7f0100b0
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -6521,7 +7645,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6533,11 +7657,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:elevation
+          @attr name com.jamesc.stormcast:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6549,7 +7673,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:maxActionInlineWidth
+          @attr name com.jamesc.stormcast:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -6561,7 +7685,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.jamesc.stormy:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.jamesc.stormcast:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_popupBackground
@@ -6569,7 +7693,7 @@ containing a value of this type.
            @see #Spinner_popupTheme
          */
         public static final int[] Spinner = {
-            0x01010176, 0x0101017b, 0x01010262, 0x7f01001f
+            0x01010176, 0x0101017b, 0x01010262, 0x7f010027
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -6590,13 +7714,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:popupTheme
+          @attr name com.jamesc.stormcast:popupTheme
         */
         public static final int Spinner_popupTheme = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -6608,13 +7732,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.jamesc.stormy:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.jamesc.stormy:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.jamesc.stormy:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.jamesc.stormy:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.jamesc.stormy:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.jamesc.stormy:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.jamesc.stormy:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.jamesc.stormcast:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.jamesc.stormcast:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.jamesc.stormcast:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.jamesc.stormcast:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.jamesc.stormcast:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.jamesc.stormcast:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.jamesc.stormcast:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6628,9 +7752,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010090,
-            0x7f010091, 0x7f010092, 0x7f010093, 0x7f010094,
-            0x7f010095, 0x7f010096
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100b1,
+            0x7f0100b2, 0x7f0100b3, 0x7f0100b4, 0x7f0100b5,
+            0x7f0100b6, 0x7f0100b7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -6651,7 +7775,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6661,11 +7785,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:showText
+          @attr name com.jamesc.stormcast:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6675,11 +7799,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:splitTrack
+          @attr name com.jamesc.stormcast:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6691,11 +7815,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:switchMinWidth
+          @attr name com.jamesc.stormcast:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6707,21 +7831,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:switchPadding
+          @attr name com.jamesc.stormcast:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:switchTextAppearance
+          @attr name com.jamesc.stormcast:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6733,17 +7857,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:thumbTextPadding
+          @attr name com.jamesc.stormcast:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#track}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:track
+          @attr name com.jamesc.stormcast:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a SwitchPreference.
@@ -6752,11 +7876,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SwitchPreference_disableDependentsState com.jamesc.stormy:disableDependentsState}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchPreference_summaryOff com.jamesc.stormy:summaryOff}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchPreference_summaryOn com.jamesc.stormy:summaryOn}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchPreference_switchTextOff com.jamesc.stormy:switchTextOff}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchPreference_switchTextOn com.jamesc.stormy:switchTextOn}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchPreference_disableDependentsState com.jamesc.stormcast:disableDependentsState}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchPreference_summaryOff com.jamesc.stormcast:summaryOff}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchPreference_summaryOn com.jamesc.stormcast:summaryOn}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchPreference_switchTextOff com.jamesc.stormcast:switchTextOff}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchPreference_switchTextOn com.jamesc.stormcast:switchTextOn}</code></td><td></td></tr>
            </table>
            @see #SwitchPreference_disableDependentsState
            @see #SwitchPreference_summaryOff
@@ -6765,11 +7889,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchPreference_switchTextOn
          */
         public static final int[] SwitchPreference = {
-            0x7f010038, 0x7f010039, 0x7f01003a, 0x7f010097,
-            0x7f010098
+            0x7f010043, 0x7f010044, 0x7f010045, 0x7f0100b8,
+            0x7f0100b9
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#disableDependentsState}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#disableDependentsState}
           attribute's value can be found in the {@link #SwitchPreference} array.
 
 
@@ -6779,11 +7903,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:disableDependentsState
+          @attr name com.jamesc.stormcast:disableDependentsState
         */
         public static final int SwitchPreference_disableDependentsState = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#summaryOff}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#summaryOff}
           attribute's value can be found in the {@link #SwitchPreference} array.
 
 
@@ -6793,11 +7917,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:summaryOff
+          @attr name com.jamesc.stormcast:summaryOff
         */
         public static final int SwitchPreference_summaryOff = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#summaryOn}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#summaryOn}
           attribute's value can be found in the {@link #SwitchPreference} array.
 
 
@@ -6807,11 +7931,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:summaryOn
+          @attr name com.jamesc.stormcast:summaryOn
         */
         public static final int SwitchPreference_summaryOn = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchTextOff}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchTextOff}
           attribute's value can be found in the {@link #SwitchPreference} array.
 
 
@@ -6821,11 +7945,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:switchTextOff
+          @attr name com.jamesc.stormcast:switchTextOff
         */
         public static final int SwitchPreference_switchTextOff = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchTextOn}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchTextOn}
           attribute's value can be found in the {@link #SwitchPreference} array.
 
 
@@ -6835,7 +7959,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:switchTextOn
+          @attr name com.jamesc.stormcast:switchTextOn
         */
         public static final int SwitchPreference_switchTextOn = 3;
         /** Attributes that can be used with a TabLayout.
@@ -6844,22 +7968,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.jamesc.stormy:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.jamesc.stormy:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.jamesc.stormy:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.jamesc.stormy:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.jamesc.stormy:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.jamesc.stormy:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.jamesc.stormy:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.jamesc.stormy:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.jamesc.stormy:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.jamesc.stormy:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.jamesc.stormy:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.jamesc.stormy:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.jamesc.stormy:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.jamesc.stormy:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.jamesc.stormy:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.jamesc.stormy:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.jamesc.stormcast:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.jamesc.stormcast:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.jamesc.stormcast:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.jamesc.stormcast:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.jamesc.stormcast:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.jamesc.stormcast:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.jamesc.stormcast:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.jamesc.stormcast:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.jamesc.stormcast:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.jamesc.stormcast:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.jamesc.stormcast:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.jamesc.stormcast:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.jamesc.stormcast:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.jamesc.stormcast:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.jamesc.stormcast:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.jamesc.stormcast:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -6879,23 +8003,23 @@ containing a value of this type.
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010099, 0x7f01009a, 0x7f01009b, 0x7f01009c,
-            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
-            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
-            0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8
+            0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd,
+            0x7f0100be, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1,
+            0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5,
+            0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:tabBackground
+          @attr name com.jamesc.stormcast:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6907,11 +8031,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabContentStart
+          @attr name com.jamesc.stormcast:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6924,11 +8048,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:tabGravity
+          @attr name com.jamesc.stormcast:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6939,11 +8063,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabIndicatorColor
+          @attr name com.jamesc.stormcast:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6955,11 +8079,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabIndicatorHeight
+          @attr name com.jamesc.stormcast:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6971,11 +8095,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabMaxWidth
+          @attr name com.jamesc.stormcast:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6987,11 +8111,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabMinWidth
+          @attr name com.jamesc.stormcast:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7004,11 +8128,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:tabMode
+          @attr name com.jamesc.stormcast:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7020,11 +8144,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabPadding
+          @attr name com.jamesc.stormcast:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7036,11 +8160,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabPaddingBottom
+          @attr name com.jamesc.stormcast:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7052,11 +8176,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabPaddingEnd
+          @attr name com.jamesc.stormcast:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7068,11 +8192,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabPaddingStart
+          @attr name com.jamesc.stormcast:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7084,11 +8208,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabPaddingTop
+          @attr name com.jamesc.stormcast:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7099,21 +8223,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabSelectedTextColor
+          @attr name com.jamesc.stormcast:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:tabTextAppearance
+          @attr name com.jamesc.stormcast:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -7124,7 +8248,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:tabTextColor
+          @attr name com.jamesc.stormcast:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -7141,7 +8265,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.jamesc.stormy:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.jamesc.stormcast:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -7156,7 +8280,7 @@ containing a value of this type.
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
             0x01010161, 0x01010162, 0x01010163, 0x01010164,
-            0x7f01002b
+            0x7f010036
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -7207,14 +8331,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.jamesc.stormy:textAllCaps
+          @attr name com.jamesc.stormcast:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -7225,14 +8349,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.jamesc.stormy:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.jamesc.stormy:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.jamesc.stormy:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.jamesc.stormy:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.jamesc.stormy:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.jamesc.stormy:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.jamesc.stormy:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.jamesc.stormy:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.jamesc.stormcast:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.jamesc.stormcast:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.jamesc.stormcast:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.jamesc.stormcast:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.jamesc.stormcast:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.jamesc.stormcast:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.jamesc.stormcast:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.jamesc.stormcast:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -7246,9 +8370,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f0100a9, 0x7f0100aa,
-            0x7f0100ab, 0x7f0100ac, 0x7f0100ad, 0x7f0100ae,
-            0x7f0100af, 0x7f0100b0
+            0x0101009a, 0x01010150, 0x7f0100ca, 0x7f0100cb,
+            0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf,
+            0x7f0100d0, 0x7f0100d1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -7263,7 +8387,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7273,11 +8397,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:counterEnabled
+          @attr name com.jamesc.stormcast:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7287,31 +8411,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:counterMaxLength
+          @attr name com.jamesc.stormcast:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:counterOverflowTextAppearance
+          @attr name com.jamesc.stormcast:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:counterTextAppearance
+          @attr name com.jamesc.stormcast:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7321,21 +8445,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:errorEnabled
+          @attr name com.jamesc.stormcast:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:errorTextAppearance
+          @attr name com.jamesc.stormcast:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7345,17 +8469,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:hintAnimationEnabled
+          @attr name com.jamesc.stormcast:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:hintTextAppearance
+          @attr name com.jamesc.stormcast:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Theme.
@@ -7364,116 +8488,116 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.jamesc.stormy:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.jamesc.stormy:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.jamesc.stormy:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.jamesc.stormy:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.jamesc.stormy:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.jamesc.stormy:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.jamesc.stormy:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.jamesc.stormy:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.jamesc.stormy:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.jamesc.stormy:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.jamesc.stormy:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.jamesc.stormy:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.jamesc.stormy:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.jamesc.stormy:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.jamesc.stormy:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.jamesc.stormy:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.jamesc.stormy:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.jamesc.stormy:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.jamesc.stormy:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.jamesc.stormy:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.jamesc.stormy:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.jamesc.stormy:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.jamesc.stormy:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.jamesc.stormy:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.jamesc.stormy:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.jamesc.stormy:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.jamesc.stormy:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.jamesc.stormy:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.jamesc.stormy:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.jamesc.stormy:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.jamesc.stormy:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.jamesc.stormy:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.jamesc.stormy:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.jamesc.stormy:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.jamesc.stormy:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.jamesc.stormcast:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.jamesc.stormcast:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.jamesc.stormcast:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.jamesc.stormcast:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.jamesc.stormcast:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.jamesc.stormcast:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.jamesc.stormcast:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.jamesc.stormcast:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.jamesc.stormcast:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.jamesc.stormcast:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.jamesc.stormcast:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.jamesc.stormcast:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.jamesc.stormcast:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.jamesc.stormcast:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.jamesc.stormcast:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.jamesc.stormcast:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.jamesc.stormcast:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.jamesc.stormcast:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.jamesc.stormcast:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.jamesc.stormcast:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.jamesc.stormcast:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.jamesc.stormcast:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.jamesc.stormcast:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.jamesc.stormcast:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.jamesc.stormcast:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.jamesc.stormcast:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.jamesc.stormcast:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.jamesc.stormcast:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.jamesc.stormcast:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.jamesc.stormcast:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.jamesc.stormcast:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.jamesc.stormcast:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.jamesc.stormcast:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.jamesc.stormcast:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.jamesc.stormcast:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.jamesc.stormy:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle com.jamesc.stormy:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.jamesc.stormy:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.jamesc.stormy:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.jamesc.stormy:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.jamesc.stormy:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.jamesc.stormy:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.jamesc.stormy:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.jamesc.stormy:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.jamesc.stormy:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.jamesc.stormy:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.jamesc.stormy:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.jamesc.stormy:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.jamesc.stormy:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.jamesc.stormy:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.jamesc.stormy:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.jamesc.stormy:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.jamesc.stormy:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.jamesc.stormy:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground com.jamesc.stormy:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.jamesc.stormy:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.jamesc.stormy:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.jamesc.stormy:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.jamesc.stormy:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.jamesc.stormy:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.jamesc.stormy:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.jamesc.stormy:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.jamesc.stormy:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.jamesc.stormy:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.jamesc.stormy:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle com.jamesc.stormy:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.jamesc.stormy:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.jamesc.stormy:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.jamesc.stormy:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.jamesc.stormy:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.jamesc.stormy:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.jamesc.stormy:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.jamesc.stormy:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.jamesc.stormy:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.jamesc.stormy:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.jamesc.stormy:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.jamesc.stormy:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.jamesc.stormy:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.jamesc.stormy:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.jamesc.stormy:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.jamesc.stormy:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.jamesc.stormy:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle com.jamesc.stormy:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.jamesc.stormy:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.jamesc.stormy:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.jamesc.stormy:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.jamesc.stormy:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.jamesc.stormy:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.jamesc.stormy:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.jamesc.stormy:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.jamesc.stormy:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.jamesc.stormy:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.jamesc.stormy:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.jamesc.stormy:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.jamesc.stormy:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.jamesc.stormy:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.jamesc.stormy:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.jamesc.stormy:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.jamesc.stormy:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.jamesc.stormy:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.jamesc.stormy:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.jamesc.stormy:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.jamesc.stormy:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.jamesc.stormy:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.jamesc.stormy:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.jamesc.stormy:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.jamesc.stormy:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.jamesc.stormy:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.jamesc.stormcast:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle com.jamesc.stormcast:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.jamesc.stormcast:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.jamesc.stormcast:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.jamesc.stormcast:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.jamesc.stormcast:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.jamesc.stormcast:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.jamesc.stormcast:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.jamesc.stormcast:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.jamesc.stormcast:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.jamesc.stormcast:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.jamesc.stormcast:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.jamesc.stormcast:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.jamesc.stormcast:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.jamesc.stormcast:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.jamesc.stormcast:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.jamesc.stormcast:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.jamesc.stormcast:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.jamesc.stormcast:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground com.jamesc.stormcast:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.jamesc.stormcast:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.jamesc.stormcast:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.jamesc.stormcast:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.jamesc.stormcast:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.jamesc.stormcast:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.jamesc.stormcast:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.jamesc.stormcast:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.jamesc.stormcast:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.jamesc.stormcast:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.jamesc.stormcast:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle com.jamesc.stormcast:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.jamesc.stormcast:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.jamesc.stormcast:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.jamesc.stormcast:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.jamesc.stormcast:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.jamesc.stormcast:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.jamesc.stormcast:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.jamesc.stormcast:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.jamesc.stormcast:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.jamesc.stormcast:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.jamesc.stormcast:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.jamesc.stormcast:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.jamesc.stormcast:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.jamesc.stormcast:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.jamesc.stormcast:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.jamesc.stormcast:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.jamesc.stormcast:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle com.jamesc.stormcast:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.jamesc.stormcast:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.jamesc.stormcast:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.jamesc.stormcast:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.jamesc.stormcast:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.jamesc.stormcast:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.jamesc.stormcast:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.jamesc.stormcast:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.jamesc.stormcast:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.jamesc.stormcast:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.jamesc.stormcast:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.jamesc.stormcast:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.jamesc.stormcast:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.jamesc.stormcast:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.jamesc.stormcast:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.jamesc.stormcast:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.jamesc.stormcast:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.jamesc.stormcast:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.jamesc.stormcast:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.jamesc.stormcast:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.jamesc.stormcast:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.jamesc.stormcast:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.jamesc.stormcast:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.jamesc.stormcast:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.jamesc.stormcast:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.jamesc.stormcast:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -7587,67 +8711,67 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_windowNoTitle
          */
         public static final int[] Theme = {
-            0x01010057, 0x010100ae, 0x7f0100b1, 0x7f0100b2,
-            0x7f0100b3, 0x7f0100b4, 0x7f0100b5, 0x7f0100b6,
-            0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba,
-            0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be,
-            0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2,
-            0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6,
-            0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca,
-            0x7f0100cb, 0x7f0100cc, 0x7f0100cd, 0x7f0100ce,
-            0x7f0100cf, 0x7f0100d0, 0x7f0100d1, 0x7f0100d2,
-            0x7f0100d3, 0x7f0100d4, 0x7f0100d5, 0x7f0100d6,
-            0x7f0100d7, 0x7f0100d8, 0x7f0100d9, 0x7f0100da,
-            0x7f0100db, 0x7f0100dc, 0x7f0100dd, 0x7f0100de,
-            0x7f0100df, 0x7f0100e0, 0x7f0100e1, 0x7f0100e2,
-            0x7f0100e3, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
-            0x7f0100e7, 0x7f0100e8, 0x7f0100e9, 0x7f0100ea,
-            0x7f0100eb, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee,
-            0x7f0100ef, 0x7f0100f0, 0x7f0100f1, 0x7f0100f2,
-            0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
-            0x7f0100f7, 0x7f0100f8, 0x7f0100f9, 0x7f0100fa,
-            0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe,
-            0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102,
-            0x7f010103, 0x7f010104, 0x7f010105, 0x7f010106,
-            0x7f010107, 0x7f010108, 0x7f010109, 0x7f01010a,
-            0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e,
-            0x7f01010f, 0x7f010110, 0x7f010111, 0x7f010112,
-            0x7f010113, 0x7f010114, 0x7f010115, 0x7f010116,
-            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
-            0x7f01011b, 0x7f01011c
+            0x01010057, 0x010100ae, 0x7f0100d2, 0x7f0100d3,
+            0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
+            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
+            0x7f0100dc, 0x7f0100dd, 0x7f0100de, 0x7f0100df,
+            0x7f0100e0, 0x7f0100e1, 0x7f0100e2, 0x7f0100e3,
+            0x7f0100e4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
+            0x7f0100e8, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb,
+            0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef,
+            0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3,
+            0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7,
+            0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb,
+            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
+            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
+            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
+            0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b,
+            0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f,
+            0x7f010110, 0x7f010111, 0x7f010112, 0x7f010113,
+            0x7f010114, 0x7f010115, 0x7f010116, 0x7f010117,
+            0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b,
+            0x7f01011c, 0x7f01011d, 0x7f01011e, 0x7f01011f,
+            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123,
+            0x7f010124, 0x7f010125, 0x7f010126, 0x7f010127,
+            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b,
+            0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f,
+            0x7f010130, 0x7f010131, 0x7f010132, 0x7f010133,
+            0x7f010134, 0x7f010135, 0x7f010136, 0x7f010137,
+            0x7f010138, 0x7f010139, 0x7f01013a, 0x7f01013b,
+            0x7f01013c, 0x7f01013d
         };
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarDivider
+          @attr name com.jamesc.stormcast:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarItemBackground
+          @attr name com.jamesc.stormcast:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarPopupTheme
+          @attr name com.jamesc.stormcast:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7667,111 +8791,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:actionBarSize
+          @attr name com.jamesc.stormcast:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarSplitStyle
+          @attr name com.jamesc.stormcast:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarStyle
+          @attr name com.jamesc.stormcast:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarTabBarStyle
+          @attr name com.jamesc.stormcast:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarTabStyle
+          @attr name com.jamesc.stormcast:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarTabTextStyle
+          @attr name com.jamesc.stormcast:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarTheme
+          @attr name com.jamesc.stormcast:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionBarWidgetTheme
+          @attr name com.jamesc.stormcast:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionButtonStyle
+          @attr name com.jamesc.stormcast:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionDropDownStyle
+          @attr name com.jamesc.stormcast:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionMenuTextAppearance
+          @attr name com.jamesc.stormcast:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7779,181 +8903,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:actionMenuTextColor
+          @attr name com.jamesc.stormcast:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeBackground
+          @attr name com.jamesc.stormcast:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeCloseButtonStyle
+          @attr name com.jamesc.stormcast:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeCloseDrawable
+          @attr name com.jamesc.stormcast:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeCopyDrawable
+          @attr name com.jamesc.stormcast:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeCutDrawable
+          @attr name com.jamesc.stormcast:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeFindDrawable
+          @attr name com.jamesc.stormcast:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModePasteDrawable
+          @attr name com.jamesc.stormcast:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModePopupWindowStyle
+          @attr name com.jamesc.stormcast:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeSelectAllDrawable
+          @attr name com.jamesc.stormcast:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeShareDrawable
+          @attr name com.jamesc.stormcast:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeSplitBackground
+          @attr name com.jamesc.stormcast:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeStyle
+          @attr name com.jamesc.stormcast:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionModeWebSearchDrawable
+          @attr name com.jamesc.stormcast:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionOverflowButtonStyle
+          @attr name com.jamesc.stormcast:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:actionOverflowMenuStyle
+          @attr name com.jamesc.stormcast:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:activityChooserViewStyle
+          @attr name com.jamesc.stormcast:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:alertDialogButtonGroupStyle
+          @attr name com.jamesc.stormcast:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7963,27 +9087,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:alertDialogCenterButtons
+          @attr name com.jamesc.stormcast:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:alertDialogStyle
+          @attr name com.jamesc.stormcast:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:alertDialogTheme
+          @attr name com.jamesc.stormcast:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 94;
         /**
@@ -7999,117 +9123,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:autoCompleteTextViewStyle
+          @attr name com.jamesc.stormcast:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:borderlessButtonStyle
+          @attr name com.jamesc.stormcast:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonBarButtonStyle
+          @attr name com.jamesc.stormcast:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonBarNegativeButtonStyle
+          @attr name com.jamesc.stormcast:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonBarNeutralButtonStyle
+          @attr name com.jamesc.stormcast:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonBarPositiveButtonStyle
+          @attr name com.jamesc.stormcast:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonBarStyle
+          @attr name com.jamesc.stormcast:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonStyle
+          @attr name com.jamesc.stormcast:buttonStyle
         */
         public static final int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:buttonStyleSmall
+          @attr name com.jamesc.stormcast:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:checkboxStyle
+          @attr name com.jamesc.stormcast:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:checkedTextViewStyle
+          @attr name com.jamesc.stormcast:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8120,11 +9244,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorAccent
+          @attr name com.jamesc.stormcast:colorAccent
         */
         public static final int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8135,11 +9259,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorButtonNormal
+          @attr name com.jamesc.stormcast:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8150,11 +9274,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorControlActivated
+          @attr name com.jamesc.stormcast:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8165,11 +9289,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorControlHighlight
+          @attr name com.jamesc.stormcast:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8180,11 +9304,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorControlNormal
+          @attr name com.jamesc.stormcast:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8195,11 +9319,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorPrimary
+          @attr name com.jamesc.stormcast:colorPrimary
         */
         public static final int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8210,11 +9334,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorPrimaryDark
+          @attr name com.jamesc.stormcast:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8225,21 +9349,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:colorSwitchThumbNormal
+          @attr name com.jamesc.stormcast:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:controlBackground
+          @attr name com.jamesc.stormcast:controlBackground
         */
         public static final int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8251,51 +9375,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:dialogPreferredPadding
+          @attr name com.jamesc.stormcast:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dialogTheme
+          @attr name com.jamesc.stormcast:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dividerHorizontal
+          @attr name com.jamesc.stormcast:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dividerVertical
+          @attr name com.jamesc.stormcast:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:dropDownListViewStyle
+          @attr name com.jamesc.stormcast:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8307,21 +9431,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:dropdownListPreferredItemHeight
+          @attr name com.jamesc.stormcast:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:editTextBackground
+          @attr name com.jamesc.stormcast:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8329,71 +9453,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:editTextColor
+          @attr name com.jamesc.stormcast:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:editTextStyle
+          @attr name com.jamesc.stormcast:editTextStyle
         */
         public static final int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:homeAsUpIndicator
+          @attr name com.jamesc.stormcast:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:imageButtonStyle
+          @attr name com.jamesc.stormcast:imageButtonStyle
         */
         public static final int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:listChoiceBackgroundIndicator
+          @attr name com.jamesc.stormcast:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:listDividerAlertDialog
+          @attr name com.jamesc.stormcast:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:listPopupWindowStyle
+          @attr name com.jamesc.stormcast:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8405,11 +9529,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:listPreferredItemHeight
+          @attr name com.jamesc.stormcast:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8421,11 +9545,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:listPreferredItemHeightLarge
+          @attr name com.jamesc.stormcast:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8437,11 +9561,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:listPreferredItemHeightSmall
+          @attr name com.jamesc.stormcast:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8453,11 +9577,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:listPreferredItemPaddingLeft
+          @attr name com.jamesc.stormcast:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8469,31 +9593,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:listPreferredItemPaddingRight
+          @attr name com.jamesc.stormcast:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:panelBackground
+          @attr name com.jamesc.stormcast:panelBackground
         */
         public static final int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:panelMenuListTheme
+          @attr name com.jamesc.stormcast:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8505,181 +9629,181 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:panelMenuListWidth
+          @attr name com.jamesc.stormcast:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:popupMenuStyle
+          @attr name com.jamesc.stormcast:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:popupWindowStyle
+          @attr name com.jamesc.stormcast:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:radioButtonStyle
+          @attr name com.jamesc.stormcast:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:ratingBarStyle
+          @attr name com.jamesc.stormcast:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:searchViewStyle
+          @attr name com.jamesc.stormcast:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:seekBarStyle
+          @attr name com.jamesc.stormcast:seekBarStyle
         */
         public static final int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:selectableItemBackground
+          @attr name com.jamesc.stormcast:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:selectableItemBackgroundBorderless
+          @attr name com.jamesc.stormcast:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:spinnerDropDownItemStyle
+          @attr name com.jamesc.stormcast:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:spinnerStyle
+          @attr name com.jamesc.stormcast:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:switchStyle
+          @attr name com.jamesc.stormcast:switchStyle
         */
         public static final int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceLargePopupMenu
+          @attr name com.jamesc.stormcast:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceListItem
+          @attr name com.jamesc.stormcast:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceListItemSmall
+          @attr name com.jamesc.stormcast:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceSearchResultSubtitle
+          @attr name com.jamesc.stormcast:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceSearchResultTitle
+          @attr name com.jamesc.stormcast:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:textAppearanceSmallPopupMenu
+          @attr name com.jamesc.stormcast:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8687,11 +9811,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:textColorAlertDialogListItem
+          @attr name com.jamesc.stormcast:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8699,31 +9823,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.jamesc.stormy:textColorSearchUrl
+          @attr name com.jamesc.stormcast:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:toolbarNavigationButtonStyle
+          @attr name com.jamesc.stormcast:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:toolbarStyle
+          @attr name com.jamesc.stormcast:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8733,11 +9857,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowActionBar
+          @attr name com.jamesc.stormcast:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8747,11 +9871,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowActionBarOverlay
+          @attr name com.jamesc.stormcast:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8761,11 +9885,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowActionModeOverlay
+          @attr name com.jamesc.stormcast:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8780,11 +9904,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowFixedHeightMajor
+          @attr name com.jamesc.stormcast:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8799,11 +9923,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowFixedHeightMinor
+          @attr name com.jamesc.stormcast:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8818,11 +9942,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowFixedWidthMajor
+          @attr name com.jamesc.stormcast:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8837,11 +9961,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowFixedWidthMinor
+          @attr name com.jamesc.stormcast:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8856,11 +9980,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowMinWidthMajor
+          @attr name com.jamesc.stormcast:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8875,11 +9999,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowMinWidthMinor
+          @attr name com.jamesc.stormcast:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8889,7 +10013,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:windowNoTitle
+          @attr name com.jamesc.stormcast:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -8900,29 +10024,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.jamesc.stormy:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.jamesc.stormy:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.jamesc.stormy:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.jamesc.stormy:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.jamesc.stormy:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.jamesc.stormy:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.jamesc.stormy:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.jamesc.stormy:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.jamesc.stormy:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.jamesc.stormy:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.jamesc.stormy:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.jamesc.stormy:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.jamesc.stormy:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.jamesc.stormy:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.jamesc.stormy:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.jamesc.stormy:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.jamesc.stormy:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.jamesc.stormy:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.jamesc.stormy:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.jamesc.stormy:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.jamesc.stormy:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.jamesc.stormy:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.jamesc.stormy:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.jamesc.stormcast:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.jamesc.stormcast:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.jamesc.stormcast:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.jamesc.stormcast:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.jamesc.stormcast:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.jamesc.stormcast:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.jamesc.stormcast:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.jamesc.stormcast:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.jamesc.stormcast:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.jamesc.stormcast:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.jamesc.stormcast:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.jamesc.stormcast:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.jamesc.stormcast:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.jamesc.stormcast:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.jamesc.stormcast:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.jamesc.stormcast:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.jamesc.stormcast:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.jamesc.stormcast:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.jamesc.stormcast:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.jamesc.stormcast:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.jamesc.stormcast:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.jamesc.stormcast:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.jamesc.stormcast:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8951,13 +10075,13 @@ containing a value of this type.
            @see #Toolbar_titleTextColor
          */
         public static final int[] Toolbar = {
-            0x010100af, 0x01010140, 0x7f010007, 0x7f01000a,
-            0x7f01000e, 0x7f01001a, 0x7f01001b, 0x7f01001c,
-            0x7f01001d, 0x7f01001f, 0x7f01011d, 0x7f01011e,
-            0x7f01011f, 0x7f010120, 0x7f010121, 0x7f010122,
-            0x7f010123, 0x7f010124, 0x7f010125, 0x7f010126,
-            0x7f010127, 0x7f010128, 0x7f010129, 0x7f01012a,
-            0x7f01012b
+            0x010100af, 0x01010140, 0x7f01000f, 0x7f010012,
+            0x7f010016, 0x7f010022, 0x7f010023, 0x7f010024,
+            0x7f010025, 0x7f010027, 0x7f01013e, 0x7f01013f,
+            0x7f010140, 0x7f010141, 0x7f010142, 0x7f010143,
+            0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147,
+            0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b,
+            0x7f01014c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -8972,7 +10096,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8982,21 +10106,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:collapseContentDescription
+          @attr name com.jamesc.stormcast:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:collapseIcon
+          @attr name com.jamesc.stormcast:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9008,11 +10132,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetEnd
+          @attr name com.jamesc.stormcast:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9024,11 +10148,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetLeft
+          @attr name com.jamesc.stormcast:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9040,11 +10164,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetRight
+          @attr name com.jamesc.stormcast:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9056,21 +10180,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:contentInsetStart
+          @attr name com.jamesc.stormcast:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:logo
+          @attr name com.jamesc.stormcast:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9080,11 +10204,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:logoDescription
+          @attr name com.jamesc.stormcast:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9096,11 +10220,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:maxButtonHeight
+          @attr name com.jamesc.stormcast:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9110,31 +10234,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:navigationContentDescription
+          @attr name com.jamesc.stormcast:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:navigationIcon
+          @attr name com.jamesc.stormcast:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:popupTheme
+          @attr name com.jamesc.stormcast:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9144,21 +10268,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:subtitle
+          @attr name com.jamesc.stormcast:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:subtitleTextAppearance
+          @attr name com.jamesc.stormcast:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9169,11 +10293,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:subtitleTextColor
+          @attr name com.jamesc.stormcast:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#title}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9183,11 +10307,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:title
+          @attr name com.jamesc.stormcast:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9199,11 +10323,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleMarginBottom
+          @attr name com.jamesc.stormcast:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9215,11 +10339,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleMarginEnd
+          @attr name com.jamesc.stormcast:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9231,11 +10355,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleMarginStart
+          @attr name com.jamesc.stormcast:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9247,11 +10371,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleMarginTop
+          @attr name com.jamesc.stormcast:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9263,21 +10387,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleMargins
+          @attr name com.jamesc.stormcast:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:titleTextAppearance
+          @attr name com.jamesc.stormcast:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9288,7 +10412,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:titleTextColor
+          @attr name com.jamesc.stormcast:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9299,9 +10423,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.jamesc.stormy:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.jamesc.stormy:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.jamesc.stormy:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.jamesc.stormcast:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.jamesc.stormcast:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.jamesc.stormcast:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9310,8 +10434,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f01012c, 0x7f01012d,
-            0x7f01012e
+            0x01010000, 0x010100da, 0x7f01014d, 0x7f01014e,
+            0x7f01014f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9326,7 +10450,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9338,11 +10462,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:paddingEnd
+          @attr name com.jamesc.stormcast:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9354,17 +10478,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:paddingStart
+          @attr name com.jamesc.stormcast:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.jamesc.stormy:theme
+          @attr name com.jamesc.stormcast:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9374,15 +10498,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.jamesc.stormy:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.jamesc.stormy:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.jamesc.stormcast:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.jamesc.stormcast:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f01012f, 0x7f010130
+            0x010100d4, 0x7f010150, 0x7f010151
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9391,7 +10515,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9402,11 +10526,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.jamesc.stormy:backgroundTint
+          @attr name com.jamesc.stormcast:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.jamesc.stormy.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9422,7 +10546,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.jamesc.stormy:backgroundTintMode
+          @attr name com.jamesc.stormcast:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -9460,5 +10584,307 @@ containing a value of this type.
           @attr name android:layout
         */
         public static final int ViewStubCompat_android_layout = 1;
+        /** Attributes that can be used with a WalletFragmentOptions.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.jamesc.stormcast:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.jamesc.stormcast:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.jamesc.stormcast:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.jamesc.stormcast:fragmentStyle}</code></td><td></td></tr>
+           </table>
+           @see #WalletFragmentOptions_appTheme
+           @see #WalletFragmentOptions_environment
+           @see #WalletFragmentOptions_fragmentMode
+           @see #WalletFragmentOptions_fragmentStyle
+         */
+        public static final int[] WalletFragmentOptions = {
+            0x7f010152, 0x7f010153, 0x7f010154, 0x7f010155
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#appTheme}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:appTheme
+        */
+        public static final int WalletFragmentOptions_appTheme = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#environment}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>production</code></td><td>1</td><td></td></tr>
+<tr><td><code>test</code></td><td>3</td><td></td></tr>
+<tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
+<tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:environment
+        */
+        public static final int WalletFragmentOptions_environment = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#fragmentMode}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
+<tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:fragmentMode
+        */
+        public static final int WalletFragmentOptions_fragmentMode = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#fragmentStyle}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jamesc.stormcast:fragmentStyle
+        */
+        public static final int WalletFragmentOptions_fragmentStyle = 2;
+        /** Attributes that can be used with a WalletFragmentStyle.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.jamesc.stormcast:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.jamesc.stormcast:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.jamesc.stormcast:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.jamesc.stormcast:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.jamesc.stormcast:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.jamesc.stormcast:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.jamesc.stormcast:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.jamesc.stormcast:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.jamesc.stormcast:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.jamesc.stormcast:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.jamesc.stormcast:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           </table>
+           @see #WalletFragmentStyle_buyButtonAppearance
+           @see #WalletFragmentStyle_buyButtonHeight
+           @see #WalletFragmentStyle_buyButtonText
+           @see #WalletFragmentStyle_buyButtonWidth
+           @see #WalletFragmentStyle_maskedWalletDetailsBackground
+           @see #WalletFragmentStyle_maskedWalletDetailsButtonBackground
+           @see #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+           @see #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+           @see #WalletFragmentStyle_maskedWalletDetailsLogoImageType
+           @see #WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+           @see #WalletFragmentStyle_maskedWalletDetailsTextAppearance
+         */
+        public static final int[] WalletFragmentStyle = {
+            0x7f010156, 0x7f010157, 0x7f010158, 0x7f010159,
+            0x7f01015a, 0x7f01015b, 0x7f01015c, 0x7f01015d,
+            0x7f01015e, 0x7f01015f, 0x7f010160
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buyButtonAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>google_wallet_grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>google_wallet_monochrome</code></td><td>3</td><td></td></tr>
+<tr><td><code>android_pay_dark</code></td><td>4</td><td></td></tr>
+<tr><td><code>android_pay_light</code></td><td>5</td><td></td></tr>
+<tr><td><code>android_pay_light_with_border</code></td><td>6</td><td></td></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:buyButtonAppearance
+        */
+        public static final int WalletFragmentStyle_buyButtonAppearance = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buyButtonHeight}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:buyButtonHeight
+        */
+        public static final int WalletFragmentStyle_buyButtonHeight = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buyButtonText}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>buy_with</code></td><td>5</td><td></td></tr>
+<tr><td><code>logo_only</code></td><td>6</td><td></td></tr>
+<tr><td><code>donate_with</code></td><td>7</td><td></td></tr>
+<tr><td><code>buy_with_google</code></td><td>1</td><td></td></tr>
+<tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
+<tr><td><code>book_now</code></td><td>3</td><td></td></tr>
+<tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:buyButtonText
+        */
+        public static final int WalletFragmentStyle_buyButtonText = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#buyButtonWidth}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
+<tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:buyButtonWidth
+        */
+        public static final int WalletFragmentStyle_buyButtonWidth = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.jamesc.stormcast:maskedWalletDetailsBackground
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsButtonBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.jamesc.stormcast:maskedWalletDetailsButtonBackground
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsButtonTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jamesc.stormcast:maskedWalletDetailsButtonTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jamesc.stormcast:maskedWalletDetailsHeaderTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsLogoImageType}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>google_wallet_classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>google_wallet_monochrome</code></td><td>2</td><td></td></tr>
+<tr><td><code>android_pay</code></td><td>3</td><td></td></tr>
+<tr><td><code>classic</code></td><td>1</td><td></td></tr>
+<tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.jamesc.stormcast:maskedWalletDetailsLogoImageType
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsLogoTextColor}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.jamesc.stormcast:maskedWalletDetailsLogoTextColor
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.jamesc.stormcast.R.attr#maskedWalletDetailsTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.jamesc.stormcast:maskedWalletDetailsTextAppearance
+        */
+        public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };
 }

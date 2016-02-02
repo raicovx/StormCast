@@ -56,7 +56,6 @@ public class CurrentWeather {
 
 
     private boolean mGetInCelsius = true;
-    private Context applicationContext;
 
     public boolean isGetInCelsius(Context context) {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
