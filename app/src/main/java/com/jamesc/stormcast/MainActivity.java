@@ -1,5 +1,7 @@
 package com.jamesc.stormcast;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,12 +10,9 @@ import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.media.audiofx.BassBoost;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.os.Looper;
-import android.preference.ListPreference;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
@@ -32,25 +31,22 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
 import java.io.IOException;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -60,10 +56,12 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity implements LocationListener {
+public class MainActivity extends AppCompatActivity implements com.google.android.gms.location.LocationListener {
 
     private CurrentWeather mCurrentWeather;
     final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
+    private OkHttpClient client;
+    private Request request;
     private String forecastAPIKey = "f2e1d661e28dbdd28934a784f1b456a1";
     private String forecastURL;
     private String jsonData;
@@ -90,11 +88,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
 
     //Location Declarations
-    //private GoogleApiClient mGoogleApiClient;
-    private LocationManager locationManager;
+    private GoogleApiClient mGoogleApiClient;
+    LocationRequest mLocationRequest;
     private double longitude;
     private double latitude;
-    private Location currentLocation;
+    private Location mLastLocation;
     private String locationText;
     private TextView locationTextView;
 
@@ -135,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient mClient;
-    private Location mLastKnownLocation;
+
 
 
     @Override
@@ -145,7 +143,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
         createSideNavItems();
         createSideNav();
-        startLocationManager();
+        startGmsLocationServices();
+
+                //startLocationManager();
         //Progress Bar
         createProgressBar();
 
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         //Tool Bar End
 
         //Layout
-        //currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
+                 //currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
         //Layout End
 
         //Text Views for Current Information
@@ -258,25 +258,28 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         });
 
         //Current Weather Activity's Floating Action Button End
-        makeCurrentUiDisappear();
+            makeCurrentUiDisappear();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
-    /*protected void onStart() {
+    protected void onStart() {
         if(mGoogleApiClient != null) {
             mGoogleApiClient.connect();
         }
-            super.onStart();
+        super.onStart();
     }
-
+    protected void onPause(){
+        super.onPause();
+        stopLocationUpdates();
+    }
     protected void onStop() {
         if(mGoogleApiClient != null) {
             mGoogleApiClient.disconnect();
 
         }
         super.onStop();
-    } */
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -328,14 +331,14 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        actionBar.setNavigationIcon(R.drawable.ic_menu_white_48dp);
+        actionBar.setNavigationIcon(R.drawable.ic_menu_white_24dp);
     }
 
     private void createSideNavItems() {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mNavList = (ListView) findViewById(R.id.navList);
         String [] appPages = {"Current Weather","Hourly Forecast","Weekly Forecast"};
-        mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, appPages);
+        mAdapter = new ArrayAdapter<String>(this, R.layout.custom_list_item_1, appPages);
         mNavList.setAdapter(mAdapter);
         mNavList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -387,56 +390,60 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         summaryCardView.setVisibility(View.INVISIBLE);
     }
     private void makeCurrentUiReappear() {
-        refreshProgressBar.setVisibility(View.INVISIBLE);
-        autoSyncOffNotification.setVisibility(View.GONE);
-        autoSyncOffTextView.setVisibility(View.GONE);
-        Animation animationOne = new AlphaAnimation(0, 1);
-        animationOne.setInterpolator(new DecelerateInterpolator()); //add this
-        animationOne.setDuration(1000);
-        animationOne.setStartOffset(1000);
-        temperatureCardView.setVisibility(View.VISIBLE);
-        temperatureCardView.startAnimation(animationOne);
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                refreshProgressBar.setVisibility(View.INVISIBLE);
+                autoSyncOffNotification.setVisibility(View.GONE);
+                autoSyncOffTextView.setVisibility(View.GONE);
+                Animation animationOne = new AlphaAnimation(0, 1);
+                animationOne.setInterpolator(new DecelerateInterpolator()); //add this
+                animationOne.setDuration(1000);
+                animationOne.setStartOffset(1000);
+                temperatureCardView.setVisibility(View.VISIBLE);
+                temperatureCardView.startAnimation(animationOne);
 
 
-        Animation animationTwo = new AlphaAnimation(0, 1);
-        animationTwo.setInterpolator(new DecelerateInterpolator()); //add this
-        animationTwo.setDuration(1000);
-        animationTwo.setStartOffset(1000);
-        animationTwo.setStartOffset(100);
-        temperatureTextView.setVisibility(View.VISIBLE);
-        temperatureTextView.startAnimation(animationTwo);
-        degreeImageView.startAnimation(animationTwo);
-        degreeImageView.setVisibility(View.VISIBLE);
+                Animation animationTwo = new AlphaAnimation(0, 1);
+                animationTwo.setInterpolator(new DecelerateInterpolator()); //add this
+                animationTwo.setDuration(1000);
+                animationTwo.setStartOffset(1000);
+                animationTwo.setStartOffset(100);
+                temperatureTextView.setVisibility(View.VISIBLE);
+                temperatureTextView.startAnimation(animationTwo);
+                degreeImageView.startAnimation(animationTwo);
+                degreeImageView.setVisibility(View.VISIBLE);
 
-        Animation animationThree = new AlphaAnimation(0, 1);
-        animationThree.setInterpolator(new DecelerateInterpolator()); //add this
-        animationThree.setDuration(1000);
-        animationThree.setStartOffset(1000);
-        animationThree.setStartOffset(500);
-        summaryCardView.setVisibility(View.VISIBLE);
-        summaryCardView.startAnimation(animationThree);
-        timeTextView.startAnimation(animationThree);
-        timeTextView.setVisibility(View.VISIBLE);
+                Animation animationThree = new AlphaAnimation(0, 1);
+                animationThree.setInterpolator(new DecelerateInterpolator()); //add this
+                animationThree.setDuration(1000);
+                animationThree.setStartOffset(1000);
+                animationThree.setStartOffset(500);
+                summaryCardView.setVisibility(View.VISIBLE);
+                summaryCardView.startAnimation(animationThree);
+                timeTextView.startAnimation(animationThree);
+                timeTextView.setVisibility(View.VISIBLE);
 
-        Animation animationFour = new AlphaAnimation(0, 1);
-        animationFour.setInterpolator(new DecelerateInterpolator()); //add this
-        animationFour.setDuration(1000);
-        animationFour.setStartOffset(1000);
+                Animation animationFour = new AlphaAnimation(0, 1);
+                animationFour.setInterpolator(new DecelerateInterpolator()); //add this
+                animationFour.setDuration(1000);
+                animationFour.setStartOffset(1000);
 
-        locationTextView.setVisibility(View.VISIBLE);
-        locationTextView.startAnimation(animationFour);
+                locationTextView.setVisibility(View.VISIBLE);
+                locationTextView.startAnimation(animationFour);
 
-        Animation animationFive = new AlphaAnimation(0, 1);
-        animationFive.setInterpolator(new DecelerateInterpolator()); //add this
-        animationFive.setDuration(1000);
-        animationFive.setStartOffset(1000);
-        summaryTextView.setVisibility(View.VISIBLE);
-        summaryTextView.startAnimation(animationFive);
-        iconImageView.setVisibility(View.VISIBLE);
-        iconImageView.startAnimation(animationFive);
-        fabRefresh.setVisibility(View.VISIBLE);
-        //iconImageView.startAnimation(animationFive);
-
+                Animation animationFive = new AlphaAnimation(0, 1);
+                animationFive.setInterpolator(new DecelerateInterpolator()); //add this
+                animationFive.setDuration(1000);
+                animationFive.setStartOffset(1000);
+                summaryTextView.setVisibility(View.VISIBLE);
+                summaryTextView.startAnimation(animationFive);
+                iconImageView.setVisibility(View.VISIBLE);
+                iconImageView.startAnimation(animationFive);
+                fabRefresh.setVisibility(View.VISIBLE);
+                //iconImageView.startAnimation(animationFive);
+            }
+        });
 
     }
 
@@ -461,74 +468,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     private void refreshCurrentWeatherData() {
-        Log.v("StormCast", "Refresh current weather runs");
         if (isNetworkAvailable()) {
-            Log.v("StormCast", "Network is Available");
             if (clicked || firstLoad || ableToSync) {
-                Log.v("StormCast", "clicked or first load is true");
                 if (forecastURL != null) {
-                    OkHttpClient client = new OkHttpClient();
-                    Request request = new Request.Builder()
-                            .url(forecastURL)
-                            .build();
-                    Call call = client.newCall(request);
-                    call.enqueue(new Callback() {
-                        @Override
-                        public void onFailure(Call call, IOException e) {
-                            alertUserAboutError();
-                        }
-
-
-                        @Override
-                        public void onResponse(Call call, Response response) throws IOException {
-                            try {
-
-                                if (response.isSuccessful()) {
-                                    jsonData = response.body().string();
-                                    mCurrentWeather = getCurrentDetails(jsonData);
-                                    //User Preference Do-Stuff Begin (Needs to start after mCurrentWeather is Initialized) -- Positioned in Response Block to Achieve this
-                                    if (temperatureFormatPref.equals("0")) {
-                                        temperatureText = mCurrentWeather.getTemperature();
-                                        temperatureText = mCurrentWeather.convertFahrenheitToCelsius(temperatureText);
-
-                                    } else if (temperatureFormatPref.equals("1")) {
-                                        temperatureText = mCurrentWeather.getTemperature();
-                                    }
-                                    //User Preference Do-Stuff End
-                                    locationText = mCurrentWeather.getTimeZone();
-                                    summaryText = mCurrentWeather.getSummary();
-                                    iconImageId = mCurrentWeather.getIconId();
-                                    Log.v("Stormy", forecastURL);
-
-                                    runOnUiThread(new Runnable() {
-                                        @Override
-                                        public void run() {
-
-                                            timeTextView.setText("Refreshed at: " + mCurrentWeather.getFormattedTime());
-                                            temperatureTextView.setText(String.format("%.1f", temperatureText));
-                                            locationTextView.setText(locationText);
-                                            summaryTextView.setText(summaryText);
-                                            iconImageView.setImageResource(iconImageId);
-                                            summaryCardView.setCardBackgroundColor(mCurrentWeather.getSummaryCardColor(getApplicationContext()));
-                                            makeCurrentUiReappear();
-
-
-                                        }
-                                    });
-
-                                } else {
-                                    alertUserAboutError();
-
-                                }
-                            } catch (IOException e) {
-                                Log.e("Stormy - Error", "IO Exception Caught:", e);
-                            } catch (JSONException e) {
-                                Log.e("Stormy - Error", "JSON Exception Caught:", e);
-                            }
-
-
-                        }
-                    });
+                    createConnectionAndCall();
                 }
             }
         }
@@ -536,7 +479,82 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         if (firstLoad) {
             firstLoad = false;
         }
-        ableToSync = false;
+
+    }
+
+    private void createConnectionAndCall() {
+        client = new OkHttpClient();
+        request = new Request.Builder()
+                .url(forecastURL)
+                .build();
+        apiCall();
+    }
+
+    private void apiCall() {
+        Call call = client.newCall(request);
+        call.enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                alertUserAboutError();
+            }
+
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+
+                    if (response.isSuccessful()) {
+                        jsonData = response.body().string();
+                        mCurrentWeather = getCurrentDetails(jsonData);
+                        //User Preference Do-Stuff Begin (Needs to start after mCurrentWeather is Initialized) -- Positioned in Response Block to Achieve this
+                        prepareUiData();
+                        updateUiElements();
+                        makeCurrentUiReappear();
+                    } else {
+                        alertUserAboutError();
+
+                    }
+                } catch (IOException e) {
+                    Log.e("Stormy - Error", "IO Exception Caught:", e);
+                } catch (JSONException e) {
+                    Log.e("Stormy - Error", "JSON Exception Caught:", e);
+                }
+
+
+            }
+        });
+    }
+
+    private void updateUiElements() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+
+                timeTextView.setText("Refreshed at: " + mCurrentWeather.getFormattedTime());
+                temperatureTextView.setText(String.format("%.1f", temperatureText));
+                locationTextView.setText(locationText);
+                summaryTextView.setText(summaryText);
+                iconImageView.setImageResource(iconImageId);
+                summaryCardView.setCardBackgroundColor(mCurrentWeather.getSummaryCardColor(getApplicationContext()));
+
+
+
+            }
+        });
+    }
+
+    private void prepareUiData() {
+        if (temperatureFormatPref.equals("0")) {
+            temperatureText = mCurrentWeather.getTemperature();
+            temperatureText = mCurrentWeather.convertFahrenheitToCelsius(temperatureText);
+
+        } else if (temperatureFormatPref.equals("1")) {
+            temperatureText = mCurrentWeather.getTemperature();
+        }
+        //User Preference Do-Stuff End
+        locationText = mCurrentWeather.getTimeZone();
+        summaryText = mCurrentWeather.getSummary();
+        iconImageId = mCurrentWeather.getIconId();
     }
 
     //Weather Data End
@@ -566,89 +584,74 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     //Error Management & Dialogs End
 
     //Location Services
-  /*  private void startGmsLocationServices(){
+    private void startGmsLocationServices(){
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder(this)
                     .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
                         @Override
                         public void onConnected(Bundle bundle) {
-                            Toast.makeText(getApplicationContext(), "Connected to Google Play Services", Toast.LENGTH_SHORT).show();
+
+                            if (mLastLocation == null || clicked || mGoogleApiClient != null) {
+                                locationUpdate();
+                                int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
+                                if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
+                                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
+                                            REQUEST_CODE_ASK_PERMISSIONS);
+                                } else {
+                                        getLastKnownLocation();
+                                }
+                            }
                         }
 
-                        @Override
-                        public void onConnectionSuspended(int i) {
-                            Toast.makeText(getApplicationContext(), "Connection to Google Play Services Suspended", Toast.LENGTH_SHORT).show();
+                            @Override
+                            public void onConnectionSuspended ( int i){
+                                Toast.makeText(getApplicationContext(), "Connection to Google Play Services Suspended", Toast.LENGTH_SHORT).show();
+                            }
                         }
-                    })
-                    .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
-                        @Override
-                        public void onConnectionFailed(ConnectionResult connectionResult) {
-                            Toast.makeText(getApplicationContext(), "Connection to Google Play Services Failed", Toast.LENGTH_SHORT).show();
-                        }
-                    }).addApi(LocationServices.API).build();
-        }
-    } */
-    private void startLocationManager() {
-        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-    }
-    @Override
-    public void onLocationChanged(Location location) {
-        Log.v("StormCast", " On Location Changed Function runs");
-        currentLocation = location;
-        if(currentLocation != null) {
-            latitude = location.getLatitude();
-            longitude = location.getLongitude();
-        }else{
-            currentLocation = getLastKnownLocation(locationManager);
-            latitude = currentLocation.getLatitude();
-            longitude = currentLocation.getLongitude();
-        }
-            toTwoDecimalPlaces(longitude, latitude);
-            forecastURL = "https://api.forecast.io/forecast/" + forecastAPIKey + "/" + latitude + "," + longitude + "?exclude=['minutely','hourly','daily','alerts','flags']";
-            if (ableToSync) {
-                refreshCurrentWeatherData();
-            }
 
-    }
+                        )
+                                .
+
+                        addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
+                            @Override
+                            public void onConnectionFailed (ConnectionResult connectionResult){
+                                Toast.makeText(getApplicationContext(), "Connection to Google Play Services Failed", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+
+                        ).
+
+                        addApi(LocationServices.API)
+
+                        .
+
+                        build();
+                    }
+        }
+
 
     private void toTwoDecimalPlaces(double longitude, double latitude) {
-        String tempLatitude = String.format("%.2f",latitude);
+        String tempLatitude = String.format("%.2f", latitude);
         String tempLongitude = String.format("%.2f", longitude);
         latitude = Double.valueOf(tempLatitude);
         longitude = Double.valueOf(tempLongitude);
     }
 
-    @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
-
-    }
-
-    @Override
-    public void onProviderEnabled(String provider) {
-        Log.v("StormCast", "Provider Enabled");
-    }
-
-    @Override
-    public void onProviderDisabled(String provider) {
-            Log.v("StormCast", "Provider Disabled");
-    }
 
     private void locationUpdate() {
-        currentLocation = null;
-        int hasLocationPermission = checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION);
+        int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
         if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
+            requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
                     REQUEST_CODE_ASK_PERMISSIONS);
         } else {
             if(ableToSync) {
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 1, this);
-                if (currentLocation == null) {
-                    locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 1, this);
+                mLocationRequest = createLocationRequest();
+                startLocationUpdates();
+
                 }
             }
         }
 
-    }
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
@@ -698,28 +701,47 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         autoSyncIntervalPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_AUTO_SYNC_INTERVAL, "0");
         return autoSyncIntervalPref;
     }
-
-    public Location getLastKnownLocation(LocationManager lm) {
-        int hasLocationPermission = checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION);
-        if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
-                    REQUEST_CODE_ASK_PERMISSIONS);
-        } else {
-            if(ableToSync) {
-                if(currentLocation == null) {
-                   lm.requestSingleUpdate(LocationManager.GPS_PROVIDER, this, null);
-                    lm.requestSingleUpdate(LocationManager.NETWORK_PROVIDER, this, null);
-                }
-                if (currentLocation == null){
-                    mLastKnownLocation = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                }else{
-                    lm.removeUpdates(this);
-                }
-
-            }
+    public LocationRequest createLocationRequest() {
+        mLocationRequest = new LocationRequest();
+        if (autoSyncIntervalPref.equals("1")) {
+            mLocationRequest.setInterval(180000);
+        } else if (autoSyncIntervalPref.equals("2")) {
+            mLocationRequest.setInterval(3600000);
+        } else if (autoSyncIntervalPref.equals("3")) {
+            mLocationRequest.setInterval(7200000);
+        }else if(autoSyncIntervalPref.equals("4")){
+            mLocationRequest.setInterval(14400000);
+        }else if(autoSyncIntervalPref.equals("5")){
+            mLocationRequest.setInterval(21600000);
+        }else{
+            mLocationRequest.setInterval(2000000000);
         }
+        mLocationRequest.setFastestInterval(5000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_LOW_POWER);
+        return mLocationRequest;
+    }
+    public Location getLastKnownLocation() throws SecurityException {
+        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+        return mLastLocation;
+    }
+    protected void startLocationUpdates() throws SecurityException{
+        LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+    }
 
-        return mLastKnownLocation;
+
+    public void stopLocationUpdates() {
+        LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+    }
+    @Override
+    public void onLocationChanged(Location location) {
+        latitude = location.getLatitude();
+        longitude = location.getLongitude();
+        toTwoDecimalPlaces(longitude, latitude);
+        forecastURL = "https://api.forecast.io/forecast/" + forecastAPIKey + "/" + latitude + "," + longitude + "?exclude=['minutely','hourly','daily','alerts','flags']";
+        if(ableToSync){
+        refreshCurrentWeatherData();
+            ableToSync = false;
+        }
     }
 
 
