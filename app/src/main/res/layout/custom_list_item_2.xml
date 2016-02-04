@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:id="@+id/action_settings"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:paddingTop="18dp"
+          android:background="@color/colorPrimary"
+          android:textColor="@color/primary_text_color"
+          android:textAlignment="center"
+          android:typeface="normal"
+          android:fontFamily="sans-serif-light"
+          android:textSize="18sp"/>
+</RelativeLayout>

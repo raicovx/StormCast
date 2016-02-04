@@ -1,376 +1,421 @@
 package com.jamesc.stormcast;
 
-import android.Manifest;
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.view.animation.DecelerateInterpolator;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
+        import android.Manifest;
+        import android.app.Activity;
+        import android.content.Context;
+        import android.content.Intent;
+        import android.content.SharedPreferences;
+        import android.content.pm.PackageManager;
+        import android.graphics.drawable.Drawable;
+        import android.location.Location;
+        import android.location.LocationListener;
+        import android.location.LocationManager;
+        import android.net.ConnectivityManager;
+        import android.net.NetworkInfo;
+        import android.os.Bundle;
+        import android.preference.PreferenceManager;
+        import android.support.design.widget.FloatingActionButton;
+        import android.support.v4.content.ContextCompat;
+        import android.support.v4.widget.DrawerLayout;
+        import android.support.v7.app.ActionBar;
+        import android.support.v7.app.ActionBarDrawerToggle;
+        import android.support.v7.app.AppCompatActivity;
+        import android.support.v7.widget.CardView;
+        import android.support.v7.widget.Toolbar;
+        import android.util.Log;
+        import android.view.Menu;
+        import android.view.MenuItem;
+        import android.view.View;
+        import android.view.animation.AlphaAnimation;
+        import android.view.animation.Animation;
+        import android.view.animation.DecelerateInterpolator;
+        import android.widget.AdapterView;
+        import android.widget.ArrayAdapter;
+        import android.widget.ImageView;
+        import android.widget.ListView;
+        import android.widget.ProgressBar;
+        import android.widget.TextView;
+        import android.widget.Toast;
 
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationServices;
+        import com.google.android.gms.appindexing.AppIndex;
+        import com.google.android.gms.common.ConnectionResult;
+        import com.google.android.gms.common.api.GoogleApiClient;
+        import com.google.android.gms.location.LocationRequest;
+        import com.google.android.gms.location.LocationServices;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+        import org.json.JSONException;
+        import org.json.JSONObject;
 
-import java.io.IOException;
-import java.util.Timer;
-import java.util.TimerTask;
+        import java.io.IOException;
+        import java.util.ArrayList;
+        import java.util.Timer;
+        import java.util.TimerTask;
 
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+        import okhttp3.Call;
+        import okhttp3.Callback;
+        import okhttp3.OkHttpClient;
+        import okhttp3.Request;
+        import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity implements com.google.android.gms.location.LocationListener {
+        public class MainActivity extends AppCompatActivity implements com.google.android.gms.location.LocationListener {
 
-    private CurrentWeather mCurrentWeather;
-    final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
-    private OkHttpClient client;
-    private Request request;
-    private String forecastAPIKey = "f2e1d661e28dbdd28934a784f1b456a1";
-    private String forecastURL;
-    private String jsonData;
+            private CurrentWeather mCurrentWeather;
+            final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
+            private OkHttpClient client;
+            private Request request;
+            private String forecastAPIKey = "f2e1d661e28dbdd28934a784f1b456a1";
+            private String forecastURL;
+            private String jsonData;
 
-    //Action Bar + Side Drawer + UI Declarations
+            //Action Bar + Side Drawer + UI Declarations
 
-    private FloatingActionButton fabRefresh;
-    private CardView temperatureCardView;
-    private CardView autoSyncOffNotification;
-    private CardView summaryCardView;
-    ProgressBar refreshProgressBar;
-    Drawable progressDrawable;
-    //Relative Layout
-    //RelativeLayout currentWeatherLayout;
-    //Compatibility Actionbar
-    Toolbar actionBar;
-    //Drawer Layout Declarations
-    private ListView mNavList;
-    private ArrayAdapter<String> mAdapter;
-    private ActionBarDrawerToggle mDrawerToggle;
-    private DrawerLayout mDrawerLayout;
-    private String mActivityTitle;
-    private TextView mActivityTitleTextView;
+            private FloatingActionButton fabRefresh;
+            private CardView temperatureCardView;
+            private CardView autoSyncOffNotification;
+            private CardView summaryCardView;
+            ProgressBar refreshProgressBar;
+            Drawable progressDrawable;
 
+            //Relative Layout
+            //RelativeLayout currentWeatherLayout;
+            //Compatibility Actionbar
+            Toolbar actionBar;
 
-    //Location Declarations
-    private GoogleApiClient mGoogleApiClient;
-    LocationRequest mLocationRequest;
-    private double longitude;
-    private double latitude;
-    private Location mLastLocation;
-    private String locationText;
-    private TextView locationTextView;
-
-    //Weather Icon Declarations
-    private int iconImageId;
-    private ImageView iconImageView;
+            //Drawer Layout Declarations
+            private ListView mNavList;
+            private ActionBarDrawerToggle mDrawerToggle;
+            private DrawerLayout mDrawerLayout;
+            private String mActivityTitle;
+            private TextView mActivityTitleTextView;
 
 
-    //Temperature Declarations
-    private double temperatureText;
-    private TextView temperatureTextView;
+            //Location Declarations
+            private GoogleApiClient mGoogleApiClient;
+            LocationRequest mLocationRequest;
+            private boolean islocationPermissionGranted;
+            private double longitude;
+            private double latitude;
+            private Location mLastLocation;
+            private String locationText;
+            private TextView locationTextView;
 
-    //Summary Declarations
-    private String summaryText;
-    private TextView summaryTextView;
-
-    //Time Declarations
-    private String timeText;
-    private TextView timeTextView;
-
-    //Degrees Images Declartaions
-    private ImageView degreeImageView;
-
-    //Status Variables
-    private boolean clicked = false;
-    private boolean firstLoad = true;
-    private boolean ableToSync;
-    private TextView autoSyncOffTextView;
-
-    // Settings and User Preference Data Type Declarations
-    Intent settingsIntent;
-    String windSpeedFormatPref;
-    String temperatureFormatPref;
-    String distanceFormatPref;
-    String autoSyncIntervalPref;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient mClient;
+            //Weather Icon Declarations
+            private int iconImageId;
+            private ImageView iconImageView;
 
 
+            //Temperature Declarations
+            private double temperatureText;
+            private TextView temperatureTextView;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
-        createSideNavItems();
-        createSideNav();
-        startGmsLocationServices();
+            //Summary Declarations
+            private String summaryText;
+            private TextView summaryTextView;
+
+            //Time Declarations
+            private String timeText;
+            private TextView timeTextView;
+
+            //Degrees Images Declartaions
+            private ImageView degreeImageView;
+
+            //Status Variables
+            private boolean clicked = false;
+            private boolean firstLoad = true;
+            private boolean ableToSync;
+            private TextView autoSyncOffTextView;
+
+            // Settings and User Preference Data Type Declarations
+            Intent settingsIntent;
+            String windSpeedFormatPref;
+            String temperatureFormatPref;
+            String distanceFormatPref;
+            String autoSyncIntervalPref;
+
+            //Member Variables for SideNav
+            String mTitle;
+            String [] appPages = {"Current Weather","Hourly Forecast","Weekly Forecast", "Settings"};
+            TextView drawerItemSetOneTv;
+            /**
+             * ATTENTION: This was auto-generated to implement the App Indexing API.
+             * See https://g.co/AppIndexing/AndroidStudio for more information.
+             */
+            private GoogleApiClient mClient;
+
+
+
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.activity_main);
+                checkLocationPermissions();
+                temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
+
+                createSideNavItems();
+                createSideNav();
+
+                startGmsLocationServices();
 
                 //startLocationManager();
-        //Progress Bar
-        createProgressBar();
+                //Progress Bar
+                createProgressBar();
 
-        // Tool Bar
-        createActionBar();
-        //Tool Bar End
+                // Tool Bar
+                createActionBar();
+                //Tool Bar End
 
-        //Layout
-                 //currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
-        //Layout End
+                //Layout
+                //currentWeatherLayout = (RelativeLayout) findViewById(R.id.currentWeatherLayout);
+                //Layout End
 
-        //Text Views for Current Information
-        autoSyncOffNotification = (CardView)findViewById(R.id.auto_sync_off_warning_card);
-        autoSyncOffTextView = (TextView) findViewById(R.id.auto_sync_off_warning_textview);
-        summaryCardView = (CardView) findViewById(R.id.summary_card_view);
-        timeTextView  = (TextView)findViewById(R.id.timeTextView);
-        temperatureTextView = (TextView) findViewById(R.id.temperatureTextView);
-        locationTextView = (TextView) findViewById(R.id.locationTextView);
-        summaryTextView = (TextView) findViewById(R.id.summaryTextView);
-        iconImageView = (ImageView) findViewById(R.id.iconImageView);
-        degreeImageView = (ImageView) findViewById(R.id.degreesImageView);
-        settingsIntent = new Intent(this, SettingsActivity.class);
+                //Text Views for Current Information
+                autoSyncOffNotification = (CardView)findViewById(R.id.auto_sync_off_warning_card);
+                autoSyncOffTextView = (TextView) findViewById(R.id.auto_sync_off_warning_textview);
+                summaryCardView = (CardView) findViewById(R.id.summary_card_view);
+                timeTextView  = (TextView)findViewById(R.id.timeTextView);
+                temperatureTextView = (TextView) findViewById(R.id.temperatureTextView);
+                locationTextView = (TextView) findViewById(R.id.locationTextView);
+                summaryTextView = (TextView) findViewById(R.id.summaryTextView);
+                iconImageView = (ImageView) findViewById(R.id.iconImageView);
+                degreeImageView = (ImageView) findViewById(R.id.degreesImageView);
+                settingsIntent = new Intent(this, SettingsActivity.class);
 
-        //User Preference Declarations
-        windSpeedFormatPref = getWindSpeedUnitPreferences(windSpeedFormatPref);
-        temperatureFormatPref = getTemperatureFormatPreferences(temperatureFormatPref);
-        distanceFormatPref = getDistanceFormatPreferences(distanceFormatPref);
-        autoSyncIntervalPref = getAutoSyncIntervalPreferences(autoSyncIntervalPref);
-        //User Preference Declarations End
+                //User Preference Declarations
+                windSpeedFormatPref = getWindSpeedUnitPreferences(windSpeedFormatPref);
+                temperatureFormatPref = getTemperatureFormatPreferences(temperatureFormatPref);
+                distanceFormatPref = getDistanceFormatPreferences(distanceFormatPref);
+                autoSyncIntervalPref = getAutoSyncIntervalPreferences(autoSyncIntervalPref);
+                //User Preference Declarations End
 
-        //Auto Sync settings
-        if(!autoSyncIntervalPref.equals("0") || clicked) {// If the preference is not to Never Auto Refresh
-                ableToSync = true;
-                autoSyncOffNotification.setVisibility(View.GONE);
-                autoSyncOffTextView.setVisibility(View.GONE);
-                refreshProgressBar.setVisibility(View.VISIBLE);
-                locationUpdate();
-            if (autoSyncIntervalPref.equals("1")) {
-                new Timer().scheduleAtFixedRate(new TimerTask() {
+                //Auto Sync settings
+                if(!autoSyncIntervalPref.equals("0") || clicked) {// If the preference is not to Never Auto Refresh
+                    ableToSync = true;
+                    autoSyncOffNotification.setVisibility(View.GONE);
+                    autoSyncOffTextView.setVisibility(View.GONE);
+                    refreshProgressBar.setVisibility(View.VISIBLE);
+                    locationUpdate();
+                    if (autoSyncIntervalPref.equals("1")) {
+                        new Timer().scheduleAtFixedRate(new TimerTask() {
+                            @Override
+                            public void run() {
+                                ableToSync = true;
+                                refreshProgressBar.setVisibility(View.VISIBLE);
+                                locationUpdate();
+                            }
+                        }, 0, 1800000);
+                    } else if (autoSyncIntervalPref.equals("2")) {
+                        new Timer().scheduleAtFixedRate(new TimerTask() {
+                            @Override
+                            public void run() {
+                                ableToSync = true;
+                                refreshProgressBar.setVisibility(View.VISIBLE);
+                                locationUpdate();
+                            }
+                        }, 0, 3600000);
+                    } else if (autoSyncIntervalPref.equals("3")) {
+                        new Timer().scheduleAtFixedRate(new TimerTask() {
+                            @Override
+                            public void run() {
+                                ableToSync = true;
+                                refreshProgressBar.setVisibility(View.VISIBLE);
+                                locationUpdate();
+                            }
+                        }, 0, 7200000);
+                    }else if(autoSyncIntervalPref.equals("4")){
+                        new Timer().scheduleAtFixedRate(new TimerTask(){
+                            @Override
+                            public void run(){
+                                ableToSync = true;
+                                refreshProgressBar.setVisibility(View.VISIBLE);
+                                locationUpdate();
+                            }
+                        },0,14400000);
+                    }else if(autoSyncIntervalPref.equals("5")){
+                        new Timer().scheduleAtFixedRate(new TimerTask(){
+                            @Override
+                            public void run(){
+                                ableToSync = true;
+                                refreshProgressBar.setVisibility(View.VISIBLE);
+                                locationUpdate();
+                            }
+                        },0,21600000);
+                    }
+                }
+                if(autoSyncIntervalPref.equals("0")){
+                    ableToSync = false;
+                    refreshProgressBar.setVisibility(View.INVISIBLE);
+                    autoSyncOffNotification.setVisibility(View.VISIBLE);
+                    autoSyncOffTextView.setVisibility(View.VISIBLE);
+                }
+
+
+                //Auto Sync Settings End
+
+
+                //Current Weather Activity's Floating Action Button
+                fabRefresh = (FloatingActionButton) findViewById(R.id.refreshFab);
+                fabRefresh.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void run() {
+                    public void onClick(View v) {
+                        clicked = true;
                         ableToSync = true;
+                        makeCurrentUiDisappear();
+                        autoSyncOffNotification.setVisibility(View.GONE);
+                        autoSyncOffTextView.setVisibility(View.GONE);
                         refreshProgressBar.setVisibility(View.VISIBLE);
                         locationUpdate();
-                    }
-                }, 0, 1800000);
-            } else if (autoSyncIntervalPref.equals("2")) {
-                new Timer().scheduleAtFixedRate(new TimerTask() {
-                    @Override
-                    public void run() {
-                        ableToSync = true;
-                        refreshProgressBar.setVisibility(View.VISIBLE);
-                        locationUpdate();
-                    }
-                }, 0, 3600000);
-            } else if (autoSyncIntervalPref.equals("3")) {
-                new Timer().scheduleAtFixedRate(new TimerTask() {
-                    @Override
-                    public void run() {
-                        ableToSync = true;
-                        refreshProgressBar.setVisibility(View.VISIBLE);
-                        locationUpdate();
-                    }
-                }, 0, 7200000);
-            }else if(autoSyncIntervalPref.equals("4")){
-                new Timer().scheduleAtFixedRate(new TimerTask(){
-                    @Override
-                    public void run(){
-                        ableToSync = true;
-                        refreshProgressBar.setVisibility(View.VISIBLE);
-                        locationUpdate();
-                    }
-                },0,14400000);
-            }else if(autoSyncIntervalPref.equals("5")){
-                new Timer().scheduleAtFixedRate(new TimerTask(){
-                    @Override
-                    public void run(){
-                        ableToSync = true;
-                        refreshProgressBar.setVisibility(View.VISIBLE);
-                        locationUpdate();
-                    }
-                },0,21600000);
-            }
-        }
-        if(autoSyncIntervalPref.equals("0")){
-                ableToSync = false;
-                refreshProgressBar.setVisibility(View.INVISIBLE);
-                autoSyncOffNotification.setVisibility(View.VISIBLE);
-                autoSyncOffTextView.setVisibility(View.VISIBLE);
-        }
 
+                    }
+                });
 
-        //Auto Sync Settings End
-
-
-        //Current Weather Activity's Floating Action Button
-        fabRefresh = (FloatingActionButton) findViewById(R.id.refreshFab);
-        fabRefresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clicked = true;
-                ableToSync = true;
+                //Current Weather Activity's Floating Action Button End
                 makeCurrentUiDisappear();
-                autoSyncOffNotification.setVisibility(View.GONE);
-                autoSyncOffTextView.setVisibility(View.GONE);
-                refreshProgressBar.setVisibility(View.VISIBLE);
-                locationUpdate();
-
+                // ATTENTION: This was auto-generated to implement the App Indexing API.
+                // See https://g.co/AppIndexing/AndroidStudio for more information.
+                mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
             }
-        });
 
-        //Current Weather Activity's Floating Action Button End
-            makeCurrentUiDisappear();
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-    }
-    protected void onStart() {
-        if(mGoogleApiClient != null) {
-            mGoogleApiClient.connect();
-        }
-        super.onStart();
-    }
-    protected void onPause(){
-        super.onPause();
-        stopLocationUpdates();
-    }
-    protected void onStop() {
-        if(mGoogleApiClient != null) {
-            mGoogleApiClient.disconnect();
-
-        }
-        super.onStop();
-    }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if(id == R.id.action_settings){
-            startActivity(settingsIntent);
-        }else if (mDrawerToggle.onOptionsItemSelected(item)) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-    @Override
-    public boolean onPrepareOptionsMenu(final Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-
-    private void createActionBar() {
-        actionBar = (Toolbar) findViewById(R.id.current_weather_toolbar);
-        mActivityTitle = getTitle().toString();
-        mActivityTitleTextView = (TextView) findViewById(R.id.mActivityTitle);
-        if(actionBar != null) {
-            int actionBarColour = ContextCompat.getColor(getApplicationContext(), R.color.actionBarColorPrimary);
-            actionBar.setBackgroundColor(actionBarColour);
-            actionBar.inflateMenu(R.menu.menu_main);
-            setSupportActionBar(actionBar);
-            mActivityTitleTextView.setText(mActivityTitle);
-            if(getSupportActionBar() != null) {
-                displayCustomActionBar();
-            }else{
-                try{
-                    setSupportActionBar(actionBar);
-                    if(getSupportActionBar()!=null){
-                        displayCustomActionBar();
-                    }
-                }catch(Exception e){
-                    Log.e("StormCast", "Could not set Support ToolBar: "+e);
-                    alertUserAboutError();
+            private void checkLocationPermissions() {
+                int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
+                if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
+                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
+                            REQUEST_CODE_ASK_PERMISSIONS);
+                }else{
+                    Log.v("StormCast", "Location permission is already granted");
                 }
             }
-        }
-    }
 
-    private void displayCustomActionBar() {
-        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-        actionBar.setNavigationIcon(R.drawable.ic_menu_white_24dp);
-    }
+            protected void onStart() {
+                if(mGoogleApiClient != null) {
+                    mGoogleApiClient.connect();
+                }
+                super.onStart();
+            }
+            protected void onPause(){
+                super.onPause();
+                if(mGoogleApiClient.isConnected()) {
+                    stopLocationUpdates();
+                }
+            }
+            protected void onStop() {
+                if(mGoogleApiClient != null) {
+                    mGoogleApiClient.disconnect();
 
-    private void createSideNavItems() {
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mNavList = (ListView) findViewById(R.id.navList);
-        String [] appPages = {"Current Weather","Hourly Forecast","Weekly Forecast"};
-        mAdapter = new ArrayAdapter<String>(this, R.layout.custom_list_item_1, appPages);
-        mNavList.setAdapter(mAdapter);
-        mNavList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                }
+                super.onStop();
+            }
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "Time for an upgrade!", Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-    private void createSideNav(){
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
-                R.string.drawer_open, R.string.drawer_close) {
-
-            /** Called when a drawer has settled in a completely open state. */
-            public void onDrawerOpened(View drawerView) {
-                super.onDrawerClosed(drawerView);
-                mActivityTitleTextView.setText(" ");
-                invalidateOptionsMenu();
+            public boolean onOptionsItemSelected(MenuItem item) {
+                // Handle action bar item clicks here. The action bar will
+                // automatically handle clicks on the Home/Up button, so long
+                // as you specify a parent activity in AndroidManifest.xml.
+                int id = item.getItemId();
+                if (mDrawerToggle.onOptionsItemSelected(item)) {
+                    return true;
+                }else if(id == R.id.action_settings){
+                    startActivity(settingsIntent);
+                }
+                return super.onOptionsItemSelected(item);
             }
 
-            /** Called when a drawer has settled in a completely closed state. */
-            public void onDrawerClosed(View view) {
-                super.onDrawerClosed(view);
+
+            private void createActionBar() {
+                actionBar = (Toolbar) findViewById(R.id.current_weather_toolbar);
                 mActivityTitle = getTitle().toString();
-                mActivityTitleTextView.setText(mActivityTitle);
-                invalidateOptionsMenu();
+                mActivityTitleTextView = (TextView) findViewById(R.id.mActivityTitle);
+                if(actionBar != null) {
+                    int actionBarColour = ContextCompat.getColor(getApplicationContext(), R.color.actionBarColorPrimary);
+                    actionBar.setBackgroundColor(actionBarColour);
+                    actionBar.inflateMenu(R.menu.menu_main);
+                    setSupportActionBar(actionBar);
+                    mActivityTitleTextView.setText(mActivityTitle);
+                    if(getSupportActionBar() != null) {
+                        displayCustomActionBar();
+                    }else{
+                        try{
+                            setSupportActionBar(actionBar);
+                            if(getSupportActionBar()!=null){
+                                displayCustomActionBar();
+                            }
+                        }catch(Exception e){
+                            Log.e("StormCast", "Could not set Support ToolBar: "+e);
+                            alertUserAboutError();
+                        }
+                    }
+                }
             }
 
-        };
-        mDrawerToggle.setDrawerIndicatorEnabled(true);
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+            private void displayCustomActionBar() {
+                getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                getSupportActionBar().setHomeButtonEnabled(true);
+                actionBar.setNavigationIcon(R.drawable.ic_menu_white_24dp);
+            }
+
+            private void createSideNavItems() {
+                mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+                mNavList = (ListView) findViewById(R.id.navList);
+                ArrayList<sideNavItem> sideNavItemArrayList = sideNavItem.fromStringArray(appPages);
+                // mAdapter = new ArrayAdapter<String>(this, R.layout.custom_list_item_1, appPages);
+                ArrayAdapter<sideNavItem> adapter = new sideNavAdapter(this, sideNavItemArrayList);
+                mNavList.setAdapter(adapter);
+                mNavList.setOnItemClickListener(new ListView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        selectItem(position);
+                    }
+                });
 
     }
+
+            private void selectItem(int position) {
+                mNavList.setItemChecked(position, true);
+                mActivityTitleTextView.setText(appPages[position]);
+                switch(position){
+                    case 0:
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        startActivity(settingsIntent);
+                        break;
+
+                }
+
+            }
+
+        private void createSideNav() {
+                mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.drawer_open, R.string.drawer_close) {
+
+                    /**
+                     * Called when a drawer has settled in a completely open state.
+                     */
+                    public void onDrawerOpened(View drawerView) {
+                        super.onDrawerClosed(drawerView);
+                        mActivityTitleTextView.setText(" ");
+                        invalidateOptionsMenu();
+                    }
+
+                    /**
+                     * Called when a drawer has settled in a completely closed state.
+                     */
+
+                    public void onDrawerClosed(View view) {
+                        super.onDrawerClosed(view);
+                        mActivityTitle = getTitle().toString();
+                        mActivityTitleTextView.setText(mActivityTitle);
+                        invalidateOptionsMenu();
+                    }
+
+                };
+
+                mDrawerToggle.setDrawerIndicatorEnabled(true);
+                mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+
+        }
     private void createProgressBar() {
         progressDrawable = ContextCompat.getDrawable(this, R.drawable.progress_drawable);
         refreshProgressBar = (ProgressBar) findViewById(R.id.refreshProgress);
@@ -592,17 +637,14 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
                         public void onConnected(Bundle bundle) {
 
                             if (mLastLocation == null || clicked || mGoogleApiClient != null) {
-                                locationUpdate();
-                                int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
-                                if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
-                                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
-                                            REQUEST_CODE_ASK_PERMISSIONS);
+                                if (islocationPermissionGranted) {
+                                    locationUpdate();
                                 } else {
-                                        getLastKnownLocation();
+                                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION}, REQUEST_CODE_ASK_PERMISSIONS);
                                 }
+
                             }
                         }
-
                             @Override
                             public void onConnectionSuspended ( int i){
                                 Toast.makeText(getApplicationContext(), "Connection to Google Play Services Suspended", Toast.LENGTH_SHORT).show();
@@ -619,13 +661,7 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
                             }
                         }
 
-                        ).
-
-                        addApi(LocationServices.API)
-
-                        .
-
-                        build();
+                        ).addApi(LocationServices.API).build();
                     }
         }
 
@@ -639,18 +675,18 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
 
 
     private void locationUpdate() {
-        int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
-        if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
-                    REQUEST_CODE_ASK_PERMISSIONS);
+      int hasLocationPermission = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION);
+      if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
+           requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
+                   REQUEST_CODE_ASK_PERMISSIONS);
         } else {
-            if(ableToSync) {
+           if(ableToSync) {
                 mLocationRequest = createLocationRequest();
                 startLocationUpdates();
 
                 }
-            }
-        }
+         }
+    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -658,11 +694,13 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
             case REQUEST_CODE_ASK_PERMISSIONS:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission Granted
+                    islocationPermissionGranted = true;
                     if(clicked || firstLoad || ableToSync) {
                         locationUpdate();
                     }
                 } else {
                     // Permission Denied
+                    islocationPermissionGranted = false;
                     Toast.makeText(MainActivity.this, "Location Permission Denied", Toast.LENGTH_SHORT)
                             .show();
                 }
@@ -737,7 +775,8 @@ public class MainActivity extends AppCompatActivity implements com.google.androi
 
 
     public void stopLocationUpdates() {
-        LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+              LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+
     }
     @Override
     public void onLocationChanged(Location location) {
