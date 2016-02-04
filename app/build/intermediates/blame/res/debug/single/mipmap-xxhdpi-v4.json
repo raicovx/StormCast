@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_humidity_icon.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_humidity_icon.png"
+    },
+    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

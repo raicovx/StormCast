@@ -1,5 +1,7 @@
 package com.jamesc.stormcast;
 
+import android.graphics.drawable.Drawable;
+
 import java.util.ArrayList;
 
 /**
@@ -7,6 +9,7 @@ import java.util.ArrayList;
  */
 public class sideNavItem {
     public String Title;
+    public Drawable Icon;
 
     public sideNavItem(String Title){
         this.Title = Title;

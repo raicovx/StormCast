@@ -132,6 +132,10 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_separator.xml",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable\\side_nav_separator.xml"
+    },
+    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
     },

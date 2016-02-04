@@ -10,6 +10,7 @@ package com.jamesc.stormcast;
         import android.location.Location;
         import android.location.LocationListener;
         import android.location.LocationManager;
+        import android.media.Image;
         import android.net.ConnectivityManager;
         import android.net.NetworkInfo;
         import android.os.Bundle;
@@ -29,6 +30,7 @@ package com.jamesc.stormcast;
         import android.view.animation.AlphaAnimation;
         import android.view.animation.Animation;
         import android.view.animation.DecelerateInterpolator;
+        import android.view.animation.ScaleAnimation;
         import android.widget.AdapterView;
         import android.widget.ArrayAdapter;
         import android.widget.ImageView;
@@ -45,6 +47,7 @@ package com.jamesc.stormcast;
 
         import org.json.JSONException;
         import org.json.JSONObject;
+        import org.w3c.dom.Text;
 
         import java.io.IOException;
         import java.util.ArrayList;
@@ -119,6 +122,12 @@ package com.jamesc.stormcast;
             //Degrees Images Declartaions
             private ImageView degreeImageView;
 
+            //Humidity Declarations
+            private ImageView humidityIv;
+            private TextView humidityTv;
+            private String humidityText;
+            private CardView humidityCv;
+
             //Status Variables
             private boolean clicked = false;
             private boolean firstLoad = true;
@@ -141,13 +150,15 @@ package com.jamesc.stormcast;
              * See https://g.co/AppIndexing/AndroidStudio for more information.
              */
             private GoogleApiClient mClient;
-
+            private TextView windspeedTv;
+            private CardView windspeedCv;
 
 
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.activity_main);
+                settingsIntent = new Intent(this, SettingsActivity.class);
                 checkLocationPermissions();
                 temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
 
@@ -178,7 +189,13 @@ package com.jamesc.stormcast;
                 summaryTextView = (TextView) findViewById(R.id.summaryTextView);
                 iconImageView = (ImageView) findViewById(R.id.iconImageView);
                 degreeImageView = (ImageView) findViewById(R.id.degreesImageView);
-                settingsIntent = new Intent(this, SettingsActivity.class);
+                humidityIv = (ImageView) findViewById(R.id.humidity_icon);
+                humidityIv.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),R.drawable.ic_humidity_icon));
+                humidityTv = (TextView) findViewById(R.id.humidity_tv);
+                humidityCv = (CardView) findViewById(R.id.humidity_card);
+                windspeedTv = (TextView) findViewById(R.id.windspeed_tv);
+                windspeedCv = (CardView) findViewById(R.id.windspeed_card);
+
 
                 //User Preference Declarations
                 windSpeedFormatPref = getWindSpeedUnitPreferences(windSpeedFormatPref);
@@ -280,8 +297,6 @@ package com.jamesc.stormcast;
                 if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
                     requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION},
                             REQUEST_CODE_ASK_PERMISSIONS);
-                }else{
-                    Log.v("StormCast", "Location permission is already granted");
                 }
             }
 
@@ -432,6 +447,12 @@ package com.jamesc.stormcast;
         degreeImageView.setVisibility(View.INVISIBLE);
         timeTextView.setVisibility(View.INVISIBLE);
         temperatureCardView.setVisibility(View.INVISIBLE);
+        humidityTv.setVisibility(View.INVISIBLE);
+        humidityIv.setVisibility(View.INVISIBLE);
+        humidityCv.setVisibility(View.INVISIBLE);
+        windspeedCv.setVisibility(View.INVISIBLE);
+        windspeedTv.setVisibility(View.INVISIBLE);
+
         summaryCardView.setVisibility(View.INVISIBLE);
     }
     private void makeCurrentUiReappear() {
@@ -444,7 +465,7 @@ package com.jamesc.stormcast;
                 Animation animationOne = new AlphaAnimation(0, 1);
                 animationOne.setInterpolator(new DecelerateInterpolator()); //add this
                 animationOne.setDuration(1000);
-                animationOne.setStartOffset(1000);
+                animationOne.setStartOffset(0);
                 temperatureCardView.setVisibility(View.VISIBLE);
                 temperatureCardView.startAnimation(animationOne);
 
@@ -452,39 +473,47 @@ package com.jamesc.stormcast;
                 Animation animationTwo = new AlphaAnimation(0, 1);
                 animationTwo.setInterpolator(new DecelerateInterpolator()); //add this
                 animationTwo.setDuration(1000);
-                animationTwo.setStartOffset(1000);
-                animationTwo.setStartOffset(100);
-                temperatureTextView.setVisibility(View.VISIBLE);
-                temperatureTextView.startAnimation(animationTwo);
-                degreeImageView.startAnimation(animationTwo);
-                degreeImageView.setVisibility(View.VISIBLE);
+                animationTwo.setStartOffset(1100);
+                summaryCardView.setVisibility(View.VISIBLE);
+                summaryCardView.startAnimation(animationTwo);
+                timeTextView.startAnimation(animationTwo);
+                timeTextView.setVisibility(View.VISIBLE);
+
 
                 Animation animationThree = new AlphaAnimation(0, 1);
                 animationThree.setInterpolator(new DecelerateInterpolator()); //add this
                 animationThree.setDuration(1000);
-                animationThree.setStartOffset(1000);
-                animationThree.setStartOffset(500);
-                summaryCardView.setVisibility(View.VISIBLE);
-                summaryCardView.startAnimation(animationThree);
-                timeTextView.startAnimation(animationThree);
-                timeTextView.setVisibility(View.VISIBLE);
+                animationThree.setStartOffset(2200);
+                humidityCv.setVisibility(View.VISIBLE);
+                humidityCv.startAnimation(animationThree);
 
                 Animation animationFour = new AlphaAnimation(0, 1);
                 animationFour.setInterpolator(new DecelerateInterpolator()); //add this
                 animationFour.setDuration(1000);
-                animationFour.setStartOffset(1000);
-
-                locationTextView.setVisibility(View.VISIBLE);
-                locationTextView.startAnimation(animationFour);
+                animationFour.setStartOffset(2800);
+                windspeedCv.setVisibility(View.VISIBLE);
+                windspeedCv.startAnimation(animationFour);
 
                 Animation animationFive = new AlphaAnimation(0, 1);
                 animationFive.setInterpolator(new DecelerateInterpolator()); //add this
                 animationFive.setDuration(1000);
-                animationFive.setStartOffset(1000);
+                animationFive.setStartOffset(4400);
+                temperatureTextView.setVisibility(View.VISIBLE);
+                temperatureTextView.startAnimation(animationFive);
+                degreeImageView.startAnimation(animationFive);
+                degreeImageView.setVisibility(View.VISIBLE);
+                locationTextView.setVisibility(View.VISIBLE);
+                locationTextView.startAnimation(animationFour);
                 summaryTextView.setVisibility(View.VISIBLE);
                 summaryTextView.startAnimation(animationFive);
                 iconImageView.setVisibility(View.VISIBLE);
                 iconImageView.startAnimation(animationFive);
+                humidityTv.setVisibility(View.VISIBLE);
+                humidityTv.startAnimation(animationFive);
+                humidityIv.setVisibility(View.VISIBLE);
+                humidityIv.startAnimation(animationFive);
+                windspeedTv.setVisibility(View.VISIBLE);
+                windspeedCv.startAnimation(animationFive);
                 fabRefresh.setVisibility(View.VISIBLE);
                 //iconImageView.startAnimation(animationFive);
             }
@@ -577,6 +606,7 @@ package com.jamesc.stormcast;
 
                 timeTextView.setText("Refreshed at: " + mCurrentWeather.getFormattedTime());
                 temperatureTextView.setText(String.format("%.1f", temperatureText));
+                humidityTv.setText(humidityText);
                 locationTextView.setText(locationText);
                 summaryTextView.setText(summaryText);
                 iconImageView.setImageResource(iconImageId);
@@ -600,6 +630,7 @@ package com.jamesc.stormcast;
         locationText = mCurrentWeather.getTimeZone();
         summaryText = mCurrentWeather.getSummary();
         iconImageId = mCurrentWeather.getIconId();
+        humidityText = ((mCurrentWeather.getHumidity()*100)+"%");
     }
 
     //Weather Data End
@@ -637,11 +668,7 @@ package com.jamesc.stormcast;
                         public void onConnected(Bundle bundle) {
 
                             if (mLastLocation == null || clicked || mGoogleApiClient != null) {
-                                if (islocationPermissionGranted) {
                                     locationUpdate();
-                                } else {
-                                    requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION}, REQUEST_CODE_ASK_PERMISSIONS);
-                                }
 
                             }
                         }
@@ -694,13 +721,11 @@ package com.jamesc.stormcast;
             case REQUEST_CODE_ASK_PERMISSIONS:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission Granted
-                    islocationPermissionGranted = true;
                     if(clicked || firstLoad || ableToSync) {
                         locationUpdate();
                     }
                 } else {
                     // Permission Denied
-                    islocationPermissionGranted = false;
                     Toast.makeText(MainActivity.this, "Location Permission Denied", Toast.LENGTH_SHORT)
                             .show();
                 }

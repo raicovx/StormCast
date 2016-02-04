@@ -27,7 +27,7 @@
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="left|start"
-        android:background="#ff333333"
+        android:background="#f5f5f5"
         android:descendantFocusability="blocksDescendants"/>
 
 </android.support.v4.widget.DrawerLayout>
