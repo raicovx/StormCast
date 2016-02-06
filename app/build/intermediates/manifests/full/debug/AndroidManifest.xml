@@ -56,6 +56,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jamesc.stormcast.MainActivity" />
         </activity>
+        <activity
+            android:name="com.jamesc.stormcast.HourlyWeather"
+            android:label="@string/title_hourly_weather"
+            android:screenOrientation="portrait"
+            android:theme="@style/currentWeatherTheme" >
+        </activity>
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -42,6 +42,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jamesc.stormcast.MainActivity"/>
         </activity>
+        <activity
+            android:name=".HourlyWeather"
+            android:label="@string/title_hourly_weather"
+            android:screenOrientation="portrait"
+            android:theme="@style/currentWeatherTheme">
+        </activity>
     </application>
 
 </manifest>

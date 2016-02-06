@@ -1,16 +1,12 @@
 package com.jamesc.stormcast;
 
         import android.Manifest;
-        import android.app.Activity;
         import android.content.Context;
         import android.content.Intent;
         import android.content.SharedPreferences;
         import android.content.pm.PackageManager;
         import android.graphics.drawable.Drawable;
         import android.location.Location;
-        import android.location.LocationListener;
-        import android.location.LocationManager;
-        import android.media.Image;
         import android.net.ConnectivityManager;
         import android.net.NetworkInfo;
         import android.os.Bundle;
@@ -24,13 +20,11 @@ package com.jamesc.stormcast;
         import android.support.v7.widget.CardView;
         import android.support.v7.widget.Toolbar;
         import android.util.Log;
-        import android.view.Menu;
         import android.view.MenuItem;
         import android.view.View;
         import android.view.animation.AlphaAnimation;
         import android.view.animation.Animation;
         import android.view.animation.DecelerateInterpolator;
-        import android.view.animation.ScaleAnimation;
         import android.widget.AdapterView;
         import android.widget.ArrayAdapter;
         import android.widget.ImageView;
@@ -47,7 +41,6 @@ package com.jamesc.stormcast;
 
         import org.json.JSONException;
         import org.json.JSONObject;
-        import org.w3c.dom.Text;
 
         import java.io.IOException;
         import java.util.ArrayList;
@@ -136,6 +129,7 @@ package com.jamesc.stormcast;
 
             // Settings and User Preference Data Type Declarations
             Intent settingsIntent;
+            Intent hourlyWeatherIntent;
             String windSpeedFormatPref;
             String temperatureFormatPref;
             String distanceFormatPref;
@@ -159,6 +153,7 @@ package com.jamesc.stormcast;
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.activity_main);
                 settingsIntent = new Intent(this, SettingsActivity.class);
+                hourlyWeatherIntent = new Intent(this, HourlyWeather.class);
                 checkLocationPermissions();
                 temperatureCardView = (CardView) findViewById(R.id.temperature_card_view);
 
@@ -198,10 +193,10 @@ package com.jamesc.stormcast;
 
 
                 //User Preference Declarations
-                windSpeedFormatPref = getWindSpeedUnitPreferences(windSpeedFormatPref);
-                temperatureFormatPref = getTemperatureFormatPreferences(temperatureFormatPref);
-                distanceFormatPref = getDistanceFormatPreferences(distanceFormatPref);
-                autoSyncIntervalPref = getAutoSyncIntervalPreferences(autoSyncIntervalPref);
+                windSpeedFormatPref = getWindSpeedUnitPreferences();
+                temperatureFormatPref = getTemperatureFormatPreferences();
+                distanceFormatPref = getDistanceFormatPreferences();
+                autoSyncIntervalPref = getAutoSyncIntervalPreferences();
                 //User Preference Declarations End
 
                 //Auto Sync settings
@@ -347,6 +342,7 @@ package com.jamesc.stormcast;
                     if(getSupportActionBar() != null) {
                         displayCustomActionBar();
                     }else{
+                        Log.v("StormCast", "Action bar was null..");
                         try{
                             setSupportActionBar(actionBar);
                             if(getSupportActionBar()!=null){
@@ -390,11 +386,14 @@ package com.jamesc.stormcast;
                     case 0:
                         break;
                     case 1:
+                        startActivity(hourlyWeatherIntent);
+                        fabRefresh.setVisibility(View.GONE);
                         break;
                     case 2:
                         break;
                     case 3:
                         startActivity(settingsIntent);
+                        fabRefresh.setVisibility(View.GONE);
                         break;
 
                 }
@@ -452,7 +451,7 @@ package com.jamesc.stormcast;
         humidityCv.setVisibility(View.INVISIBLE);
         windspeedCv.setVisibility(View.INVISIBLE);
         windspeedTv.setVisibility(View.INVISIBLE);
-
+        fabRefresh.setVisibility(View.INVISIBLE);
         summaryCardView.setVisibility(View.INVISIBLE);
     }
     private void makeCurrentUiReappear() {
@@ -464,10 +463,18 @@ package com.jamesc.stormcast;
                 autoSyncOffTextView.setVisibility(View.GONE);
                 Animation animationOne = new AlphaAnimation(0, 1);
                 animationOne.setInterpolator(new DecelerateInterpolator()); //add this
-                animationOne.setDuration(1000);
+                animationOne.setDuration(500);
                 animationOne.setStartOffset(0);
                 temperatureCardView.setVisibility(View.VISIBLE);
                 temperatureCardView.startAnimation(animationOne);
+                temperatureTextView.setVisibility(View.VISIBLE);
+                temperatureTextView.startAnimation(animationOne);
+                timeTextView.setVisibility(View.VISIBLE);
+                timeTextView.startAnimation(animationOne);
+                degreeImageView.setVisibility(View.VISIBLE);
+                degreeImageView.startAnimation(animationOne);
+                locationTextView.setVisibility(View.VISIBLE);
+                locationTextView.startAnimation(animationOne);
 
 
                 Animation animationTwo = new AlphaAnimation(0, 1);
@@ -476,8 +483,11 @@ package com.jamesc.stormcast;
                 animationTwo.setStartOffset(1100);
                 summaryCardView.setVisibility(View.VISIBLE);
                 summaryCardView.startAnimation(animationTwo);
-                timeTextView.startAnimation(animationTwo);
-                timeTextView.setVisibility(View.VISIBLE);
+                summaryTextView.setVisibility(View.VISIBLE);
+                summaryTextView.startAnimation(animationTwo);
+                iconImageView.setVisibility(View.VISIBLE);
+                iconImageView.startAnimation(animationTwo);
+
 
 
                 Animation animationThree = new AlphaAnimation(0, 1);
@@ -486,6 +496,10 @@ package com.jamesc.stormcast;
                 animationThree.setStartOffset(2200);
                 humidityCv.setVisibility(View.VISIBLE);
                 humidityCv.startAnimation(animationThree);
+                humidityTv.setVisibility(View.VISIBLE);
+                humidityTv.startAnimation(animationThree);
+                humidityIv.setVisibility(View.VISIBLE);
+                humidityIv.startAnimation(animationThree);
 
                 Animation animationFour = new AlphaAnimation(0, 1);
                 animationFour.setInterpolator(new DecelerateInterpolator()); //add this
@@ -493,27 +507,13 @@ package com.jamesc.stormcast;
                 animationFour.setStartOffset(2800);
                 windspeedCv.setVisibility(View.VISIBLE);
                 windspeedCv.startAnimation(animationFour);
+                windspeedTv.setVisibility(View.VISIBLE);
+                windspeedCv.startAnimation(animationFour);
 
                 Animation animationFive = new AlphaAnimation(0, 1);
                 animationFive.setInterpolator(new DecelerateInterpolator()); //add this
                 animationFive.setDuration(1000);
                 animationFive.setStartOffset(4400);
-                temperatureTextView.setVisibility(View.VISIBLE);
-                temperatureTextView.startAnimation(animationFive);
-                degreeImageView.startAnimation(animationFive);
-                degreeImageView.setVisibility(View.VISIBLE);
-                locationTextView.setVisibility(View.VISIBLE);
-                locationTextView.startAnimation(animationFour);
-                summaryTextView.setVisibility(View.VISIBLE);
-                summaryTextView.startAnimation(animationFive);
-                iconImageView.setVisibility(View.VISIBLE);
-                iconImageView.startAnimation(animationFive);
-                humidityTv.setVisibility(View.VISIBLE);
-                humidityTv.startAnimation(animationFive);
-                humidityIv.setVisibility(View.VISIBLE);
-                humidityIv.startAnimation(animationFive);
-                windspeedTv.setVisibility(View.VISIBLE);
-                windspeedCv.startAnimation(animationFive);
                 fabRefresh.setVisibility(View.VISIBLE);
                 //iconImageView.startAnimation(animationFive);
             }
@@ -742,42 +742,49 @@ package com.jamesc.stormcast;
 
     }
 
-    public String getWindSpeedUnitPreferences(String windSpeedFormatPref) {
+    public String getWindSpeedUnitPreferences() {
         SharedPreferences sharedPref = initializeSharedPrefs();
-        windSpeedFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_WIND_SPEED_UNITS,"0");
+        String windSpeedFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_WIND_SPEED_UNITS, "0");
         return windSpeedFormatPref;
     }
 
-    public String getTemperatureFormatPreferences(String temperatureFormatPref){
+    public String getTemperatureFormatPreferences(){
         SharedPreferences sharedPref = initializeSharedPrefs();
-        temperatureFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_TEMPERATURE_UNITS, "0");
+        String temperatureFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_TEMPERATURE_UNITS, "0");
         return temperatureFormatPref;
     }
 
-    public String getDistanceFormatPreferences(String distanceFormatPref){
+    public String getDistanceFormatPreferences(){
         SharedPreferences sharedPref = initializeSharedPrefs();
-        distanceFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_DISTANCE_UNITS, "0");
+        String distanceFormatPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_DISTANCE_UNITS, "0");
         return distanceFormatPref;
     }
-    public String getAutoSyncIntervalPreferences(String autoSyncIntervalPref) {
+    public String getAutoSyncIntervalPreferences() {
         SharedPreferences sharedPref = initializeSharedPrefs();
-        autoSyncIntervalPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_AUTO_SYNC_INTERVAL, "0");
+        String autoSyncIntervalPref = sharedPref.getString(SettingsActivity.PrefsFragment.KEY_PREF_AUTO_SYNC_INTERVAL, "0");
         return autoSyncIntervalPref;
     }
     public LocationRequest createLocationRequest() {
         mLocationRequest = new LocationRequest();
-        if (autoSyncIntervalPref.equals("1")) {
-            mLocationRequest.setInterval(180000);
-        } else if (autoSyncIntervalPref.equals("2")) {
-            mLocationRequest.setInterval(3600000);
-        } else if (autoSyncIntervalPref.equals("3")) {
-            mLocationRequest.setInterval(7200000);
-        }else if(autoSyncIntervalPref.equals("4")){
-            mLocationRequest.setInterval(14400000);
-        }else if(autoSyncIntervalPref.equals("5")){
-            mLocationRequest.setInterval(21600000);
-        }else{
-            mLocationRequest.setInterval(2000000000);
+        switch (autoSyncIntervalPref) {
+            case "1":
+                mLocationRequest.setInterval(180000);
+                break;
+            case "2":
+                mLocationRequest.setInterval(3600000);
+                break;
+            case "3":
+                mLocationRequest.setInterval(7200000);
+                break;
+            case "4":
+                mLocationRequest.setInterval(14400000);
+                break;
+            case "5":
+                mLocationRequest.setInterval(21600000);
+                break;
+            default:
+                mLocationRequest.setInterval(2000000000);
+                break;
         }
         mLocationRequest.setFastestInterval(5000);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_LOW_POWER);
@@ -817,4 +824,4 @@ package com.jamesc.stormcast;
 
 
     // User Preferences End
-};
+}
