@@ -400,7 +400,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-        hourlyList.setAdapter(new HourlyItemsArrayAdapter(getApplicationContext(), mHourlyWeather));
+            hourlyList.setAdapter(new HourlyItemsArrayAdapter(getApplicationContext(), mHourlyWeather));
             }
         });
 

@@ -16,6 +16,8 @@ import java.util.Locale;
  */
 public class HourlyWeatherModel {
     private long mTime;
+    private int mIconColour;
+    private boolean mWallpaperTone;
 
     public String getSummary() {
         return mSummary;
@@ -32,7 +34,7 @@ public class HourlyWeatherModel {
     public void setApparentTemperature(double apparentTemperature) {
         mApparentTemperature = apparentTemperature;
     }
-
+    int mIconColor;
     private String mSummary;
     private String mIcon;
     private int mIconId;
@@ -60,7 +62,6 @@ public class HourlyWeatherModel {
         SimpleDateFormat sdf = new SimpleDateFormat("h:mm a");
         Date hourTime = new Date((time * 1000L));
         String stringFormattedTime = sdf.format(hourTime);
-        Log.v("StormCast", stringFormattedTime);
         return stringFormattedTime;
 
     }
@@ -79,7 +80,7 @@ public class HourlyWeatherModel {
 
     public int getIconId() {
         if (mIcon.equals("clear-day")) {
-            mIconId = R.drawable.clear_day;
+            mIconId = R.drawable.clear_day_icon;
         }
         else if (mIcon.equals("clear-night")) {
             mIconId = R.drawable.clear_night;
@@ -146,32 +147,75 @@ public class HourlyWeatherModel {
     public int getCardColor(Context context) {
         if (mIcon.equals("clear-day")) {
             mCardColor = ContextCompat.getColor(context, R.color.clear_day);
+            mWallpaperTone = false;
         }
         else if (mIcon.equals("clear-night")) {
             mCardColor = ContextCompat.getColor(context, R.color.clear_night);
+            mWallpaperTone = false;
         }
         else if (mIcon.equals("rain")) {
             mCardColor = ContextCompat.getColor(context, R.color.rain);
+            mWallpaperTone = false;
         }
         else if (mIcon.equals("snow") || mIcon.equals("sleet")) {
             mCardColor = ContextCompat.getColor(context, R.color.snow);
+            mWallpaperTone = true;
         }
         else if (mIcon.equals("wind")) {
             mCardColor = ContextCompat.getColor(context,R.color.wind);
+            mWallpaperTone = true;
         }
         else if (mIcon.equals("cloudy")) {
             mCardColor = ContextCompat.getColor(context,R.color.cloudy);
+            mWallpaperTone = true;
         }
         else if (mIcon.equals("fog") || mIcon.equals("partly-cloudy-day")) {
             mCardColor = ContextCompat.getColor(context,R.color.partly_cloudy);
+            mWallpaperTone = true;
         }
         else if (mIcon.equals("partly-cloudy-night")) {
             mCardColor = ContextCompat.getColor(context,R.color.cloudy_night);
+            mWallpaperTone = false;
         }
         return mCardColor;
     }
 
     public void setCardColor(int cardColor) {
         mCardColor = cardColor;
+    }
+
+    public int getIconColor(Context context) {
+
+        if (mIcon.equals("clear-day")) {
+            mIconColor = ContextCompat.getColor(context, R.color.clear_day_icon);
+        }
+        else if (mIcon.equals("clear-night")) {
+            mIconColor = ContextCompat.getColor(context, R.color.clear_night_icon);
+        }
+        else if (mIcon.equals("rain")) {
+            mIconColor = ContextCompat.getColor(context, R.color.rain_icon);
+        }
+        else if (mIcon.equals("snow") || mIcon.equals("sleet")) {
+            mIconColor = ContextCompat.getColor(context, R.color.snow_icon);
+        }
+        else if (mIcon.equals("wind")) {
+            mIconColor = ContextCompat.getColor(context,R.color.wind_icon);
+        }
+        else if (mIcon.equals("cloudy")) {
+            mIconColor = ContextCompat.getColor(context,R.color.cloudy_icon);
+        }
+        else if (mIcon.equals("fog") || mIcon.equals("partly-cloudy-day")) {
+            mIconColor = ContextCompat.getColor(context,R.color.partly_cloudy_icon);
+        }
+        else if (mIcon.equals("partly-cloudy-night")) {
+            mIconColor = ContextCompat.getColor(context,R.color.cloudy_night_icon);
+        }
+        return mIconColor;
+    }
+
+    public boolean getWallpaperTone() {
+        //True for Light..... False for Dark
+
+        return mWallpaperTone;
     }
 }

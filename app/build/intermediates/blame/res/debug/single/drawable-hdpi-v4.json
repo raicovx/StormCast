@@ -8,16 +8,16 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_light.png",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_off_light.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_2_light.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_off_light.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cloudy_night.png",
@@ -108,68 +108,68 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_dark.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-hdpi\\powered_by_google_light.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_dark.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_pause.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cloudy.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\cloudy.png"
-    },
-    {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_ruler.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_ruler.png"
     },
     {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cloudy.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\cloudy.png"
+    },
+    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_humidity_icon.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_humidity_icon.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_humidity_icon.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_humidity_icon.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
@@ -184,12 +184,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
@@ -228,44 +228,44 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clear_day.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\clear_day.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clear_day.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\clear_day.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bar_back_arrow.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bar_back_arrow.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fog.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\fog.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bar_back_arrow.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bar_back_arrow.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clear_day.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\clear_day.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fog.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\fog.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -292,20 +292,20 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_light.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_light.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_2_mono_dark.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_light.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_light.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -344,44 +344,44 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wind.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\wind.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sleet.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\sleet.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wind.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\wind.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_dark.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_dark.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fog.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\fog.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\partly_cloudy.png",
@@ -404,12 +404,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_dark.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
@@ -424,44 +424,44 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_1.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_light.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_play_light.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sunny.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\sunny.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sunny.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\sunny.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
@@ -500,36 +500,40 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rain.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\rain.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rain.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\rain.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rain.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\rain.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wind.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\wind.png"
     },
     {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_colour_clear_icon.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_colour_clear_icon.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
@@ -544,40 +548,40 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_1_mono_dark.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sunny.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\sunny.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_pause_light.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_pause_light.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_1_light.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_on_1_light.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
@@ -600,12 +604,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_2.png"
+    },
+    {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -624,28 +628,32 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_black_24dp.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sleet.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\sleet.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_black_24dp.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clear_day_icon.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\clear_day_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_dark.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_setting_dark.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
@@ -672,12 +680,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\cloudy_night.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
-    },
-    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
@@ -716,12 +724,12 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_1.png",
@@ -772,12 +780,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_pause_dark.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_ruler.png",
@@ -792,12 +800,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_black_24dp.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_disabled_mono_dark.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sync_black_24dp.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_sync_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
@@ -820,32 +828,32 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_button_white.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_settings_button_white.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_light.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_light.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_current_weather_icon.png",
@@ -888,16 +896,16 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_settings_icon.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cloudy.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\cloudy.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cloudy.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\cloudy.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_settings_button.png",
@@ -908,12 +916,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_disabled_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\places_ic_clear.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-hdpi\\places_ic_clear.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-hdpi\\places_ic_clear.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
@@ -944,16 +952,16 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_play_dark.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snow.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\snow.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snow.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\snow.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_play_dark.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_0_mono_dark.png",
@@ -980,12 +988,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-hdpi\\powered_by_google_light.png"
-    },
-    {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-hdpi\\powered_by_google_light.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
@@ -1024,32 +1032,32 @@
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_play.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_white_24dp.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_white_24dp.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_white_24dp.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",

@@ -125,7 +125,6 @@
         android:id="@+id/refreshProgress"
         android:indeterminate="true"
         android:indeterminateDrawable="@drawable/progress_drawable"
-        android:layout_below="@+id/degreesImageView"
         android:layout_centerInParent="true"
         style="?android:attr/progressBarStyleLarge"
         />

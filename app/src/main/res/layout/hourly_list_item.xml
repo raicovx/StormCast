@@ -2,35 +2,117 @@
 <android.support.v7.widget.CardView
     android:id="@+id/hourly_weather_card_view"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="4dp"
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:layout_marginTop="15dp"
     android:layout_marginBottom="15dp">
-<LinearLayout
+
+    <LinearLayout
     android:orientation="horizontal"
     android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:id="@+id/hourly_time_text_view"
-        android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView android:id="@+id/hourly_time_text_view"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:textColor="@color/secondary_text_color"
+                      android:text="1:00 PM"
+                      android:gravity="center"
+                      android:padding="5dp"
+                      android:textSize="24sp"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-              android:textColor="@color/secondary_text_color"
-        />
-    <ImageView android:id="@+id/hourly_icon_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
-    <TextView android:id="@+id/hourly_summary_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:textSize="18dp"
-        android:textColor="@color/secondary_text_color"/>
-    <TextView android:id="@+id/hourly_temperature_text_view"
-              android:textColor="@color/secondary_text_color"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:textSize="18dp"/>
-    <TextView android:id="@+id/hourly_apparent_temperature_text_view"
-              android:textColor="@color/secondary_text_color"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-              android:textSize="16dp"/>
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="bottom">
+        <TextView android:id="@+id/hourly_temperature_text_view"
+                  android:textColor="@color/secondary_text_color"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="24dp"
+                  android:gravity="center"
+                  android:text="24.5"
+                  android:layout_weight="1"
+                  android:paddingTop="5dp"
+                  android:layout_gravity="bottom"/>
+        <TextView android:id="@+id/degrees_text_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="14sp"
+                  android:layout_weight="1"
+                  android:layout_gravity="bottom"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Feels Like:"
+            android:id="@+id/feels_like_text_view"
+            android:textColor="@color/secondary_text_color"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <TextView android:id="@+id/hourly_apparent_temperature_text_view"
+                  android:textColor="@color/secondary_text_color"
+                  android:layout_width="match_parent"
+                  android:layout_height="31dp"
+                  android:textSize="18dp"
+                  android:text="23.6"
+                  android:gravity="center"
+                  android:layout_marginBottom="24dp"
+                  android:paddingBottom="5dp"
+                  android:layout_weight="1"/>
+            <TextView android:id="@+id/degrees_text_view_two"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="14sp"
+                      android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/hourly_icon_image_view"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/clear_day"
+                       android:background="#00FFFFFF"
+                       android:layout_gravity="center"
+                       android:layout_marginTop="15dp"
+                       android:layout_weight="1"
+                android:elevation="4dp"/>
+
+            <TextView android:id="@+id/hourly_summary_text_view"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:textColor="@color/secondary_text_color"
+                      android:text="Partly Cloudy"
+                      android:padding="10dp"
+                      android:gravity="center"
+                      android:layout_marginBottom="15dp"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"/>
+        </LinearLayout>
+
+        
 </LinearLayout>
 </android.support.v7.widget.CardView>
