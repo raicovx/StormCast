@@ -1,10 +1,12 @@
-package com.jamesc.stormcast;
+package com.jamesc.stormcast.UI;
 
         import android.app.AlertDialog;
         import android.app.Dialog;
         import android.app.DialogFragment;
         import android.content.Context;
         import android.os.Bundle;
+
+        import com.jamesc.stormcast.R;
 
 /**
  * Created by James on 20/01/2016.

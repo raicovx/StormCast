@@ -4,11 +4,11 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\refresh.xml"
     },
     {
-        "merged": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\refresh.xml",
-        "source": "C:\\Users\\james\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\refresh.xml"
-    },
-    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\clear_day_icon.xml",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\clear_day_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\clear_night_icon.xml",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\clear_night_icon.xml"
     }
 ]

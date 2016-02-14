@@ -3,17 +3,17 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
                 android:layout_marginTop="?android:actionBarSize"
                 android:theme="@style/General"
                 android:id="@+id/hourly_weather_activity"
-                tools:context="com.jamesc.stormcast.HourlyWeather"
+                tools:context=".UI.HourlyWeather"
                 tools:showIn="@layout/hourly_weather_activity_layout">
-<ListView android:id="@+id/hourly_weather_list_items"
+<android.support.v7.widget.RecyclerView android:id="@+id/hourly_recycler_view"
                 android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:dividerHeight="5dp"
+              android:dividerHeight="15dp"
               android:divider="@color/background_color"/>
 
     <ProgressBar

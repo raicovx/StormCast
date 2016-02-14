@@ -1,21 +1,20 @@
-package com.jamesc.stormcast;
+package com.jamesc.stormcast.Weather;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 
-import java.text.DateFormat;
+import com.jamesc.stormcast.R;
+import com.jamesc.stormcast.UI.SettingsActivity;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.TimeZone;
 
 /**
  * Created by James on 20/01/2016.
  */
-public class CurrentWeather {
+public class Current {
     private String mIcon;
     private long mTime;
     private double mTemperature;

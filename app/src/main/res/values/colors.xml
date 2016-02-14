@@ -19,20 +19,28 @@
     <color name="secondary_text_color">#333333</color>
 
     <!-- Weather Colours -->
-    <color name="clear_day">#0277bd</color>
-    <color name="clear_night">#5a76be</color>
-    <color name="rain">#334878</color>
+    <color name="clear_day">#2196F3</color>
+    <color name="clear_night">#5c6bc0</color>
+    <color name="rain">#455a64</color>
     <color name="snow">#78909c</color>
     <color name="wind">#b0bec5</color>
     <color name="cloudy">#616161</color>
-    <color name="partly_cloudy">#bebebe</color>
+    <color name="partly_cloudy">#bdbdbd</color>
     <color name="cloudy_night">#455a64</color>
-    <color name="clear_day_icon">#FFD56A</color>
+    <color name="clear_day_icon">#00FFD56A</color>
     <color name="clear_night_icon">#D1CFCD</color>
     <color name="rain_icon">#E8E6E2</color>
     <color name="snow_icon">#E8E8E8</color>
     <color name="wind_icon">#263238</color>
     <color name="cloudy_icon">#D8D8D8</color>
-    <color name="partly_cloudy_icon">#E5E5E5</color>
+    <color name="partly_cloudy_icon">#00E5E5E5</color>
     <color name="cloudy_night_icon">#E2E2E2</color>
+    <color name="clear_day_dark">#1565C0</color>
+    <color name="cloudy_night_dark">#2d3a5c</color>
+    <color name="partly_cloudy_dark">#616161</color>
+    <color name="cloudy_dark">#263238</color>
+    <color name="wind_dark">#546E7A</color>
+    <color name="snow_dark">#455A64</color>
+    <color name="rain_dark">#263238</color>
+    <color name="clear_night_dark">#303F9F</color>
 </resources>

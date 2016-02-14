@@ -1,18 +1,16 @@
-package com.jamesc.stormcast;
+package com.jamesc.stormcast.UI.Navigation;
 
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.media.Image;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.jamesc.stormcast.R;
 
 import java.util.ArrayList;
 

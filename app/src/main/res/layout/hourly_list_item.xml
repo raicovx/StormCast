@@ -2,56 +2,62 @@
 <android.support.v7.widget.CardView
     android:id="@+id/hourly_weather_card_view"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:elevation="4dp"
+    android:elevation="5dp"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:layout_marginTop="15dp"
+    android:layout_marginTop="25dp"
     android:layout_marginBottom="15dp">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/hourly_time_date_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        >
+        <TextView android:id="@+id/hourly_time_text_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textColor="@color/secondary_text_color"
+                  android:text="1:00 PM"
+                  android:padding="15dp"
+                  android:textSize="18sp"
+                  android:typeface="sans"/>
+    </LinearLayout>
     <LinearLayout
     android:orientation="horizontal"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="1">
-            <TextView android:id="@+id/hourly_time_text_view"
-                      android:layout_width="match_parent"
-                      android:layout_height="match_parent"
-                      android:textColor="@color/secondary_text_color"
-                      android:text="1:00 PM"
-                      android:gravity="center"
-                      android:padding="5dp"
-                      android:textSize="24sp"
-                />
-        </LinearLayout>
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:minHeight="150dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:paddingTop="15dp"
+        android:layout_gravity="center_vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1"
-            android:layout_gravity="bottom">
+            android:layout_gravity="center"
+            android:gravity="center_horizontal">
         <TextView android:id="@+id/hourly_temperature_text_view"
                   android:textColor="@color/secondary_text_color"
-                  android:layout_width="match_parent"
+                  android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:textSize="24dp"
                   android:gravity="center"
                   android:text="24.5"
-                  android:layout_weight="1"
                   android:paddingTop="5dp"
                   android:layout_gravity="bottom"/>
         <TextView android:id="@+id/degrees_text_view"
-                  android:layout_width="match_parent"
+                  android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:textSize="14sp"
-                  android:layout_weight="1"
+                  android:textSize="18sp"
                   android:layout_gravity="bottom"/>
         </LinearLayout>
         <TextView
@@ -65,24 +71,24 @@
             android:layout_weight="1"/>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
         <TextView android:id="@+id/hourly_apparent_temperature_text_view"
                   android:textColor="@color/secondary_text_color"
-                  android:layout_width="match_parent"
-                  android:layout_height="31dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
                   android:textSize="18dp"
                   android:text="23.6"
                   android:gravity="center"
                   android:layout_marginBottom="24dp"
                   android:paddingBottom="5dp"
-                  android:layout_weight="1"/>
+                  />
             <TextView android:id="@+id/degrees_text_view_two"
-                      android:layout_width="match_parent"
+                      android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:textSize="14sp"
-                      android:layout_weight="1"/>
+                      android:textSize="18sp"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -98,7 +104,7 @@
                        android:layout_gravity="center"
                        android:layout_marginTop="15dp"
                        android:layout_weight="1"
-                android:elevation="4dp"/>
+                android:elevation="6dp"/>
 
             <TextView android:id="@+id/hourly_summary_text_view"
                       android:layout_width="match_parent"
@@ -112,6 +118,7 @@
                       android:layout_marginLeft="15dp"
                       android:layout_marginRight="15dp"/>
         </LinearLayout>
+    </LinearLayout>
 
         
 </LinearLayout>

@@ -103,13 +103,17 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="clear_day">#0277bd</color>
-    <color name="clear_day_icon">#FFD56A</color>
-    <color name="clear_night">#5a76be</color>
+    <color name="clear_day">#2196F3</color>
+    <color name="clear_day_dark">#1565C0</color>
+    <color name="clear_day_icon">#00FFD56A</color>
+    <color name="clear_night">#5c6bc0</color>
+    <color name="clear_night_dark">#303F9F</color>
     <color name="clear_night_icon">#D1CFCD</color>
     <color name="cloudy">#616161</color>
+    <color name="cloudy_dark">#263238</color>
     <color name="cloudy_icon">#D8D8D8</color>
     <color name="cloudy_night">#455a64</color>
+    <color name="cloudy_night_dark">#2d3a5c</color>
     <color name="cloudy_night_icon">#E2E2E2</color>
     <color name="colorAccent">#56a2ff</color>
     <color name="colorPrimary">#ff7c3f</color>
@@ -168,8 +172,9 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <color name="partly_cloudy">#bebebe</color>
-    <color name="partly_cloudy_icon">#E5E5E5</color>
+    <color name="partly_cloudy">#bdbdbd</color>
+    <color name="partly_cloudy_dark">#616161</color>
+    <color name="partly_cloudy_icon">#00E5E5E5</color>
     <color name="place_autocomplete_prediction_primary_text">#212121</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#757575</color>
     <color name="place_autocomplete_prediction_secondary_text">#757575</color>
@@ -185,7 +190,8 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="rain">#334878</color>
+    <color name="rain">#455a64</color>
+    <color name="rain_dark">#263238</color>
     <color name="rain_icon">#E8E6E2</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -196,6 +202,7 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="settings_activity_action_bar_text_light">#FAFAFA</color>
     <color name="snow">#78909c</color>
+    <color name="snow_dark">#455A64</color>
     <color name="snow_icon">#E8E8E8</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -215,6 +222,7 @@
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
     <color name="wind">#b0bec5</color>
+    <color name="wind_dark">#546E7A</color>
     <color name="wind_icon">#263238</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
@@ -238,6 +246,7 @@
     <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr></declare-styleable>
     <declare-styleable name="DialogPreference"><attr format="string" name="dialogTitle"/><attr format="string" name="dialogMessage"/><attr format="reference" name="dialogIcon"/><attr format="string" name="positiveButtonText"/><attr format="string" name="negativeButtonText"/><attr format="reference" name="dialogLayout"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
+    <declare-styleable name="FlipView"><attr format="boolean" name="checked"/><attr format="integer" name="animationDuration"/><attr format="integer" name="anticipateInAnimationTime"/><attr format="boolean" name="animateDesignLayoutOnly"/><attr format="boolean" name="enableInitialAnimation"/><attr format="reference" name="initialLayoutAnimation"/><attr format="integer" name="initialLayoutAnimationDuration"/><attr format="boolean" name="animateRearImage"/><attr format="reference" name="frontLayout"/><attr format="reference" name="frontBackground"/><attr format="color" name="frontBackgroundColor"/><attr format="reference" name="frontImage"/><attr format="dimension" name="frontImagePadding"/><attr format="reference" name="rearLayout"/><attr format="reference" name="rearBackground"/><attr format="color" name="rearBackgroundColor"/><attr format="reference" name="rearImage"/><attr format="dimension" name="rearImagePadding"/><attr format="reference" name="rearImageAnimation"/><attr format="integer" name="rearImageAnimationDelay"/><attr format="integer" name="rearImageAnimationDuration"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
@@ -415,6 +424,8 @@
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="card_flip_time_full">200</integer>
+    <integer name="card_flip_time_half">100</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">8487000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>

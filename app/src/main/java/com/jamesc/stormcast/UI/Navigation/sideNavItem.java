@@ -1,4 +1,4 @@
-package com.jamesc.stormcast;
+package com.jamesc.stormcast.UI.Navigation;
 
 import android.graphics.drawable.Drawable;
 

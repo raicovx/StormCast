@@ -1,4 +1,4 @@
-package com.jamesc.stormcast;
+package com.jamesc.stormcast.UI;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
