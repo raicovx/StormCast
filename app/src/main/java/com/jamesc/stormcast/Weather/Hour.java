@@ -271,8 +271,6 @@ public class Hour implements Parcelable {
         dest.writeString(mIcon);
         dest.writeDouble(mTemperature);
         dest.writeDouble(mApparentTemperature);
-        dest.writeInt(mCardColor);
-        dest.writeInt(mCardBarColor);
     }
     private Hour(Parcel in){
         mTime = in.readLong();

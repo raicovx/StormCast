@@ -182,7 +182,12 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
                 ableToSync = true;
                 makeCurrentUiDisappear();
                 hourlyActivityProgressBar.setVisibility(View.VISIBLE);
-                locationUpdate();
+                if(mGoogleApiClient != null) {
+                    locationUpdate();
+                }else{
+                startGmsLocationServices();
+                    locationUpdate();
+                }
 
             }
         });
@@ -190,7 +195,12 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
         if(firstLoad){
             ableToSync = true;
             if(!isExistingData) {
-                locationUpdate();
+                if(mGoogleApiClient != null) {
+                    locationUpdate();
+                }else{
+                    startGmsLocationServices();
+                    locationUpdate();
+                }
             }
         }
     }
@@ -263,9 +273,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
             @Override
             public void run() {
                 hourlyActivityProgressBar.setVisibility(View.VISIBLE);
-                if(hourlyWeatherCard != null) {
-                    hourlyWeatherCard.setVisibility(View.INVISIBLE);
-                }
+                hourlyList.setVisibility(View.INVISIBLE);
             }
         });
     }
@@ -278,15 +286,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
                 animationZero.setStartOffset(0);
                 hourlyActivityProgressBar.startAnimation(animationZero);
                 hourlyActivityProgressBar.setVisibility(View.INVISIBLE);
-                AlphaAnimation animationOne = new AlphaAnimation(0, 1);
-                animationOne.setStartOffset(0);
-                animationOne.setDuration(500);
-                if(hourlyWeatherCard != null) {
-                    if(hourlyWeatherCard.getVisibility() == View.INVISIBLE) {
-                        hourlyWeatherCard.setVisibility(View.VISIBLE);
-                        hourlyWeatherCard.startAnimation(animationOne);
-                    }
-                }
+                hourlyList.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -445,6 +445,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
                     if (response.isSuccessful()) {
                         jsonData = response.body().string();
                         mForecast = parseForecastDetails(jsonData);
+                        mHours = mForecast.getHourlyForecast();
                         prepareUiData();
                         makeCurrentUiReappear();
                     } else {
@@ -465,8 +466,14 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
     //UI
 
             private void prepareUiData() {
-                    adapter = new HourlyItemsRecyclerViewAdapter(mHours);
-                    hourlyList.setAdapter(adapter);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        adapter = new HourlyItemsRecyclerViewAdapter(mHours);
+                        hourlyList.setAdapter(adapter);
+                    }
+                });
+
 
             }
     //Location Services
@@ -514,15 +521,15 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
                 mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
                 return mLocationRequest;
             }
-            protected void startLocationUpdates() throws SecurityException{
-                if(mGoogleApiClient.isConnected()) {
-                    LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-                }else{
-                    mGoogleApiClient.connect();
-                    if(mGoogleApiClient.isConnected()) {
+            protected void startLocationUpdates() throws SecurityException {
+                    if (mGoogleApiClient.isConnected()) {
                         LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+                    } else {
+                        mGoogleApiClient.connect();
+                        if (mGoogleApiClient.isConnected()) {
+                            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+                        }
                     }
-                }
             }
 
 
@@ -627,7 +634,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
 
             private Forecast parseForecastDetails(String jsonData) throws JSONException {
                 Forecast forecast = new Forecast();
-                forecast.setCurrent(getCurrentDetails(jsonData));
+                // forecast.setCurrent(getCurrentDetails(jsonData));
                 //forecast.setDailyForecast(getDailyForecast(jsonData));
                 forecast.setHourlyForecast(getHourlyForecast(jsonData));
                 return forecast;
