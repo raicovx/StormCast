@@ -6,17 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:layout_marginTop="25dp"
-    android:layout_marginBottom="15dp">
+    android:layout_marginBottom="15dp"
+    card_view:cardBackgroundColor="#000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
 <LinearLayout
+    android:id="@+id/hourly_weather_card_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#00000000">
     <LinearLayout
         android:id="@+id/hourly_time_date_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:orientation="horizontal"
+        android:background="#00000000"
         >
         <TextView android:id="@+id/hourly_time_text_view"
                   android:layout_width="match_parent"
@@ -25,14 +31,17 @@
                   android:text="1:00 PM"
                   android:padding="15dp"
                   android:textSize="18sp"
-                  android:typeface="sans"/>
+                  android:typeface="sans"
+                  android:background="#00000000"/>
     </LinearLayout>
     <LinearLayout
+        android:background="#00000000"
     android:orientation="horizontal"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:minHeight="150dp">
 
     <LinearLayout
+        android:background="#00000000"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -40,6 +49,7 @@
         android:paddingTop="15dp"
         android:layout_gravity="center_vertical">
         <LinearLayout
+            android:background="#00000000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -47,6 +57,7 @@
             android:gravity="center_horizontal">
         <TextView android:id="@+id/hourly_temperature_text_view"
                   android:textColor="@color/secondary_text_color"
+                  android:background="#00000000"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:textSize="24dp"
@@ -58,7 +69,8 @@
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:textSize="18sp"
-                  android:layout_gravity="bottom"/>
+                  android:layout_gravity="bottom"
+                  android:background="#00000000"/>
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
@@ -68,8 +80,10 @@
             android:id="@+id/feels_like_text_view"
             android:textColor="@color/secondary_text_color"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="#00000000"/>
         <LinearLayout
+            android:background="#00000000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -84,14 +98,17 @@
                   android:gravity="center"
                   android:layout_marginBottom="24dp"
                   android:paddingBottom="5dp"
+                  android:background="#00000000"
                   />
             <TextView android:id="@+id/degrees_text_view_two"
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:textSize="18sp"/>
+                      android:textSize="18sp"
+                      android:background="#00000000"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
+            android:background="#00000000"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -104,7 +121,8 @@
                        android:layout_gravity="center"
                        android:layout_marginTop="15dp"
                        android:layout_weight="1"
-                android:elevation="6dp"/>
+                android:elevation="6dp"
+                />
 
             <TextView android:id="@+id/hourly_summary_text_view"
                       android:layout_width="match_parent"
@@ -116,7 +134,8 @@
                       android:gravity="center"
                       android:layout_marginBottom="15dp"
                       android:layout_marginLeft="15dp"
-                      android:layout_marginRight="15dp"/>
+                      android:layout_marginRight="15dp"
+                      android:background="#00000000"/>
         </LinearLayout>
     </LinearLayout>
 

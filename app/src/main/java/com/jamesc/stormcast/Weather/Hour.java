@@ -81,6 +81,7 @@ public class Hour implements Parcelable {
 
         public void setIcon(String icon) {
             mIcon = icon;
+
         }
 
         public int getIconId() {

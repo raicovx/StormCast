@@ -84,7 +84,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
     private Intent currentWeatherIntent;
     private Intent prevIntent;
     private Bundle extras;
-
+    private static Context mContext;
     // Content
     //FAB
     private FloatingActionButton fabHourlyRefresh;
@@ -122,7 +122,7 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hourly_weather_activity_layout);
-
+        mContext = this;
         //Checking Permissions
         checkLocationPermissions();
 
@@ -204,7 +204,9 @@ public class HourlyWeather extends AppCompatActivity implements LocationListener
             }
         }
     }
-
+    public static Context getContext(){
+        return mContext;
+    }
     private void retrieveExistingData() {
         prevIntent = getIntent();
         extras = prevIntent.getExtras();

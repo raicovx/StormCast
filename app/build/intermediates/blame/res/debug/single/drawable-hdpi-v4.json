@@ -128,12 +128,12 @@
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\fog.png"
     },
     {
-        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_done.png",
-        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\eu.davidea\\flipview\\1.1.0\\res\\drawable-hdpi\\ic_action_done.png"
-    },
-    {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\partly_cloudy.png",
         "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\src\\main\\res\\drawable-hdpi\\partly_cloudy.png"
+    },
+    {
+        "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_done.png",
+        "source": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\exploded-aar\\eu.davidea\\flipview\\1.1.0\\res\\drawable-hdpi\\ic_action_done.png"
     },
     {
         "merged": "C:\\Users\\James\\AndroidStudioProjects\\StormCast\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
