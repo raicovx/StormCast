@@ -136,7 +136,7 @@ public class HourlyItemsRecyclerViewAdapter extends RecyclerView.Adapter<HourlyI
                 case "cloudy":
                     mHourlyItemCardView.setCardBackgroundColor(ContextCompat.getColor(HourlyWeather.getContext(), R.color.cloudy));
                     mDateTimeBar.setBackgroundColor(ContextCompat.getColor(HourlyWeather.getContext(), R.color.cloudy_dark));
-                    mWallpaperTone = true;
+                    mWallpaperTone = false;
                     break;
                 case "fog":
                 case "partly-cloudy-day":
